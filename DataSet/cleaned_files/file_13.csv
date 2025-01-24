@@ -1,0 +1,164 @@
+S/N,Code,Description,Table,Classification
+1,SM700A,,2C,Existing
+2,SM700E,,6B,Existing
+3,SM701E,,6A,Existing
+4,SM702E,,2A,Existing
+5,SM703E,,MSP,Existing
+6,SM704E,,2A,Existing
+7,SM706E,,3A,Existing
+8,SM707E,,1C,Existing
+9,SM708E,,2B,Existing
+10,SM709E,,1B,Existing
+11,SM710E,,4A,Existing
+12,SM711E,,4B,Existing
+13,SM712E,,5B,Existing
+14,SM800E,,1B,Existing
+15,SM801E,,4A,Existing
+16,SM802E,,3A,Existing
+17,SM803E,,4B,Existing
+18,SM804E,,3A,Existing
+19,SM805E,,4B,Existing
+20,SM806E,,4A,Existing
+21,SM807E,,3C,Existing
+22,SM808E,,3A,Existing
+23,SM809E,,2C,Existing
+24,SM810E,,1C,Existing
+25,SM811E,,3A,Existing
+26,SM812E,,MSP,Existing
+27,SM813E,,1B,Existing
+28,SM814E,,1B,Existing
+29,SM815E,,1C,Descriptor change
+30,SM816E,,3A,Existing
+31,SM817E,,MSP,Existing
+32,SM818E,,3C,Existing
+33,SM819E,,4A,Existing
+34,SM820E,,2A,Existing
+35,SM821E,,4A,Existing
+36,SM822E,,1B,Existing
+37,SM823E,,2B,Existing
+38,SM824E,,1B,Existing
+39,SM825E,,7C,Existing
+40,SM826E,,4A,Existing
+41,SM827E,,3B,Existing
+42,SM829E,,4A,Existing
+43,SM830E,,3B,Existing
+44,SM831E,,1B,Existing
+45,SM832E,,2A,Existing
+46,SM833E,,4B,Existing
+47,SM834E,,4A,Existing
+48,SM835E,,5C,Existing
+49,SM836E,,1A,Existing
+50,SM837E,,6B,Existing
+51,SM838E,,4B,Descriptor change
+52,SM839E,,2A,Existing
+53,SM700I,,1C,Existing
+54,SM701L,,2B,Uptable
+55,SM702L,,7C,Existing
+56,SM703L,,3B,Existing
+57,SM704L,,5C,Existing
+58,SM705L,,5C,Existing
+59,SM706L,,5C,Existing
+60,SM707L,,5C,Existing
+61,SM708L,,5C,Existing
+62,SM709L,,7A,Existing
+63,SM710L,,6B,Existing
+64,SM711L,,2C,Existing
+65,SM712L,,5C,Existing
+66,SM713L,,6B,Existing
+67,SM714L,,4B,Existing
+68,SM716L,,1B,Existing
+69,SM717L,,5C,Existing
+70,SM718L,,6B,Existing
+71,SM800L,,5C,Existing
+72,SM700M,,1B,Existing
+73,SM701M,,2B,Existing
+74,SM702M,,2B,Existing
+75,SM703M,,4A,Existing
+76,SM704M,,1B,Existing
+77,SM800M,,3C,Existing
+78,SM801M,,5C,Descriptor change
+79,SM802M,,4B,Existing
+80,SM803M,,5C,Existing
+81,SM804M,,4B,Existing
+82,SM839M,,4A,Existing
+83,SM700N,,1A,Descriptor change
+84,SM701N,,4A,Existing
+85,SM702N,,2C,Existing
+86,SM703N,,MSP,Existing
+87,SM704N,,1A,Existing
+88,SM705N,,1B,Existing
+89,SM706N,,3A,Existing
+90,SM707N,,2B,Existing
+91,SM708N,,1B,Existing
+92,SM709N,,4A,Existing
+93,SM710N,,3B,Existing
+17 The frequency restriction of code applies irrespective of the specialist performing the procedure or medical institution at which the procedure is performed.,,,,
+94,SM711N,,6B,Existing
+95,SM712N,,1B,Existing
+96,SM713N,,1B,Existing
+97,SM714N,,2C,Existing
+98,SM715N,,1A,Existing
+99,SM716N,,4A,Existing
+100,SM717N,,MSP,Existing
+101,SM718N,,3B,Existing
+102,SM719N,,4C,Existing
+103,SM720N,,4C,Existing
+104,SM721N,,5A,Existing
+105,SM722N,,5A,Existing
+106,SM723N,,5C,Existing
+107,SM724N,,3B,Existing
+108,SM725N,,1B,New
+109,SM726N,,MSP,New
+110,SM800N,,3C,New
+111,SM700P,,1B,Existing
+112,SM701P,,2C,Existing
+113,SM702P,,4A,Existing
+114,SM703P,,7B,Existing
+115,SM704P,,4B,Existing
+116,SM705P,,4B,Existing
+117,SM706P,,7B,Existing
+118,SM707P,,3B,Existing
+119,SM700S,,7C,Existing
+18  This code is to be utilised for repeat examinations within 90 days of using SM700N.,,,,
+120,SM702S,,3C,Existing
+121,SM703S,,5A,Existing
+122,SM724S,,1B,New
+123,SM705S,,5C,Existing
+124,SM706S,,2B,Existing
+125,SM707S,,2B,Existing
+126,SM708S,,3B,Existing
+127,SM709S,,4A,Existing
+128,SM710S,,3A,Existing
+129,SM711S,,1B,Descriptor change
+130,SM712S,,3A,Existing
+131,SM713S,,5C,Existing
+132,SM714S,,5C,Existing
+133,SM715S,,3B,Existing
+134,SM716S,,5C,Existing
+135,SM717S,,1A,Existing
+136,SM718S,,5C,Existing
+137,SM719S,,2B,Existing
+138,SM720S,,MSP,Existing
+139,SM721S,,5C,Descriptor change
+140,SM722S,,6C,Descriptor change
+141,SM723S,,7C,Descriptor change
+142,SM700T,,3B,Existing
+143,SM701T,,4B,Descriptor change
+144,SM702T,,3B,Existing
+19  Single claim allowed per episode of procedure(s).,,,,
+145,SM703T,,1A,Existing
+146,SM704T,,1B,Existing
+147,SM705T,,3B,Existing
+148,SM706T,,2B,Existing
+149,SM707T,,3A,Existing
+"GUIDELINES ON MEDISAVE AND MEDISHIELD LIFE CLAIMS FOR SURGICAL PROCEDURES
+[Also Annex A-5 of the MediSave Manual]
+1.        MediSave and MediShield Life claims should be based on the existing descriptors and classifications in the Table of Surgical Procedures (TOSP) circulated by the Ministry of Health (MOH).  Doctors/dentists should not arbitrarily vary the tables based on their own assessment of the TOSP codes.
+2.        The TOSP code used should be one that best described the surgery/procedure performed. Only one TOSP code should be used if the single TOSP code adequately describes the episode of surgery/procedure carried out.
+3.        In general, if there is no appropriate TOSP table for an operation, no Medisave claim may be made.    Financial counselling of patients should also be based on the prevailing TOSP  and  its  corresponding  MediSave  withdrawal  limits.  Financial  counselling  based  on future anticipated changes to the TOSP is not allowed.
+4.        For new procedures that are not coded in the TOSP, medical practitioners may submit their proposals via their public acute hospital or national specialty centre (for public sector practitioners), or their College/Chapter in the Academy of Medicine Singapore (for private sector practitioners) for MOH’s TOSP Review Committee’s assessment (tosp@moh.gov.sg). Should these procedures subsequently be incorporated into the TOSP, MediSave use will be allowed.
+5.        Need for Histopathology. All TOSP claims where appropriate must be supported by histopathology, in the absence of which the claim can be rejected by MediSave audit. In rare instances e.g. removal of cataracts, blepharoplasty, laser vaporization of the vagina etc., it is not practicable to send for histopathology and thus claims will be allowed.
+6.        Separate  Operations.  Operations  carried  out  on  the  same  patient  at  different admissions and for different conditions may be claimed as separate operations. Patients for whom  the  diagnostic  laparoscopy  is  done  as  a  separate  operation  from  the  reversal  of sterilization  on  two  separate  admissions  may  be  allowed  to  make  separate  MediSave withdrawals for the two operations.
+7.        Surgical removal / excision biopsy of benign breast lumps (regardless of whether a flap closure is performed) should be coded as SA812B (for single lump), which is at Table 2C, or SA813B (for multiple/bilateral lumps), which is at Table 3A. The exception is when a surgeon excises a benign breast lump (>4cm) (e.g. as in phylloides tumour) and chooses flap closure. In  this  case,  only  SA705B,  i.e.  “breast  lump  more  than  4  cm  (removal)  with parenchymal  flap  closure  (unilateral/bilateral)”,  which  is  at  Table  4A,  should  be  used;  a
+separate claim for the excision of that lump/s cannot be made.",,,,
+,,,,
