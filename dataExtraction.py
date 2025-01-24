@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # Define input and output paths
-input_file = 'DataSet/table-of-surgical-procedures-(as-of-1-jan-2024).csv'
-output_folder = 'DataSet/cleaned_files'
+input_file = 'DataSets/RawDataset/table-of-surgical-procedures-(as-of-1-jan-2024).csv'
+output_folder = 'DataSets/CleanedDataset'
 os.makedirs(output_folder, exist_ok=True)
 
 # Mapping for file names based on prefixes
@@ -112,7 +112,7 @@ if current_file_data:
     output_files.append(output_file)
 
 # Save the combined data into a single file
-combined_output_file = os.path.join(output_folder, 'combined_data.csv')
+combined_output_file = os.path.join(output_folder, 'combined_dataset.csv')
 combined_df = pd.DataFrame(combined_data, columns=required_columns)
 combined_df.to_csv(combined_output_file, index=False)
 
