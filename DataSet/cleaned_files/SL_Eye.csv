@@ -175,7 +175,6 @@ EXENTERATION/REMOVAL VIA CRANIOTOMY",5C,Existing
 146,SL803O,"ORBIT, VARIOUS LESIONS, ANTERIOR ORBITOTOMY",3B,Existing
 147,SL804O,"ORBIT, VARIOUS LESIONS, DECOMPRESSION (BILATERAL)",5A,Existing
 148,SL805O,"ORBIT, VARIOUS LESIONS, DECOMPRESSION (UNILATERAL)",4B,Existing
-15  This code is not to be used for implantation of contact lens.,,,,
 149,SL806O,"ORBIT, TUMOUR, EXENTERATION WITH ORBITECTOMY &
 PRIMARY RECONSTRUCTION",5C,Existing
 150,SL807O,"ORBIT, VARIOUS LESIONS, LATERAL ORBITOTOMY",4A,Existing
@@ -207,6 +206,3 @@ OPERATION/REVISION OPERATION WITH SINGLE PLOMB",5C,Existing
 MEMBRANE PEELS)",6B,Existing
 174,SL802V,"VITREOUS, VARIOUS LESIONS, VITRECTOMY (PARS PLANA/REMOVAL OF SILICONE OIL)",4A,Existing
 175,SL800Z,ORGAN PROCUREMENT COSTS: CORNEA16,2A,Existing
-"16  Procurement costs of pre-prepared grafts for cornea transplants may be filed under SL800Z, regardless of whether the
-grafts are obtained from a local eye bank, or from overseas. A claim may be filed under SL800Z in addition to the claim filed under the relevant TOSP code for the cornea transplant procedure.",,,,
-,,,,
