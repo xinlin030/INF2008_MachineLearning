@@ -62,6 +62,7 @@ data = pd.DataFrame(merged_data)
 # Filter out rows where essential columns are invalid
 data = data.dropna(subset=['S/N', 'Code', 'Description'])  # Ensure no invalid rows remain
 data = data[data['Code'].apply(lambda x: str(x).startswith(tuple(file_name_mapping.keys())))]  # Keep rows with valid Code prefixes
+data['Description'] = data['Description'].str.replace(r'[\r\n]+', ' ', regex=True)
 
 # Initialize variables
 output_files = []
