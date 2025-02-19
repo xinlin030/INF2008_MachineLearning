@@ -5,6 +5,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 class TOSPAnalyzer:
@@ -67,7 +69,6 @@ class TOSPAnalyzer:
                     'same_procedure': same_procedure,
                     'bilateral_conflict': bilateral_conflict,
                     'table_difference': table_diff,
-                    # This would be 1 for known fraudulent pairs in real data
                     'is_inappropriate': bilateral_conflict and same_procedure
                 })
 
@@ -103,20 +104,88 @@ class TOSPAnalyzer:
 
         return suspicious_pairs.sort_values('fraud_probability', ascending=False)
 
-# Load your TOSP data
-tosp_data = pd.read_csv('DataSets/CleanedDataset/combined_dataset.csv')
+    def print_analysis_results(self, df, pairs_df=None, suspicious_pairs=None):
+        """
+        Print comprehensive analysis results
+        """
+        print("\n=== TOSP Analysis Results ===\n")
 
-# Initialize analyzer
-analyzer = TOSPAnalyzer()
+        # 1. Basic Statistics
+        print("1. Basic Statistics:")
+        print(f"Total number of procedures: {len(df)}")
+        print(f"Number of unique procedure types: {df['procedure_type'].nunique()}")
+        print(f"Number of tables: {df['Table'].nunique()}")
+        print("\n" + "=" * 50 + "\n")
 
-# Preprocess data
-processed_data = analyzer.preprocess_data(tosp_data)
+        # 2. Procedure Type Distribution
+        print("2. Procedure Type Distribution:")
+        proc_dist = df['procedure_type'].value_counts()
+        for proc, count in proc_dist.items():
+            print(f"{proc}: {count}")
+        print("\n" + "=" * 50 + "\n")
 
-# Generate and analyze pairs
-pairs = analyzer.generate_pairs(processed_data)
+        # 3. Table Distribution
+        print("3. Table Distribution:")
+        table_dist = df['Table'].value_counts()
+        for table, count in table_dist.items():
+            print(f"Table {table}: {count}")
+        print("\n" + "=" * 50 + "\n")
 
-# Train the model
-performance_report = analyzer.train_model(pairs)
+        # 4. Bilateral/Unilateral Procedures
+        print("4. Bilateral/Unilateral Procedures:")
+        bilateral = df[df['is_bilateral']]
+        unilateral = df[df['is_unilateral']]
+        print(f"Bilateral procedures: {len(bilateral)}")
+        print(f"Unilateral procedures: {len(unilateral)}")
+        print("\nBilateral Procedures:")
+        for _, row in bilateral.iterrows():
+            print(f"- {row['Code']}: {row['Description']}")
+        print("\nUnilateral Procedures:")
+        for _, row in unilateral.iterrows():
+            print(f"- {row['Code']}: {row['Description']}")
+        print("\n" + "=" * 50 + "\n")
 
-# Identify suspicious pairs
-suspicious_pairs = analyzer.identify_suspicious_pairs(pairs, threshold=0.7)
+        # 5. Potential Conflicts
+        if pairs_df is not None:
+            print("5. Code Pair Analysis:")
+            print(f"Total number of possible pairs: {len(pairs_df)}")
+            print(f"Pairs with high similarity (>0.8): {len(pairs_df[pairs_df['desc_similarity'] > 0.8])}")
+            print(f"Pairs with same procedure type: {len(pairs_df[pairs_df['same_procedure']])}")
+            print(f"Pairs with bilateral/unilateral conflict: {len(pairs_df[pairs_df['bilateral_conflict']])}")
+            print("\n" + "=" * 50 + "\n")
+
+        # 6. Suspicious Pairs
+        if suspicious_pairs is not None:
+            print("6. Suspicious Pairs:")
+            print("\nTop potentially inappropriate pairs:")
+            for _, row in suspicious_pairs.head().iterrows():
+                print(f"\nPair: {row['code1']} - {row['code2']}")
+                print(f"Fraud Probability: {row['fraud_probability']:.2f}")
+                print(f"Description Similarity: {row['desc_similarity']:.2f}")
+                print(f"Same Procedure Type: {'Yes' if row['same_procedure'] else 'No'}")
+                print(f"Bilateral/Unilateral Conflict: {'Yes' if row['bilateral_conflict'] else 'No'}")
+            print("\n" + "=" * 50 + "\n")
+
+
+# Example usage:
+if __name__ == "__main__":
+    # Load data
+    data = pd.read_csv('DataSets/CleanedDataset/combined_dataset.csv')
+
+    # Initialize analyzer
+    analyzer = TOSPAnalyzer()
+
+    # Process data
+    processed_data = analyzer.preprocess_data(data)
+
+    # Generate pairs
+    pairs = analyzer.generate_pairs(processed_data)
+
+    # Train model
+    performance_report = analyzer.train_model(pairs)
+
+    # Identify suspicious pairs
+    suspicious = analyzer.identify_suspicious_pairs(pairs, threshold=0.7)
+
+    # Print comprehensive analysis
+    analyzer.print_analysis_results(processed_data, pairs, suspicious)

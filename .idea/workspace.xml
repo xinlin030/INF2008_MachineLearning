@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bea1195e-d313-4cfb-b4fb-445d92185276" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/random_forest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSets/CleanedDataset/SA_Integumentary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataSets/CleanedDataset/SA_Integumentary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSets/CleanedDataset/SB_Musculoskeletal.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataSets/CleanedDataset/SB_Musculoskeletal.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSets/CleanedDataset/SC_Respiratory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataSets/CleanedDataset/SC_Respiratory.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSets/CleanedDataset/SD_Cardiovascular.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataSets/CleanedDataset/SD_Cardiovascular.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSets/CleanedDataset/SE_Hemic &amp; Lymphatic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataSets/CleanedDataset/SE_Hemic &amp; Lymphatic.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSets/CleanedDataset/SF_Digestive.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataSets/CleanedDataset/SF_Digestive.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSets/CleanedDataset/SG_Urinary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataSets/CleanedDataset/SG_Urinary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSets/CleanedDataset/SH_Male Genital.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataSets/CleanedDataset/SH_Male Genital.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSets/CleanedDataset/SI_Female Genital.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataSets/CleanedDataset/SI_Female Genital.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSets/CleanedDataset/SJ_Endocrine.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataSets/CleanedDataset/SJ_Endocrine.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSets/CleanedDataset/SK_Nervous.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataSets/CleanedDataset/SK_Nervous.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSets/CleanedDataset/SL_Eye.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataSets/CleanedDataset/SL_Eye.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSets/CleanedDataset/SM_ENT.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataSets/CleanedDataset/SM_ENT.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSets/CleanedDataset/combined_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataSets/CleanedDataset/combined_dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataExtraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataExtraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_idf.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_idf.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,22 +31,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/SIT/Year 2 Tri 2/INF2008 - Machine Learning/Project/INF2008_MachineLearning",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/SIT/Year 2 Tri 2/INF2008 - Machine Learning/Project/INF2008_MachineLearning&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\SIT\Year 2 Tri 2\INF2008 - Machine Learning\Project\INF2008_MachineLearning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tf_idf">
+  <component name="RunManager" selected="Python.tf_idf (1)">
     <configuration name="cosine_similarity (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="INF2008_MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,27 +60,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cosine_similarity.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="cosine_similarity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="INF2008_MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/Telegram Desktop" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Telegram Desktop/cosine_similarity.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,6 +110,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tf_idf (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="INF2008_MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf_idf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tf_idf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="INF2008_MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tf_idf (1)" />
         <item itemvalue="Python.tf_idf" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.cosine_similarity (1)" />
         <item itemvalue="Python.dataExtraction" />
-        <item itemvalue="Python.cosine_similarity" />
       </list>
     </recent_temporary>
   </component>
