@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bea1195e-d313-4cfb-b4fb-445d92185276" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/XGBoost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_idf.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_idf.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +46,8 @@
       <recent name="C:\SIT\Year 2 Tri 2\INF2008 - Machine Learning\Project\INF2008_MachineLearning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tf_idf (1)">
-    <configuration name="cosine_similarity (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.XGBoost (1)">
+    <configuration name="XGBoost (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="INF2008_MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,7 +59,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cosine_similarity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XGBoost.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dataExtraction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="XGBoost" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="INF2008_MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,7 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataExtraction.py" />
+      <option name="SCRIPT_NAME" value="C:\SIT\Year 2 Tri 2\INF2008 - Machine Learning\Project\INF2008_MachineLearning\XGBoost.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.XGBoost (1)" />
+        <item itemvalue="Python.XGBoost" />
         <item itemvalue="Python.tf_idf (1)" />
         <item itemvalue="Python.tf_idf" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.cosine_similarity (1)" />
-        <item itemvalue="Python.dataExtraction" />
       </list>
     </recent_temporary>
   </component>

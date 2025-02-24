@@ -1,0 +1,44 @@
+"C:\SIT\Year 2 Tri 2\INF2008 - Machine Learning\Project\INF2008_MachineLearning\venv\Scripts\python.exe" "C:\SIT\Year 2 Tri 2\INF2008 - Machine Learning\Project\INF2008_MachineLearning\XGBoost.py" 
+
+=== Model Performance ===
+Accuracy: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+F1: 1.0000
+
+=== Feature Importance ===
+              feature  importance
+1      same_procedure    0.882611
+4  bilateral_conflict    0.114251
+0          similarity    0.003126
+3     word_count_diff    0.000011
+2          table_diff    0.000000
+
+=== Top Suspicious Pairs ===
+
+Pair: SM709L - SM710L
+Fraud Probability: 1.00
+Same Procedure: Yes
+Bilateral Conflict: Yes
+
+Pair: SA701B - SA702B
+Fraud Probability: 1.00
+Same Procedure: Yes
+Bilateral Conflict: Yes
+
+Pair: SM809E - SM832E
+Fraud Probability: 1.00
+Same Procedure: Yes
+Bilateral Conflict: Yes
+
+Pair: SM809E - SM831E
+Fraud Probability: 1.00
+Same Procedure: Yes
+Bilateral Conflict: Yes
+
+Pair: SA701B - SA803B
+Fraud Probability: 1.00
+Same Procedure: Yes
+Bilateral Conflict: Yes
+
+Process finished with exit code 0
