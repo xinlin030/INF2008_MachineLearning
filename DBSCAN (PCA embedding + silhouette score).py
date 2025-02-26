@@ -99,7 +99,7 @@ plt.show()
 
 # Step 2: Set min_samples and apply DBSCAN ( manual hyperparameters :( )
 eps = float(input("Enter optimal eps value from the graph: "))  # Manual input based on the plot
-min_samples = 7  # Default, can be adjusted
+min_samples = 11  # Default, can be adjusted
 
 dbscan = DBSCAN(eps=eps, min_samples=min_samples)
 df["Cluster"] = dbscan.fit_predict(X)
@@ -128,6 +128,10 @@ plt.title(f"DBSCAN Clustering (Silhouette Score: {sil_score:.3f})")
 plt.xlabel("PCA Component 1")
 plt.ylabel("PCA Component 2")
 plt.colorbar(label="Cluster")
+
+# Annotate the plot with eps and min_samples values
+plt.text(0.05, 0.95, f"eps = {eps}", fontsize=12, ha='left', va='top', transform=plt.gca().transAxes, color='white')
+plt.text(0.05, 0.90, f"min_samples = {min_samples}", fontsize=12, ha='left', va='top', transform=plt.gca().transAxes, color='white')
 
 # Save the plot as an image file
 plt.savefig("dbscan_clustering_visualization.png")
