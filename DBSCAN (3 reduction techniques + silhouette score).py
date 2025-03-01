@@ -3,6 +3,7 @@ import re
 import nltk
 import numpy as np
 import matplotlib.pyplot as plt
+import umap
 from sklearn.cluster import DBSCAN
 from sklearn.neighbors import NearestNeighbors
 from nltk.corpus import stopwords
@@ -10,6 +11,7 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import PCA
+from sklearn.manifold import TSNE
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import silhouette_score
 
@@ -29,21 +31,14 @@ stop_words = set(stopwords.words("english"))
 lemmatizer = WordNetLemmatizer()
 
 def preprocess_text(text):
-    # Convert to lowercase
     text = text.lower()
-    # Remove punctuation and special characters
     text = re.sub(r"[^a-zA-Z0-9\s]", "", text)
-    # Tokenize words
     words = word_tokenize(text)
-    # Remove stopwords and lemmatize
     words = [lemmatizer.lemmatize(word) for word in words if word not in stop_words]
-    # Reconstruct cleaned text
     return " ".join(words)
 
-# Apply preprocessing
 df["Cleaned_Description"] = descriptions.apply(preprocess_text)
 
-# Save cleaned dataset
 df.to_csv("DataSets/DBSCAN_Datasets/cleaned_base_dataset.csv", index=False)
 
 ###############################
@@ -51,94 +46,97 @@ df.to_csv("DataSets/DBSCAN_Datasets/cleaned_base_dataset.csv", index=False)
 # Load the cleaned dataset
 df = pd.read_csv("DataSets/DBSCAN_Datasets/cleaned_base_dataset.csv")
 
-# Convert text into TF-IDF vectors
-vectorizer = TfidfVectorizer(max_features=500)  # Limit features for efficiency
+vectorizer = TfidfVectorizer(max_features=500)
 tfidf_matrix = vectorizer.fit_transform(df["Cleaned_Description"])
 
-# Reduce dimensions using PCA
-pca = PCA(n_components=2, random_state=42)
-reduced_embeddings = pca.fit_transform(tfidf_matrix.toarray())
+reduction_tech = 'pca'  # Toggle this to change dimensionality reduction technique
 
-# Store the reduced embeddings
-df["PCA_X"] = reduced_embeddings[:, 0]
-df["PCA_Y"] = reduced_embeddings[:, 1]
+if reduction_tech.lower() == 'pca':
+    reducer = PCA(n_components=2, random_state=42)
+elif reduction_tech.lower() == 'tsne':
+    reducer = TSNE(n_components=2, random_state=42)
+else:
+    reducer = umap.UMAP(n_components=2, random_state=42, min_dist=0.1)
+    #reducer = umap.UMAP(n_components=2, n_neighbors=15, min_dist=0.1, random_state=42)
 
-# Split data into training (80%) and validation (20%)
+reduced_embeddings = reducer.fit_transform(tfidf_matrix.toarray())
+
+df["X"] = reduced_embeddings[:, 0]
+df["Y"] = reduced_embeddings[:, 1]
+
 train_df, val_df = train_test_split(df, test_size=0.2, random_state=42)
 
-# Save the training and validation sets
 train_df.to_csv("DataSets/DBSCAN_Datasets/train_data.csv", index=False)
 val_df.to_csv("DataSets/DBSCAN_Datasets/val_data.csv", index=False)
 
-print("Feature engineering complete using TF-IDF + PCA.")
-print("Training set saved as 'train_data.csv'. Validation set saved as 'val_data.csv'.")
+print("Feature engineering complete using TF-IDF + ", reduction_tech.upper())
 
 ####################
 
-# Load the training data
 df = pd.read_csv("DataSets/DBSCAN_Datasets/train_data.csv")
+X = df[["X", "Y"]].values
 
-# Extract PCA-reduced features
-X = df[["PCA_X", "PCA_Y"]].values
-
-# Step 1: Determine optimal eps using k-distance plot
 nearest_neighbors = NearestNeighbors(n_neighbors=5)
 neighbors = nearest_neighbors.fit(X)
 distances, indices = neighbors.kneighbors(X)
 
-# Sort distances for k-distance graph
 distances = np.sort(distances[:, 4], axis=0)
 
-# Plot k-distance graph
 plt.figure(figsize=(8, 5))
 plt.plot(distances)
 plt.xlabel("Data Points (sorted)")
 plt.ylabel("5th Nearest Neighbor Distance")
 plt.title("K-Distance Graph for Optimal eps")
+plt.savefig("DBSCAN_graphs/" + reduction_tech + ".png")
 plt.show()
 
-# Step 2: Set min_samples and apply DBSCAN ( manual hyperparameters :( )
-eps = float(input("Enter optimal eps value from the graph: "))  # Manual input based on the plot
-min_samples = 11  # Default, can be adjusted
+best_eps = None
+best_score = -1
+best_min_samples = 5  # Try reducing this to 3, 5, etc.
 
-dbscan = DBSCAN(eps=eps, min_samples=min_samples)
+# Find the maximum values of the distances array
+max_distance = np.max(distances)
+
+# Iterate over different eps values
+for eps in np.arange(0.1, max_distance, 0.01):  # Adjusted eps range
+    dbscan = DBSCAN(eps=eps, min_samples=best_min_samples)
+    labels = dbscan.fit_predict(X)
+    
+    # Skip if no valid clusters are found
+    if len(set(labels) - {-1}) < 2:
+        continue
+    
+    # Evaluate silhouette score
+    score = silhouette_score(X, labels)
+    if score > best_score:
+        best_score = score
+        best_eps = eps
+
+# Fallback if no best eps is found
+if best_eps is None:
+    print("No valid eps found! Consider adjusting min_samples or checking data distribution.")
+    best_eps = 0.5
+
+print(f"Best eps: {best_eps}, Silhouette Score: {best_score:.3f}")
+
+
+# Apply DBSCAN with the best eps found
+dbscan = DBSCAN(eps=best_eps, min_samples=best_min_samples)
 df["Cluster"] = dbscan.fit_predict(X)
-
-# Save clustered dataset
 df.to_csv("DataSets/DBSCAN_Datasets/dbscan_clustered.csv", index=False)
 
-print("DBSCAN clustering complete. Results saved as 'dbscan_clustered.csv'.")
 
-# Load the DBSCAN clustered data
-df = pd.read_csv("DataSets/DBSCAN_Datasets/dbscan_clustered.csv")
-
-# Extract the features (PCA-reduced)
-X = df[["PCA_X", "PCA_Y"]].values
-
-# Get the cluster labels (DBSCAN assigns -1 for noise)
-labels = df["Cluster"].values
-
-# Step 1: Calculate silhouette score
-sil_score = silhouette_score(X, labels)
-print(f"Silhouette Score: {sil_score:.3f}")
-
-# Step 2: Visualize the clustering with colors
-plt.scatter(df["PCA_X"], df["PCA_Y"], c=labels, cmap="Spectral", marker="o", edgecolor="k")
-plt.title(f"DBSCAN Clustering (Silhouette Score: {sil_score:.3f})")
-plt.xlabel("PCA Component 1")
-plt.ylabel("PCA Component 2")
+plt.scatter(df["X"], df["Y"], c=df["Cluster"], cmap="Spectral", marker="o", edgecolor="k")
+plt.title(f"DBSCAN Clustering (Silhouette Score: {best_score:.3f})")
+plt.xlabel("Component 1")
+plt.ylabel("Component 2")
 plt.colorbar(label="Cluster")
-
-# Annotate the plot with eps and min_samples values
-plt.text(0.05, 0.95, f"eps = {eps}", fontsize=12, ha='left', va='top', transform=plt.gca().transAxes, color='white')
-plt.text(0.05, 0.90, f"min_samples = {min_samples}", fontsize=12, ha='left', va='top', transform=plt.gca().transAxes, color='white')
-
-# Save the plot as an image file
-plt.savefig("dbscan_clustering_visualization.png")
-
+plt.text(0.05, 0.95, f"eps = {best_eps}", fontsize=12, ha='left', va='top', transform=plt.gca().transAxes, color='white')
+plt.text(0.05, 0.90, f"min_samples = {best_min_samples}", fontsize=12, ha='left', va='top', transform=plt.gca().transAxes, color='white')
+plt.savefig("DBSCAN_graphs/dbscan_clustering_visualization_" + reduction_tech + ".png")
 plt.show()
 
-print("Clustering visualization saved as 'dbscan_clustering_visualization.png'.")
+print("Clustering visualization saved as 'DBSCAN_graphs/dbscan_clustering_visualization_" + reduction_tech + ".png'.")
 
 # Here’s how to interpret the score:
 
