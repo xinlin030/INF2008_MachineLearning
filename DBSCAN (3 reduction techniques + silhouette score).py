@@ -54,7 +54,7 @@ tfidf_matrix = vectorizer.fit_transform(df["Cleaned_Description"])
 scaler = StandardScaler()
 tfidf_matrix_normalized = scaler.fit_transform(tfidf_matrix.toarray())
 
-reduction_tech = 'tsne'  # Toggle this to change dimensionality reduction technique
+reduction_tech = 'pca'  # Toggle this to change dimensionality reduction technique
 
 if reduction_tech.lower() == 'pca':
     reducer = PCA(n_components=2, random_state=42)
