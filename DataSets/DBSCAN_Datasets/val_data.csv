@@ -1,480 +1,480 @@
 S/N,Code,Description,Table,Classification,Cleaned_Description,X,Y
-61,SF841A,"ANUS, PERINEAL ABSCESS, SAUCERISATION/DRAINAGE",1B,Existing,anus perineal abscess saucerisationdrainage,-1.1446729,6.449541
-64,SH807T,"TESTIS, VARIOUS LESIONS, INSERTION OF TESTICULAR PROSTHESIS",3A,Existing,testis various lesion insertion testicular prosthesis,-0.9863782,9.385914
-42,SH838P,"PROSTATE GLAND, VARIOUS LESIONS, RADICAL PROSTATECTOMY, WITH LYMPH NODE DISSECTION",6C,New,prostate gland various lesion radical prostatectomy lymph node dissection,2.386306,14.496253
-139,SK714S,"PARAVERTEBRAL REGION, BLOCK, ANAESTHETIC (UP TO 2 LEVELS)",1B,Existing,paravertebral region block anaesthetic 2 level,2.8013115,4.332788
-92,SG704U,"URETER, STRICTURE, PERCUTANEOUS ANTEGRADE BALLOON DILATATION",2B,Existing,ureter stricture percutaneous antegrade balloon dilatation,0.07184844,7.781403
-19,SB704B,"BONE (UPPER LIMB), TUMOR (BENIGN), MAJOR EXCISION >3 CM WITH BONE GRAFTING +/- RECONSTRUCTION/INTERNAL FIXATION",5A,Existing,bone upper limb tumor benign major excision 3 cm bone grafting reconstructioninternal fixation,3.1657581,10.921095
-321,SF806S,"STOMACH, PYLORIC TUMOR (INFANT), PYLOROPLASTY/PYLOROMYOTOMY",3A,Existing,stomach pyloric tumor infant pyloroplastypyloromyotomy,-0.76031816,8.547916
-53,SB825B,"BONE AND JOINTS (UPPER LIMB), PLATES AND SCREWS, REMOVAL",2B,Existing,bone joint upper limb plate screw removal,3.37348,10.067114
-84,SK716N,"NERVE (UPPER LIMB), CARPAL TUNNEL SYNDROME, RELEASE, BILATERAL, (WITH ENDONEUROLYSIS)",4A,Existing,nerve upper limb carpal tunnel syndrome release bilateral endoneurolysis,5.1152925,8.650588
-444,SB741S,"SPINE, VARIOUS LESIONS - POSTERIOR INSTRUMENTATION (5 OR MORE SEGMENTS) WITH/WITHOUT DECOMPRESSION AND WITHOUT INTERBODY FUSION",7C,"Uptable, Descriptor change,",spine various lesion posterior instrumentation 5 segment withwithout decompression without interbody fusion,-2.723231,5.128509
-102,SF808B,"BILE DUCT, VARIOUS LESIONS, HEPATICOJEJUNOSTOMY INVOLVING ANASTOMOSIS TO HEPATIC DUCTS BUT WITHOUT LIVER RESECTION",6A,Existing,bile duct various lesion hepaticojejunostomy involving anastomosis hepatic duct without liver resection,-3.9051754,7.4887667
-325,SF810S,"STOMACH, VARIOUS LESIONS, PARTIAL/SUBTOTAL GASTRECTOMY",5C,Existing,stomach various lesion partialsubtotal gastrectomy,-0.78985375,8.356521
-49,SH800S,"SCROTUM, HYDROCELE, ASPIRATION",MSP,Existing,scrotum hydrocele aspiration,-1.0695523,9.496066
-501,SB815T,"TENDON-FLEXOR (UPPER LIMB), ADHESION, TENOLYSIS (MULTIPLE)",5C,Existing,tendonflexor upper limb adhesion tenolysis multiple,4.3642793,8.688017
-174,SL802V,"VITREOUS, VARIOUS LESIONS, VITRECTOMY (PARS PLANA/REMOVAL OF SILICONE OIL)",4A,Existing,vitreous various lesion vitrectomy par planaremoval silicone oil,-1.5011344,10.902301
-188,SK809S,"SKULL, INTRACRANIAL HEMORRHAGE, BURR-HOLE CRANIOTOMY, (UNILATERAL)",4A,Existing,skull intracranial hemorrhage burrhole craniotomy unilateral,-2.0280373,12.744387
-105,SG806U,"URETER, VARIOUS LESIONS, REDUCTION URETEROPLASTY",5C,Existing,ureter various lesion reduction ureteroplasty,-4.5918694,9.242804
-52,SM839E,"EAR, TYMPANIC MEMBRANE, UNILATERAL, TRANSTYMPANIC PERFUSION OF DRUGS, WITH INJECTIONS/MYRINGOTOMY INCLUDING REPEAT PROCEDURES DURING A 90-DAY PERIOD IN THE SAME EAR",2A,Existing,ear tympanic membrane unilateral transtympanic perfusion drug injectionsmyringotomy including repeat procedure 90day period ear,-1.0296285,11.843224
-31,SM817E,"EAR, LACERATION, WOUND DEBRIDEMENT",MSP,Existing,ear laceration wound debridement,-0.48781875,10.29962
-397,SB801N,"NAIL BED, LACERATION, REPAIR (MULTIPLE)",2C,Existing,nail bed laceration repair multiple,1.1371608,10.916036
-159,SK735S,"SACRUM, GANGLION IMPAR, BLOCK, RADIOFREQUENCY, NEUROLYTIC",3C,Existing,sacrum ganglion impar block radiofrequency neurolytic,2.4948788,4.144447
-226,SF715M,"MOUTH, SUBMANDIBULAR GLAND, CALCULUS, REMOVAL WITH BIOPSY",1C,Existing,mouth submandibular gland calculus removal biopsy,0.04364713,10.362527
-185,SK806S,"SKULL, DEPRESSED/COMMINUTED FRACTURE, ELEVATION",5C,Existing,skull depressedcomminuted fracture elevation,-1.6222867,11.00375
-42,SG821B,"BLADDER/PROSTATE, VARIOUS LESIONS, HAEMOSTASIS/CLOT EVACUATION/CYSTODIATHERMY",2C,New,bladderprostate various lesion haemostasisclot evacuationcystodiathermy,-0.31800807,10.666968
-57,SA804M,"MUCOUS MEMBRANE, TUMOR/CYST/ULCER/SCAR, EXCISION",2B,Existing,mucous membrane tumorcystulcerscar excision,0.05466946,11.781404
-53,SG711K,"KIDNEY, HYDRONEPHROSIS, PERCUTANEOUS NEPHROSTOMY AND DRAINAGE CATHETER INSERTION (PCN AND DRAINAGE)",2B,Existing,kidney hydronephrosis percutaneous nephrostomy drainage catheter insertion pcn drainage,-1.0128797,9.875814
-112,SA816S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT (DEEP), FREE GRAFT (SPLIT SKIN GRAFT -  EXTENSIVE/INLAY GRAFT USING A MOULD)",3B,Existing,skin subcutaneous tissue defect deep free graft split skin graft extensiveinlay graft using mould,2.0579352,12.558442
-75,SG803K,"KIDNEY, CALCULUS, NEPHROLITHOTOMY/PYELOLITHOTOMY",4B,Existing,kidney calculus nephrolithotomypyelolithotomy,-1.5266807,9.049717
-272,SB819J,"JOINTS (WRIST, DISTAL RADIOULNAR JOINT), SYNOVITIS, SYNOVECTOMY",4A,Existing,joint wrist distal radioulnar joint synovitis synovectomy,3.4287589,7.511122
-239,SB705J,"JOINTS, VARIOUS LESIONS, PRIMARY TOTAL JOINT REPLACEMENT WITH AUGMENTATION, REQUIRING EXTRA IMPLANTS OR BONE GRAFTS",6B,Descriptor change,joint various lesion primary total joint replacement augmentation requiring extra implant bone graft,4.014284,6.5772123
-111,SD729H,"HEART, TRANS-MYOCARDIAL REVASCULARISATION (TMR) AS A SOLE PROCEDURE",6B,Existing,heart transmyocardial revascularisation tmr sole procedure,0.4813364,6.5945163
-314,SF712S,"STOMACH/DUODENUM, PERFORATED ULCER, REPAIR",4B,Descriptor change,stomachduodenum perforated ulcer repair,-0.23267636,9.221502
-35,SH823P,"PENIS, VARIOUS LESIONS, EXCISION",1B,Existing,penis various lesion excision,-2.9240584,8.846815
-14,SF715A,"ANUS, ANO-RECTAL MALFORMATION, ANOPLASTY",2C,Existing,anus anorectal malformation anoplasty,-1.4816066,6.659497
-63,SM710L,"LARYNX, LARYNGECTOMY WITH UNILATERAL NECK DISSECTION",6B,Existing,larynx laryngectomy unilateral neck dissection,-0.20438427,13.037473
-195,SF800L,"LIP, MUCOUS CYST/MUCOCELE, REMOVAL",1B,Existing,lip mucous cystmucocele removal,0.24935897,9.566368
-103,SI815U,"UTERUS, FIBROIDS, MYOMECTOMY (COMPLICATED E.G. >5CM, MULTIPLE >2, CHALLENGING LOCATION)10",5A,Existing,uterus fibroid myomectomy complicated eg 5cm multiple 2 challenging location10,-3.9331806,11.840792
-57,SG715K,"KIDNEY, TUMOUR, MIS GUIDED PERCUTANEOUS LOCAL ABLATION (RADIOFREQUENCY, CRYOTHERAPY ETC)",4A,Existing,kidney tumour mi guided percutaneous local ablation radiofrequency cryotherapy etc,-1.7619748,15.8625765
-62,SK702F,"FACIAL, TRIGEMINAL GANGLION BLOCK, NEUROLYTIC",3C,Existing,facial trigeminal ganglion block neurolytic,2.5959518,4.100798
-399,SB803N,"NAIL, INFECTION/INJURY, AVULSION",1A,Existing,nail infectioninjury avulsion,1.2078755,10.890353
-128,SG830U,"URETHRA, VARIOUS LESIONS, URETHROPEXY",3A,Existing,urethra various lesion urethropexy,-4.365544,10.398992
-287,SB702K,"KNEE, HEMARTHROSIS, ASPIRATION UNDER LOCAL ANESTHESIA",MSP,Existing,knee hemarthrosis aspiration local anesthesia,-1.2317206,9.77468
-17,SL708C,"CORNEA, FOREIGN BODY, REMOVAL",MSP,Existing,cornea foreign body removal,5.1640573,11.042325
-9,SE708L,"LYMPH NODE (SINGLE), VARIOUS LESIONS, EXCISION BIOPSY (MIS)",1C,Existing,lymph node single various lesion excision biopsy mi,2.755991,14.34832
-92,SI729U,EXCISION OR ABLATION OF ADENOMYOMA/ ADENOMYOSIS (COMPLICATED >5CM),5A,New,excision ablation adenomyoma adenomyosis complicated 5cm,-3.600201,11.759154
-56,SF836A,"ANUS, HEMORRHOIDS, HEMORRHOIDECTOMY WITH OR WITHOUT SIGMOIDOSCOPY",2C,Existing,anus hemorrhoid hemorrhoidectomy without sigmoidoscopy,-1.197859,6.2482824
-151,SB833F,"FOOT, POLYDACTYLY, EXCISION",1A,Existing,foot polydactyly excision,1.8106422,11.35054
-506,SB820T,"TENDON-FLEXOR (UPPER LIMB), INJURY, REPAIR (SINGLE)",3B,Existing,tendonflexor upper limb injury repair single,4.441755,8.499236
-148,SM706T,TONGUE SUSPENSION,2B,Existing,tongue suspension,-0.64754546,13.208567
-283,SB834J,"JOINTS (UPPER LIMB), VARIOUS LESIONS, VASCULARISED JOINT TRANSFER",7C,Existing,joint upper limb various lesion vascularised joint transfer,3.649871,9.513769
-48,SB820B,"BONE (UPPER/LOWER LIMB), EXOSTOSIS, EXCISION BIOPSY (SINGLE)",2C,Existing,bone upperlower limb exostosis excision biopsy single,2.8456213,10.964443
-12,SD711A,"ARTERY,SMALL, INJURY, REPAIR (MULTIPLE)",5C,Existing,arterysmall injury repair multiple,4.4944925,8.212511
-47,SD805A,"ARTERY (DISTAL EXTREMITY/DIGIT), VARIOUS LESIONS, MICROVASCULAR REPAIR",6B,Existing,artery distal extremitydigit various lesion microvascular repair,-0.14863802,9.585375
-28,SG807B,"BLADDER, MILD STRESS INCONTINENCE, CYCTOSCOPIC INJECTION OF COLLAGEN",3B,Existing,bladder mild stress incontinence cyctoscopic injection collagen,-1.3678476,8.352695
-29,SL810C,"CORNEA, VARIOUS LESIONS, TRANSPLANTATION (SUPERFICIAL/LAMELLAR/FULL THICKNESS)",5B,Existing,cornea various lesion transplantation superficiallamellarfull thickness,-1.8942624,10.871096
-208,SB819H,"HAND, TUMORS, EXCISION WITH DISSECTION OF NEUROVASCULAR BUNDLE",4B,Existing,hand tumor excision dissection neurovascular bundle,2.3783793,11.320131
-5,SH700P,"PENIS, GLANULAR HYPOSPADIAS, MEATOPLASTY AND CIRCUMCISION",2A,Existing,penis glanular hypospadias meatoplasty circumcision,-2.9085524,8.824666
-17,SF718A,"ANUS, ANO-RECTAL MALFORMATION, POSTERIOR SAGITTAL ANORECTOPLASTY (PSARP)",5C,Existing,anus anorectal malformation posterior sagittal anorectoplasty psarp,-1.4582044,6.641053
-308,SB805K,"KNEE, VARIOUS LESIONS, ARTHROTOMY AND SYNOVECTOMY",4A,Existing,knee various lesion arthrotomy synovectomy,3.1434026,7.8620133
-122,SD802H,"HEART, PERCUTANEOUS ABLATION OF ARRTHYMIA CIRCUIT OR FOCUS OR ISOLATION PROCEDURE INVOLVING 1 ATRIAL CHAMBER ONLY, WITH/WITHOUT THE USE OF 3D MAPPING, NOT REQUIRING COMPLEX ELECTROPHYSIOLOGICAL TECHNIQUES",4A,Descriptor change,heart percutaneous ablation arrthymia circuit focus isolation procedure involving 1 atrial chamber withwithout use 3d mapping requiring complex electrophysiological technique,0.5193604,10.351683
-62,SD820A,"ARTERY, TRAUMA/RESECTION, MICRO-VASCULAR GRAFT",6B,Existing,artery traumaresection microvascular graft,-0.14069647,9.6199465
-258,SB804J,"JOINTS (FOOT EXCLUDING ANKLE), SYNOVITIS, SYNOVECTOMY",2C,Existing,joint foot excluding ankle synovitis synovectomy,0.103677645,10.800932
-73,SK704N,"COELIAC PLEXUS, BLOCK, ANAESTHETIC",2A,Existing,coeliac plexus block anaesthetic,2.836606,16.027235
-545,SB706W,"WRIST, DISTAL RADIUS FRACTURE, OPEN REDUCTION AND INTERNAL FIXATION (ORIF) (COMPLEX, WITH AUTOLOGOUS BONE GRAFT)",4C,Existing,wrist distal radius fracture open reduction internal fixation orif complex autologous bone graft,1.6675377,5.1431537
-25,SL806C,"CORNEA, VARIOUS LESIONS, KERATOPLASTY, COMPLEX (TECTONIC, THERAPEUTIC, LAMELLAR, DESCEMET STRIPPING AUTOMATED ENDOTHELIAL KERATOPLASTY)",6A,Existing,cornea various lesion keratoplasty complex tectonic therapeutic lamellar descemet stripping automated endothelial keratoplasty,-1.8579696,10.86178
-155,SI804V,"VAGINA, FISTULA, REPAIR (COMPLICATED/MULTIPLE)",5A,Existing,vagina fistula repair complicatedmultiple,-3.0216045,10.429663
-162,SK739S,"SPINE, REMOVAL OF SPINAL CORD STIMULATOR ELECTRICAL GENERATOR",3A,Existing,spine removal spinal cord stimulator electrical generator,-2.1764667,10.189243
-6,SF707A,"ABDOMEN, RETROPERITONEUM, ABSCESS, DRAINAGE WITH/WITHOUT LAPAROTOMY",3A,Existing,abdomen retroperitoneum abscess drainage withwithout laparotomy,1.0427498,9.685554
-43,SE801S,"SPLEEN, TRAUMA, CONSERVATION",4A,Existing,spleen trauma conservation,1.1010494,10.047226
-241,SB707J,"JOINTS (SHOULDER), VARIOUS LESIONS, IMPINGEMENT SYNDROME",5A,Existing,joint shoulder various lesion impingement syndrome,3.2833748,6.6242585
-29,SH817P,"PENIS, TRAUMA, REPAIR OF AVULSION",4A,Existing,penis trauma repair avulsion,-3.1433752,9.044703
-93,SI730U,UTEROSACRAL LIGAMENT SUSPENSION/HUL,4A,New,uterosacral ligament suspensionhul,2.703494,8.2654
-72,SL816E,"EYE, VARIOUS LESIONS, EVISCERATION",2C,Existing,eye various lesion evisceration,6.987859,8.265521
-140,SL706O,"ORBIT, VARIOUS LESIONS, OPTIC NERVE DECOMPRESSION (BILATERAL)",6C,Existing,orbit various lesion optic nerve decompression bilateral,-1.292805,13.652462
-45,SA833B,"BREAST, VARIOUS LESIONS, NIPPLE/SKIN SPARING/SUBCUTANOUS MASTECTOMY, THERAPEUTIC/PROPHYLACTIC, EXCLUDING GYNAECOMASTIA, UNILATERAL/BILATERAL",4C,Descriptor change,breast various lesion nippleskin sparingsubcutanous mastectomy therapeuticprophylactic excluding gynaecomastia unilateralbilateral,-0.85701334,10.94476
-135,SA839S,"SKIN AND SUBCUTANEOUS TISSUE, ARTERIOVENOUS MALFORMATION/HEMANGIOMA/LYMPHANGIOMA <3CM EXCLUDING FACE, HANDS, GENITALIA,  EXCISION",2A,Existing,skin subcutaneous tissue arteriovenous malformationhemangiomalymphangioma 3cm excluding face hand genitalia excision,0.8299336,11.784905
-188,SB733H,"HAND, FLEXOR TENDON, PULLEY RECONSTRUCTION",4B,Existing,hand flexor tendon pulley reconstruction,2.307497,10.978907
-537,SB809U,UPPER LIMB / LOWER LIMB RING EXTERNAL FIXATOR WITH GRADUAL DEFORMITY CORRECTION / LENGTHENING / SHORTENING / BONE TRANSPORT,6A,New,upper limb lower limb ring external fixator gradual deformity correction lengthening shortening bone transport,2.9925852,9.860457
-165,SK747S,"SPINE, VARIOUS LESIONS, SYRINGO- ARACHNOID/PLEURAL/PERITONEAL SHUNT",6A,Existing,spine various lesion syringo arachnoidpleuralperitoneal shunt,-2.8224478,12.124887
-233,SB844H,"HIP, LABRAL DEBRIDEMENT AND REPAIR, WITH/ WITHOUT FAI RESECTION, CAPSULAR, OSTEOPLASTY AND CARTILAGE PROCEDURES",5C,New,hip labral debridement repair without fai resection capsular osteoplasty cartilage procedure,3.1904411,8.487495
-345,SB803M,"MANDIBLE OR MAXILLA, ALVEOLAR DEFECT/DEFORMITY, SIMPLE ALVEOLOPLASTY/BONE REGENERATIVE PROCEDURE",2C,Existing,mandible maxilla alveolar defectdeformity simple alveoloplastybone regenerative procedure,1.8292868,9.700247
-2,SE701L,"LYMPH NODE (AXILLARY), VARIOUS LESIONS, SENTINEL LN BIOPSY ONLY",3A,Existing,lymph node axillary various lesion sentinel ln biopsy,2.8305862,14.217758
-162,SB705H,"HAND, CLOSED FRACTURE, ORIF WITH K- WIRE/CERCLAGE WIRE FIXATION",2C,Existing,hand closed fracture orif k wirecerclage wire fixation,2.0011096,10.817378
-102,SI814U,"UTERUS, FETAL DISORDER, ULTRASOUND GUIDED FETAL THERAPY",4A,Existing,uterus fetal disorder ultrasound guided fetal therapy,-2.8453827,11.055927
-49,SK813B,"BRAIN, INTRACRANIAL ABSCESS, EXCISION",6B,Existing,brain intracranial abscess excision,-2.6619444,12.726733
-97,SB706F,"FEMUR, FRACTURE (INTERCONDYLAR), OPEN REDUCTION AND INTERNAL FIXATION (ORIF)",5A,Existing,femur fracture intercondylar open reduction internal fixation orif,1.6356593,5.155008
-528,SB800U,"UPPER LIMB, CONGENITAL DEFORMITY, MAJOR RECONSTRUCTION",6B,Existing,upper limb congenital deformity major reconstruction,2.7600026,10.269936
-180,SA885S,"SKIN, VARIOUS LESIONS OF FACE (4 AND ABOVE), EXCISION BIOPSY",2B,Existing,skin various lesion face 4 excision biopsy,0.2897,11.612295
-133,SB814F,"FINGER, INJURY, DEBRIDEMENT",1B,Existing,finger injury debridement,0.089881994,10.890118
-101,SA805S,"SKIN AND SUBCUTANEOUS TISSUE (FACE AND NECK), SCAR OF MORE THAN 3CM, REVISION",2B,Existing,skin subcutaneous tissue face neck scar 3cm revision,0.9443828,11.906236
-139,SD820H,"HEART, PERICARDIAL EFFUSION, TRANSTHORACIC DRAINAGE",3B,Existing,heart pericardial effusion transthoracic drainage,0.50765425,6.571222
-40,SI810F,"FEMALE GENITALIA, TRANSSEXUALISM (TRANSVESTISM), SEX REASSIGNMENT (FEMALE TO MALE)",5A,Existing,female genitalia transsexualism transvestism sex reassignment female male,-2.317188,8.452274
-28,SH816P,"PENIS, TRAUMA, RECONSTRUCTION (2ND STAGE)",5A,Existing,penis trauma reconstruction 2nd stage,-3.1853874,9.025615
-51,SI805O,"OVARY, TUMOR/CYST, OOPHORECTOMY/SALPINGO- OOPHORECTOMY (SIMPLE)",3B,Existing,ovary tumorcyst oophorectomysalpingo oophorectomy simple,-1.3969345,9.170226
-495,SB809T,"TENDON-ACHILLES (LOWER LIMB), DISRUPTION, REPAIR",3A,Existing,tendonachilles lower limb disruption repair,3.813536,9.185821
-309,SB806K,"KNEE, VARIOUS LESIONS, EXCISION/INTERPOSITION ARTHROPLASTY",4A,Existing,knee various lesion excisioninterposition arthroplasty,3.2260149,7.7599673
-81,SD703B,"BLOOD VESSELS, HICKMAN LINE INSERTION",2A,Existing,blood vessel hickman line insertion,1.0514165,8.643679
-74,SI731U,"UTERUS, HYSTERECTOMY, COMPLICATED (BROAD LIGAMENT , SEVERE ENDOMETRIOSIS, FROZEN PELVIS)",5C,New,uterus hysterectomy complicated broad ligament severe endometriosis frozen pelvis,-4.12086,11.635031
-556,SB801Z,"ZYGOMA, FRACTURE, ELEVATION",5A,Existing,zygoma fracture elevation,1.7366737,10.13751
-35,SF854A,"ABDOMINAL CAVITY, REMOVAL/REPLACEMENT/REVISION OF GASTRIC BAND",4A,New,abdominal cavity removalreplacementrevision gastric band,-3.0222752,6.8603897
-122,SB803F,"FACE, INFECTION / OSTEOMYELITIS, MAJOR DRAINAGE/SEQUESTRECTOMY",3B,Existing,face infection osteomyelitis major drainagesequestrectomy,3.695711,10.802152
-12,SC818B,"BRONCHUS, VARIOUS LESIONS, BRONCHIAL THERMOPLASTY/BRONCHUS RADIOFREQUENCY ABLATION",3A,Existing,bronchus various lesion bronchial thermoplastybronchus radiofrequency ablation,-1.6556593,15.605569
-86,SF713B,"BILE DUCTS, STONES, PERCUTANEOUS TRANSHEPATIC BILIARY STONES REMOVAL",3B,Existing,bile duct stone percutaneous transhepatic biliary stone removal,-3.5353258,7.750173
-478,SB703T,"TIBIA, TIBIAL PLATEAU, UNICONDYLAR COMMINUTED/SIMPLE BICONDYLAR, ORIF",5A,Existing,tibia tibial plateau unicondylar comminutedsimple bicondylar orif,2.2715352,9.854194
-106,SD724H,"HEART, PERCUTANEOUS CORONARY INTERVENTION (PCI) + ARTERECTOMY (E.G ROTABLATION)",5A,Descriptor change,heart percutaneous coronary intervention pci arterectomy eg rotablation,0.7402913,7.1109195
-28,SM814E,"EAR, HEMATOMA/SEROMA, EVACUATION/INCISION & DRAINAGE",1B,Existing,ear hematomaseroma evacuationincision drainage,-0.9091356,11.623163
-174,SD716V,"VEIN, VARICOSITIES, ENDOVASCULAR LASER TREATMENT (1 LEG)",3B,Existing,vein varicosity endovascular laser treatment 1 leg,-0.13353947,9.635469
-104,SD721H,"HEART, LUNG, EXTRA CORPOREAL MEMBRANE OXYGENATION",6B,Existing,heart lung extra corporeal membrane oxygenation,0.5930117,10.202994
-6,SM704E,"EAR, EXCISION PSEUDOCYST PINNA",2A,Existing,ear excision pseudocyst pinna,-0.85045797,11.61233
+61,SF841A,"ANUS, PERINEAL ABSCESS, SAUCERISATION/DRAINAGE",1B,Existing,anus perineal abscess saucerisationdrainage,-15.355941,0.8763899
+64,SH807T,"TESTIS, VARIOUS LESIONS, INSERTION OF TESTICULAR PROSTHESIS",3A,Existing,testis various lesion insertion testicular prosthesis,36.499794,15.21018
+42,SH838P,"PROSTATE GLAND, VARIOUS LESIONS, RADICAL PROSTATECTOMY, WITH LYMPH NODE DISSECTION",6C,New,prostate gland various lesion radical prostatectomy lymph node dissection,6.526066,-56.83635
+139,SK714S,"PARAVERTEBRAL REGION, BLOCK, ANAESTHETIC (UP TO 2 LEVELS)",1B,Existing,paravertebral region block anaesthetic 2 level,39.4445,39.00625
+92,SG704U,"URETER, STRICTURE, PERCUTANEOUS ANTEGRADE BALLOON DILATATION",2B,Existing,ureter stricture percutaneous antegrade balloon dilatation,18.052324,31.725403
+19,SB704B,"BONE (UPPER LIMB), TUMOR (BENIGN), MAJOR EXCISION >3 CM WITH BONE GRAFTING +/- RECONSTRUCTION/INTERNAL FIXATION",5A,Existing,bone upper limb tumor benign major excision 3 cm bone grafting reconstructioninternal fixation,-16.989698,-69.72088
+321,SF806S,"STOMACH, PYLORIC TUMOR (INFANT), PYLOROPLASTY/PYLOROMYOTOMY",3A,Existing,stomach pyloric tumor infant pyloroplastypyloromyotomy,-11.183885,-15.813618
+53,SB825B,"BONE AND JOINTS (UPPER LIMB), PLATES AND SCREWS, REMOVAL",2B,Existing,bone joint upper limb plate screw removal,4.7712684,-46.51212
+84,SK716N,"NERVE (UPPER LIMB), CARPAL TUNNEL SYNDROME, RELEASE, BILATERAL, (WITH ENDONEUROLYSIS)",4A,Existing,nerve upper limb carpal tunnel syndrome release bilateral endoneurolysis,21.79906,18.004791
+444,SB741S,"SPINE, VARIOUS LESIONS - POSTERIOR INSTRUMENTATION (5 OR MORE SEGMENTS) WITH/WITHOUT DECOMPRESSION AND WITHOUT INTERBODY FUSION",7C,"Uptable, Descriptor change,",spine various lesion posterior instrumentation 5 segment withwithout decompression without interbody fusion,54.868374,-22.156973
+102,SF808B,"BILE DUCT, VARIOUS LESIONS, HEPATICOJEJUNOSTOMY INVOLVING ANASTOMOSIS TO HEPATIC DUCTS BUT WITHOUT LIVER RESECTION",6A,Existing,bile duct various lesion hepaticojejunostomy involving anastomosis hepatic duct without liver resection,64.98383,-5.1794167
+325,SF810S,"STOMACH, VARIOUS LESIONS, PARTIAL/SUBTOTAL GASTRECTOMY",5C,Existing,stomach various lesion partialsubtotal gastrectomy,-18.048113,-42.597454
+49,SH800S,"SCROTUM, HYDROCELE, ASPIRATION",MSP,Existing,scrotum hydrocele aspiration,8.642293,25.278004
+501,SB815T,"TENDON-FLEXOR (UPPER LIMB), ADHESION, TENOLYSIS (MULTIPLE)",5C,Existing,tendonflexor upper limb adhesion tenolysis multiple,-30.04582,-61.399742
+174,SL802V,"VITREOUS, VARIOUS LESIONS, VITRECTOMY (PARS PLANA/REMOVAL OF SILICONE OIL)",4A,Existing,vitreous various lesion vitrectomy par planaremoval silicone oil,32.231422,-13.685134
+188,SK809S,"SKULL, INTRACRANIAL HEMORRHAGE, BURR-HOLE CRANIOTOMY, (UNILATERAL)",4A,Existing,skull intracranial hemorrhage burrhole craniotomy unilateral,44.893925,22.137976
+105,SG806U,"URETER, VARIOUS LESIONS, REDUCTION URETEROPLASTY",5C,Existing,ureter various lesion reduction ureteroplasty,1.2529316,-27.918226
+52,SM839E,"EAR, TYMPANIC MEMBRANE, UNILATERAL, TRANSTYMPANIC PERFUSION OF DRUGS, WITH INJECTIONS/MYRINGOTOMY INCLUDING REPEAT PROCEDURES DURING A 90-DAY PERIOD IN THE SAME EAR",2A,Existing,ear tympanic membrane unilateral transtympanic perfusion drug injectionsmyringotomy including repeat procedure 90day period ear,63.836853,42.197342
+31,SM817E,"EAR, LACERATION, WOUND DEBRIDEMENT",MSP,Existing,ear laceration wound debridement,-60.26771,2.6345956
+397,SB801N,"NAIL BED, LACERATION, REPAIR (MULTIPLE)",2C,Existing,nail bed laceration repair multiple,-24.977964,9.932059
+159,SK735S,"SACRUM, GANGLION IMPAR, BLOCK, RADIOFREQUENCY, NEUROLYTIC",3C,Existing,sacrum ganglion impar block radiofrequency neurolytic,29.112968,7.044529
+226,SF715M,"MOUTH, SUBMANDIBULAR GLAND, CALCULUS, REMOVAL WITH BIOPSY",1C,Existing,mouth submandibular gland calculus removal biopsy,-2.015232,-36.543655
+185,SK806S,"SKULL, DEPRESSED/COMMINUTED FRACTURE, ELEVATION",5C,Existing,skull depressedcomminuted fracture elevation,-13.026717,25.35553
+42,SG821B,"BLADDER/PROSTATE, VARIOUS LESIONS, HAEMOSTASIS/CLOT EVACUATION/CYSTODIATHERMY",2C,New,bladderprostate various lesion haemostasisclot evacuationcystodiathermy,-2.367541,1.9207239
+57,SA804M,"MUCOUS MEMBRANE, TUMOR/CYST/ULCER/SCAR, EXCISION",2B,Existing,mucous membrane tumorcystulcerscar excision,-17.045065,64.18408
+53,SG711K,"KIDNEY, HYDRONEPHROSIS, PERCUTANEOUS NEPHROSTOMY AND DRAINAGE CATHETER INSERTION (PCN AND DRAINAGE)",2B,Existing,kidney hydronephrosis percutaneous nephrostomy drainage catheter insertion pcn drainage,5.7244473,3.9996736
+112,SA816S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT (DEEP), FREE GRAFT (SPLIT SKIN GRAFT -  EXTENSIVE/INLAY GRAFT USING A MOULD)",3B,Existing,skin subcutaneous tissue defect deep free graft split skin graft extensiveinlay graft using mould,-21.047035,8.534203
+75,SG803K,"KIDNEY, CALCULUS, NEPHROLITHOTOMY/PYELOLITHOTOMY",4B,Existing,kidney calculus nephrolithotomypyelolithotomy,-1.1532143,-33.012165
+272,SB819J,"JOINTS (WRIST, DISTAL RADIOULNAR JOINT), SYNOVITIS, SYNOVECTOMY",4A,Existing,joint wrist distal radioulnar joint synovitis synovectomy,-24.727104,2.2661695
+239,SB705J,"JOINTS, VARIOUS LESIONS, PRIMARY TOTAL JOINT REPLACEMENT WITH AUGMENTATION, REQUIRING EXTRA IMPLANTS OR BONE GRAFTS",6B,Descriptor change,joint various lesion primary total joint replacement augmentation requiring extra implant bone graft,53.16627,-50.000862
+111,SD729H,"HEART, TRANS-MYOCARDIAL REVASCULARISATION (TMR) AS A SOLE PROCEDURE",6B,Existing,heart transmyocardial revascularisation tmr sole procedure,-11.278282,-3.459377
+314,SF712S,"STOMACH/DUODENUM, PERFORATED ULCER, REPAIR",4B,Descriptor change,stomachduodenum perforated ulcer repair,-7.7782297,39.75519
+35,SH823P,"PENIS, VARIOUS LESIONS, EXCISION",1B,Existing,penis various lesion excision,-18.466206,-1.9926575
+14,SF715A,"ANUS, ANO-RECTAL MALFORMATION, ANOPLASTY",2C,Existing,anus anorectal malformation anoplasty,60.324226,18.997952
+63,SM710L,"LARYNX, LARYNGECTOMY WITH UNILATERAL NECK DISSECTION",6B,Existing,larynx laryngectomy unilateral neck dissection,76.44992,-0.04992164
+195,SF800L,"LIP, MUCOUS CYST/MUCOCELE, REMOVAL",1B,Existing,lip mucous cystmucocele removal,-17.909456,-33.041294
+103,SI815U,"UTERUS, FIBROIDS, MYOMECTOMY (COMPLICATED E.G. >5CM, MULTIPLE >2, CHALLENGING LOCATION)10",5A,Existing,uterus fibroid myomectomy complicated eg 5cm multiple 2 challenging location10,16.982744,-7.27883
+57,SG715K,"KIDNEY, TUMOUR, MIS GUIDED PERCUTANEOUS LOCAL ABLATION (RADIOFREQUENCY, CRYOTHERAPY ETC)",4A,Existing,kidney tumour mi guided percutaneous local ablation radiofrequency cryotherapy etc,62.62069,6.7524166
+62,SK702F,"FACIAL, TRIGEMINAL GANGLION BLOCK, NEUROLYTIC",3C,Existing,facial trigeminal ganglion block neurolytic,17.810759,41.372375
+399,SB803N,"NAIL, INFECTION/INJURY, AVULSION",1A,Existing,nail infectioninjury avulsion,-25.549187,9.326243
+128,SG830U,"URETHRA, VARIOUS LESIONS, URETHROPEXY",3A,Existing,urethra various lesion urethropexy,-12.548527,6.188558
+287,SB702K,"KNEE, HEMARTHROSIS, ASPIRATION UNDER LOCAL ANESTHESIA",MSP,Existing,knee hemarthrosis aspiration local anesthesia,10.903148,28.352945
+17,SL708C,"CORNEA, FOREIGN BODY, REMOVAL",MSP,Existing,cornea foreign body removal,15.557619,72.69879
+9,SE708L,"LYMPH NODE (SINGLE), VARIOUS LESIONS, EXCISION BIOPSY (MIS)",1C,Existing,lymph node single various lesion excision biopsy mi,-35.54164,-43.480694
+92,SI729U,EXCISION OR ABLATION OF ADENOMYOMA/ ADENOMYOSIS (COMPLICATED >5CM),5A,New,excision ablation adenomyoma adenomyosis complicated 5cm,16.751543,-8.14637
+56,SF836A,"ANUS, HEMORRHOIDS, HEMORRHOIDECTOMY WITH OR WITHOUT SIGMOIDOSCOPY",2C,Existing,anus hemorrhoid hemorrhoidectomy without sigmoidoscopy,20.424429,-40.88773
+151,SB833F,"FOOT, POLYDACTYLY, EXCISION",1A,Existing,foot polydactyly excision,-64.10537,14.665113
+506,SB820T,"TENDON-FLEXOR (UPPER LIMB), INJURY, REPAIR (SINGLE)",3B,Existing,tendonflexor upper limb injury repair single,-29.957865,-63.24753
+148,SM706T,TONGUE SUSPENSION,2B,Existing,tongue suspension,-18.358746,18.097385
+283,SB834J,"JOINTS (UPPER LIMB), VARIOUS LESIONS, VASCULARISED JOINT TRANSFER",7C,Existing,joint upper limb various lesion vascularised joint transfer,-14.882867,37.712124
+48,SB820B,"BONE (UPPER/LOWER LIMB), EXOSTOSIS, EXCISION BIOPSY (SINGLE)",2C,Existing,bone upperlower limb exostosis excision biopsy single,9.013251,15.857365
+12,SD711A,"ARTERY,SMALL, INJURY, REPAIR (MULTIPLE)",5C,Existing,arterysmall injury repair multiple,-29.886477,20.691555
+47,SD805A,"ARTERY (DISTAL EXTREMITY/DIGIT), VARIOUS LESIONS, MICROVASCULAR REPAIR",6B,Existing,artery distal extremitydigit various lesion microvascular repair,-46.41396,-62.052124
+28,SG807B,"BLADDER, MILD STRESS INCONTINENCE, CYCTOSCOPIC INJECTION OF COLLAGEN",3B,Existing,bladder mild stress incontinence cyctoscopic injection collagen,-42.588966,51.895096
+29,SL810C,"CORNEA, VARIOUS LESIONS, TRANSPLANTATION (SUPERFICIAL/LAMELLAR/FULL THICKNESS)",5B,Existing,cornea various lesion transplantation superficiallamellarfull thickness,14.119113,-15.399056
+208,SB819H,"HAND, TUMORS, EXCISION WITH DISSECTION OF NEUROVASCULAR BUNDLE",4B,Existing,hand tumor excision dissection neurovascular bundle,7.5476036,72.14843
+5,SH700P,"PENIS, GLANULAR HYPOSPADIAS, MEATOPLASTY AND CIRCUMCISION",2A,Existing,penis glanular hypospadias meatoplasty circumcision,-19.405544,-1.8507208
+17,SF718A,"ANUS, ANO-RECTAL MALFORMATION, POSTERIOR SAGITTAL ANORECTOPLASTY (PSARP)",5C,Existing,anus anorectal malformation posterior sagittal anorectoplasty psarp,59.7093,18.841297
+308,SB805K,"KNEE, VARIOUS LESIONS, ARTHROTOMY AND SYNOVECTOMY",4A,Existing,knee various lesion arthrotomy synovectomy,-26.521557,0.7486466
+122,SD802H,"HEART, PERCUTANEOUS ABLATION OF ARRTHYMIA CIRCUIT OR FOCUS OR ISOLATION PROCEDURE INVOLVING 1 ATRIAL CHAMBER ONLY, WITH/WITHOUT THE USE OF 3D MAPPING, NOT REQUIRING COMPLEX ELECTROPHYSIOLOGICAL TECHNIQUES",4A,Descriptor change,heart percutaneous ablation arrthymia circuit focus isolation procedure involving 1 atrial chamber withwithout use 3d mapping requiring complex electrophysiological technique,-38.229046,-16.195581
+62,SD820A,"ARTERY, TRAUMA/RESECTION, MICRO-VASCULAR GRAFT",6B,Existing,artery traumaresection microvascular graft,-48.104153,-61.63895
+258,SB804J,"JOINTS (FOOT EXCLUDING ANKLE), SYNOVITIS, SYNOVECTOMY",2C,Existing,joint foot excluding ankle synovitis synovectomy,-26.496088,2.5618129
+73,SK704N,"COELIAC PLEXUS, BLOCK, ANAESTHETIC",2A,Existing,coeliac plexus block anaesthetic,47.277958,31.284273
+545,SB706W,"WRIST, DISTAL RADIUS FRACTURE, OPEN REDUCTION AND INTERNAL FIXATION (ORIF) (COMPLEX, WITH AUTOLOGOUS BONE GRAFT)",4C,Existing,wrist distal radius fracture open reduction internal fixation orif complex autologous bone graft,27.744286,43.368313
+25,SL806C,"CORNEA, VARIOUS LESIONS, KERATOPLASTY, COMPLEX (TECTONIC, THERAPEUTIC, LAMELLAR, DESCEMET STRIPPING AUTOMATED ENDOTHELIAL KERATOPLASTY)",6A,Existing,cornea various lesion keratoplasty complex tectonic therapeutic lamellar descemet stripping automated endothelial keratoplasty,4.3334923,9.638059
+155,SI804V,"VAGINA, FISTULA, REPAIR (COMPLICATED/MULTIPLE)",5A,Existing,vagina fistula repair complicatedmultiple,-20.86991,32.96256
+162,SK739S,"SPINE, REMOVAL OF SPINAL CORD STIMULATOR ELECTRICAL GENERATOR",3A,Existing,spine removal spinal cord stimulator electrical generator,-69.29836,-21.635319
+6,SF707A,"ABDOMEN, RETROPERITONEUM, ABSCESS, DRAINAGE WITH/WITHOUT LAPAROTOMY",3A,Existing,abdomen retroperitoneum abscess drainage withwithout laparotomy,-47.030716,-14.4210825
+43,SE801S,"SPLEEN, TRAUMA, CONSERVATION",4A,Existing,spleen trauma conservation,-44.751358,7.6436253
+241,SB707J,"JOINTS (SHOULDER), VARIOUS LESIONS, IMPINGEMENT SYNDROME",5A,Existing,joint shoulder various lesion impingement syndrome,20.55077,18.063128
+29,SH817P,"PENIS, TRAUMA, REPAIR OF AVULSION",4A,Existing,penis trauma repair avulsion,-45.777855,7.1549997
+93,SI730U,UTEROSACRAL LIGAMENT SUSPENSION/HUL,4A,New,uterosacral ligament suspensionhul,14.376037,9.944988
+72,SL816E,"EYE, VARIOUS LESIONS, EVISCERATION",2C,Existing,eye various lesion evisceration,7.485956,-10.5889435
+140,SL706O,"ORBIT, VARIOUS LESIONS, OPTIC NERVE DECOMPRESSION (BILATERAL)",6C,Existing,orbit various lesion optic nerve decompression bilateral,-20.690226,3.3452258
+45,SA833B,"BREAST, VARIOUS LESIONS, NIPPLE/SKIN SPARING/SUBCUTANOUS MASTECTOMY, THERAPEUTIC/PROPHYLACTIC, EXCLUDING GYNAECOMASTIA, UNILATERAL/BILATERAL",4C,Descriptor change,breast various lesion nippleskin sparingsubcutanous mastectomy therapeuticprophylactic excluding gynaecomastia unilateralbilateral,-6.1935453,-48.09629
+135,SA839S,"SKIN AND SUBCUTANEOUS TISSUE, ARTERIOVENOUS MALFORMATION/HEMANGIOMA/LYMPHANGIOMA <3CM EXCLUDING FACE, HANDS, GENITALIA,  EXCISION",2A,Existing,skin subcutaneous tissue arteriovenous malformationhemangiomalymphangioma 3cm excluding face hand genitalia excision,-26.352348,-45.502556
+188,SB733H,"HAND, FLEXOR TENDON, PULLEY RECONSTRUCTION",4B,Existing,hand flexor tendon pulley reconstruction,-45.448715,16.757877
+537,SB809U,UPPER LIMB / LOWER LIMB RING EXTERNAL FIXATOR WITH GRADUAL DEFORMITY CORRECTION / LENGTHENING / SHORTENING / BONE TRANSPORT,6A,New,upper limb lower limb ring external fixator gradual deformity correction lengthening shortening bone transport,-40.38625,0.5622036
+165,SK747S,"SPINE, VARIOUS LESIONS, SYRINGO- ARACHNOID/PLEURAL/PERITONEAL SHUNT",6A,Existing,spine various lesion syringo arachnoidpleuralperitoneal shunt,23.092003,30.070135
+233,SB844H,"HIP, LABRAL DEBRIDEMENT AND REPAIR, WITH/ WITHOUT FAI RESECTION, CAPSULAR, OSTEOPLASTY AND CARTILAGE PROCEDURES",5C,New,hip labral debridement repair without fai resection capsular osteoplasty cartilage procedure,-2.079222,11.134055
+345,SB803M,"MANDIBLE OR MAXILLA, ALVEOLAR DEFECT/DEFORMITY, SIMPLE ALVEOLOPLASTY/BONE REGENERATIVE PROCEDURE",2C,Existing,mandible maxilla alveolar defectdeformity simple alveoloplastybone regenerative procedure,13.8088,-9.987397
+2,SE701L,"LYMPH NODE (AXILLARY), VARIOUS LESIONS, SENTINEL LN BIOPSY ONLY",3A,Existing,lymph node axillary various lesion sentinel ln biopsy,15.005364,-49.661808
+162,SB705H,"HAND, CLOSED FRACTURE, ORIF WITH K- WIRE/CERCLAGE WIRE FIXATION",2C,Existing,hand closed fracture orif k wirecerclage wire fixation,-0.82851976,-43.57728
+102,SI814U,"UTERUS, FETAL DISORDER, ULTRASOUND GUIDED FETAL THERAPY",4A,Existing,uterus fetal disorder ultrasound guided fetal therapy,3.6276162,20.687494
+49,SK813B,"BRAIN, INTRACRANIAL ABSCESS, EXCISION",6B,Existing,brain intracranial abscess excision,-8.579751,-8.989301
+97,SB706F,"FEMUR, FRACTURE (INTERCONDYLAR), OPEN REDUCTION AND INTERNAL FIXATION (ORIF)",5A,Existing,femur fracture intercondylar open reduction internal fixation orif,24.763216,35.75678
+528,SB800U,"UPPER LIMB, CONGENITAL DEFORMITY, MAJOR RECONSTRUCTION",6B,Existing,upper limb congenital deformity major reconstruction,-55.09457,-1.5801593
+180,SA885S,"SKIN, VARIOUS LESIONS OF FACE (4 AND ABOVE), EXCISION BIOPSY",2B,Existing,skin various lesion face 4 excision biopsy,-5.3123646,10.522037
+133,SB814F,"FINGER, INJURY, DEBRIDEMENT",1B,Existing,finger injury debridement,-41.68627,17.243683
+101,SA805S,"SKIN AND SUBCUTANEOUS TISSUE (FACE AND NECK), SCAR OF MORE THAN 3CM, REVISION",2B,Existing,skin subcutaneous tissue face neck scar 3cm revision,40.73793,0.9741691
+139,SD820H,"HEART, PERICARDIAL EFFUSION, TRANSTHORACIC DRAINAGE",3B,Existing,heart pericardial effusion transthoracic drainage,5.0002985,1.4097112
+40,SI810F,"FEMALE GENITALIA, TRANSSEXUALISM (TRANSVESTISM), SEX REASSIGNMENT (FEMALE TO MALE)",5A,Existing,female genitalia transsexualism transvestism sex reassignment female male,-59.412724,-35.99502
+28,SH816P,"PENIS, TRAUMA, RECONSTRUCTION (2ND STAGE)",5A,Existing,penis trauma reconstruction 2nd stage,-49.21434,6.7884865
+51,SI805O,"OVARY, TUMOR/CYST, OOPHORECTOMY/SALPINGO- OOPHORECTOMY (SIMPLE)",3B,Existing,ovary tumorcyst oophorectomysalpingo oophorectomy simple,-36.419506,-5.745095
+495,SB809T,"TENDON-ACHILLES (LOWER LIMB), DISRUPTION, REPAIR",3A,Existing,tendonachilles lower limb disruption repair,-53.396507,-28.354658
+309,SB806K,"KNEE, VARIOUS LESIONS, EXCISION/INTERPOSITION ARTHROPLASTY",4A,Existing,knee various lesion excisioninterposition arthroplasty,-35.628952,-28.02659
+81,SD703B,"BLOOD VESSELS, HICKMAN LINE INSERTION",2A,Existing,blood vessel hickman line insertion,-10.3024,-35.307705
+74,SI731U,"UTERUS, HYSTERECTOMY, COMPLICATED (BROAD LIGAMENT , SEVERE ENDOMETRIOSIS, FROZEN PELVIS)",5C,New,uterus hysterectomy complicated broad ligament severe endometriosis frozen pelvis,-32.064934,37.99777
+556,SB801Z,"ZYGOMA, FRACTURE, ELEVATION",5A,Existing,zygoma fracture elevation,-1.0958245,8.57345
+35,SF854A,"ABDOMINAL CAVITY, REMOVAL/REPLACEMENT/REVISION OF GASTRIC BAND",4A,New,abdominal cavity removalreplacementrevision gastric band,-60.818382,26.742653
+122,SB803F,"FACE, INFECTION / OSTEOMYELITIS, MAJOR DRAINAGE/SEQUESTRECTOMY",3B,Existing,face infection osteomyelitis major drainagesequestrectomy,20.621834,-2.1516604
+12,SC818B,"BRONCHUS, VARIOUS LESIONS, BRONCHIAL THERMOPLASTY/BRONCHUS RADIOFREQUENCY ABLATION",3A,Existing,bronchus various lesion bronchial thermoplastybronchus radiofrequency ablation,10.659434,-8.606581
+86,SF713B,"BILE DUCTS, STONES, PERCUTANEOUS TRANSHEPATIC BILIARY STONES REMOVAL",3B,Existing,bile duct stone percutaneous transhepatic biliary stone removal,-56.840355,43.051884
+478,SB703T,"TIBIA, TIBIAL PLATEAU, UNICONDYLAR COMMINUTED/SIMPLE BICONDYLAR, ORIF",5A,Existing,tibia tibial plateau unicondylar comminutedsimple bicondylar orif,53.73296,24.297375
+106,SD724H,"HEART, PERCUTANEOUS CORONARY INTERVENTION (PCI) + ARTERECTOMY (E.G ROTABLATION)",5A,Descriptor change,heart percutaneous coronary intervention pci arterectomy eg rotablation,44.073704,-34.179764
+28,SM814E,"EAR, HEMATOMA/SEROMA, EVACUATION/INCISION & DRAINAGE",1B,Existing,ear hematomaseroma evacuationincision drainage,-6.457104,-0.71694577
+174,SD716V,"VEIN, VARICOSITIES, ENDOVASCULAR LASER TREATMENT (1 LEG)",3B,Existing,vein varicosity endovascular laser treatment 1 leg,5.170369,59.50684
+104,SD721H,"HEART, LUNG, EXTRA CORPOREAL MEMBRANE OXYGENATION",6B,Existing,heart lung extra corporeal membrane oxygenation,-38.121998,21.01476
+6,SM704E,"EAR, EXCISION PSEUDOCYST PINNA",2A,Existing,ear excision pseudocyst pinna,-5.9300847,-1.7916813
 123,SF806C,"COLON, VARIOUS LESIONS, TRANVERSE/SIGMOID COLECTOMY",5C,"Descriptor
-change",colon various lesion tranversesigmoid colectomy,-0.5991261,6.894777
-352,SF813T,"TOOTH (SUPERFICIAL), UNERUPTED/PARTIALLY ERUPTED/IMPACTED, EXCISION WITH REMOVAL OF BONE AND TOOTH DIVISION",2C,Existing,tooth superficial uneruptedpartially eruptedimpacted excision removal bone tooth division,-0.44145697,8.906488
-15,SE714L,"LYMPHATICS AND SUBCUTANEOUS TISSUE, LYMPHEDEMA, MAJOR EXCISION AND GRAFTING",6B,Existing,lymphatics subcutaneous tissue lymphedema major excision grafting,0.73871803,10.7073765
-23,SD722A,"ARTERY, THROMBOSIS, PERCUTANEOUS CATHETER DIRECTED THROMBOLYSIS, WITH OR WITHOUT ANGIOPLASTY/STENTING",4A,Existing,artery thrombosis percutaneous catheter directed thrombolysis without angioplastystenting,0.51789004,9.742649
-355,SB813M,"MANDIBLE, VARIOUS LESIONS, ALVEOLECTOMY (PER QUADRANT)",2C,Existing,mandible various lesion alveolectomy per quadrant,1.4706308,10.035455
-77,SD840A,"ARTERY, VARIOUS LESIONS, ARTERIO-VENUOUS FISTULA, CORRECTION AT ORIGINAL SITE",4A,Existing,artery various lesion arteriovenuous fistula correction original site,0.14646147,9.650989
-103,SK738N,"NERVE ROOT, BLOCK (INJECTION OF ANAESTHETIC, THERAPEUTIC SUBSTANCE), LUMBAR/THORACIC, 1 LEVEL",1C,Existing,nerve root block injection anaesthetic therapeutic substance lumbarthoracic 1 level,2.7694612,4.565749
-106,SL856E,EPISCLERAL PLAQUE BRACHYTHERAPY (INSERTION AND REMOVAL),6B,New,episcleral plaque brachytherapy insertion removal,-0.583994,10.33778
-55,SD813A,"ARTERY (TEMPORAL), VARIOUS LESIONS, BIOPSY",2A,Existing,artery temporal various lesion biopsy,0.09572979,9.796894
-376,SB834M,"MAXILLA, FRACTURE - LEFORT II (COMPLEX), OPEN REDUCTION AND FIXATION.",6B,Existing,maxilla fracture lefort ii complex open reduction fixation,1.247521,5.161082
-12,SB804A,"ANKLE, VARIOUS LESIONS, REPAIR OF LIGAMENTS",3A,Existing,ankle various lesion repair ligament,2.8594456,8.187434
-133,SL815L,"LENS, VARIOUS LESIONS, YAG LASER CAPSULOTOMY",1C,Existing,lens various lesion yag laser capsulotomy,7.5697684,6.550734
-55,SC804T,"THORAX, TUMOR (MEDIASTINAL), RESECTION",5A,Existing,thorax tumor mediastinal resection,1.5676743,9.320725
-335,SF706T,MIS REPAIR OF ESOPHAGEAL FISTULA AND ESOPHAGEAL ATRESIA,6B,Existing,mi repair esophageal fistula esophageal atresia,-0.92992747,8.949515
-11,SB803A,"ANKLE, VARIOUS LESIONS, OPEN EXCISION/INTERPOSITION ARTHROPLASTY, WITH OR WITHOUT RESURFACING",4C,Existing,ankle various lesion open excisioninterposition arthroplasty without resurfacing,3.0071898,8.2108345
-131,SF803D,"DUODENUM, TUMOR, PANCREATICO-DUODENECTOMY",7C,Existing,duodenum tumor pancreaticoduodenectomy,0.1462105,9.071156
-233,SF805M,"MOUTH, CLEFT LIP, SECONDARY CORRECTION (ABBE FLAP)",6A,Existing,mouth cleft lip secondary correction abbe flap,0.100071765,8.462557
-59,SM706L,"LARYNX, FRACTURES, OPERATION",5C,Existing,larynx fracture operation,-0.20599605,12.631717
-94,SF800B,"BILE DUCT, BILIARY ATRESIA, PORTO-ENTEROSTOMY",6B,Existing,bile duct biliary atresia portoenterostomy,-3.8405695,7.5520945
-3,SI702C,"UTERUS/CERVIX, TRANSCERVICAL RESECTION (TCR) MYOMA (<3CM), HYSTEROSCOPIC",3C,"Uptable, Descriptor change",uteruscervix transcervical resection tcr myoma 3cm hysteroscopic,-2.686398,9.617507
-452,SB751S,"SPINE, INFECTION, ANTERIOR DRAINAGE, DEBRIDEMENT AND REMOVAL OF IMPLANTS WITHOUT FUSION OR OTHER PROCEDURES",4C,Existing,spine infection anterior drainage debridement removal implant without fusion procedure,-2.3394458,5.701642
-303,SF701S,"STOMACH, GASTROESOPHAGEAL REFLUX, FUNDOPLICATION, WITH/WITHOUT GASTROTOMY",5C,Descriptor change,stomach gastroesophageal reflux fundoplication withwithout gastrotomy,-0.6779735,8.575455
-296,SB711K,"KNEE, LIGAMENTS/MENISCUS/CARTILAGE/BONE COMBINED, MULTI-LIGAMENTED KNEE RECONSTRUCTION (3 OR MORE LIGAMENTS)",6A,Existing,knee ligamentsmeniscuscartilagebone combined multiligamented knee reconstruction 3 ligament,2.743071,7.7091856
-107,SI820U,"UTERUS, GRAVID, EVACUATION (SIMPLE)",2A,Existing,uterus gravid evacuation simple,-4.2395496,12.133482
-36,SF813A,"ABDOMINAL WALL, BURST ABDOMEN, REPAIR",3A,Existing,abdominal wall burst abdomen repair,-3.7972548,3.9616556
-19,SI810C,"CERVIX, VARIOUS LESIONS, COLPOSCOPY AND BIOPSY",1C,Existing,cervix various lesion colposcopy biopsy,-2.999306,9.932137
-3,SJ701P,"PITUITARY, VARIOUS LESIONS, TRANSPHENOIDAL/TRANSEPTAL EXCISION WITH/WITHOUT GRAFTING",6B,Descriptor change,pituitary various lesion transphenoidaltranseptal excision withwithout grafting,-0.33707893,10.53887
-55,SB827B,"BONE (UPPER LIMB), TUMOR (BENIGN), MAJOR EXCISION <3 CM WITH BONE GRAFTING +/- RECONSTRUCTION/INTERNAL FIXATION",4A,Existing,bone upper limb tumor benign major excision 3 cm bone grafting reconstructioninternal fixation,3.1722052,10.896156
-74,SD837A,"AORTA, ABDOMINAL AORTIC ANEURYSM, ENDOVASCULAR ANEURYSM REPAIR (EVAR)",5C,Existing,aorta abdominal aortic aneurysm endovascular aneurysm repair evar,1.7117898,7.4301376
-227,SF716M,"MOUTH, SUBMANDIBULAR GLAND, VARIOUS LESIONS, EXCISION WITH BIOPSY",3C,Existing,mouth submandibular gland various lesion excision biopsy,0.063179836,10.703377
-174,SA879S,"SKIN, VARIOUS LESIONS, ABRASIVE THERAPY (LIMITED)",2A,Existing,skin various lesion abrasive therapy limited,-2.9726162,10.707646
-44,SL713E,"EYE, MEDIAL CANTHAL RECONSTRUCTION, UNILATERAL",3A,Existing,eye medial canthal reconstruction unilateral,7.0962744,8.159559
-91,SL840E,"EYELIDS, STYE, INCISION",MSP,Existing,eyelid stye incision,-1.3221858,11.15223
-309,SF707S,"STOMACH, WEDGE RESECTION/STOMACH FOR BENIGN GASTRIC DISEASES",4A,Existing,stomach wedge resectionstomach benign gastric disease,-0.79629236,8.249383
-30,SA816B,"BREAST, POST MASTECTOMY, LATISSMUS DORSI PEDICLED FLAP WITH OR WITHOUT IMPLANT RECONSTRUCTION (BILATERAL)",6C,Existing,breast post mastectomy latissmus dorsi pedicled flap without implant reconstruction bilateral,0.9249174,13.559189
-62,SC811T,"THORAX, VARIOUS LESIONS, THORACOTOMY (EXPLORATION) WITH/WITHOUT BIOPSY",3B,Existing,thorax various lesion thoracotomy exploration withwithout biopsy,1.240789,9.400877
-186,SK807S,"SKULL, FRACTURE WITH RHINORRHOEA/OTORRHOEA, CRANIOPLASTY AND REPAIR",6B,Existing,skull fracture rhinorrhoeaotorrhoea cranioplasty repair,-1.7394166,11.10642
-62,SH805T,"TESTIS, VARIOUS LESIONS, BIOPSY OR ASPIRATION",1C,Existing,testis various lesion biopsy aspiration,-1.0092169,9.384527
-109,SI822U,"UTERUS, GRAVID, HYSTEROTOMY",4A,Existing,uterus gravid hysterotomy,-4.2057123,12.060737
-450,SB749S,"SPINE, INFECTION, POSTERIOR DRAINAGE, DEBRIDEMENT AND REMOVAL OF IMPLANTS, WITHOUT FUSION OR OTHER PROCEDURES",4B,Existing,spine infection posterior drainage debridement removal implant without fusion procedure,-2.3343983,5.7059145
+change",colon various lesion tranversesigmoid colectomy,5.308646,-38.911488
+352,SF813T,"TOOTH (SUPERFICIAL), UNERUPTED/PARTIALLY ERUPTED/IMPACTED, EXCISION WITH REMOVAL OF BONE AND TOOTH DIVISION",2C,Existing,tooth superficial uneruptedpartially eruptedimpacted excision removal bone tooth division,26.906517,1.9090612
+15,SE714L,"LYMPHATICS AND SUBCUTANEOUS TISSUE, LYMPHEDEMA, MAJOR EXCISION AND GRAFTING",6B,Existing,lymphatics subcutaneous tissue lymphedema major excision grafting,71.92647,15.125956
+23,SD722A,"ARTERY, THROMBOSIS, PERCUTANEOUS CATHETER DIRECTED THROMBOLYSIS, WITH OR WITHOUT ANGIOPLASTY/STENTING",4A,Existing,artery thrombosis percutaneous catheter directed thrombolysis without angioplastystenting,-9.554325,-54.30748
+355,SB813M,"MANDIBLE, VARIOUS LESIONS, ALVEOLECTOMY (PER QUADRANT)",2C,Existing,mandible various lesion alveolectomy per quadrant,-65.79715,-12.850723
+77,SD840A,"ARTERY, VARIOUS LESIONS, ARTERIO-VENUOUS FISTULA, CORRECTION AT ORIGINAL SITE",4A,Existing,artery various lesion arteriovenuous fistula correction original site,-12.74189,15.613422
+103,SK738N,"NERVE ROOT, BLOCK (INJECTION OF ANAESTHETIC, THERAPEUTIC SUBSTANCE), LUMBAR/THORACIC, 1 LEVEL",1C,Existing,nerve root block injection anaesthetic therapeutic substance lumbarthoracic 1 level,26.763376,-63.563442
+106,SL856E,EPISCLERAL PLAQUE BRACHYTHERAPY (INSERTION AND REMOVAL),6B,New,episcleral plaque brachytherapy insertion removal,28.003576,11.388583
+55,SD813A,"ARTERY (TEMPORAL), VARIOUS LESIONS, BIOPSY",2A,Existing,artery temporal various lesion biopsy,0.20428342,0.4422778
+376,SB834M,"MAXILLA, FRACTURE - LEFORT II (COMPLEX), OPEN REDUCTION AND FIXATION.",6B,Existing,maxilla fracture lefort ii complex open reduction fixation,-14.928192,-60.35952
+12,SB804A,"ANKLE, VARIOUS LESIONS, REPAIR OF LIGAMENTS",3A,Existing,ankle various lesion repair ligament,15.364346,10.369655
+133,SL815L,"LENS, VARIOUS LESIONS, YAG LASER CAPSULOTOMY",1C,Existing,lens various lesion yag laser capsulotomy,-2.2777042,3.9037158
+55,SC804T,"THORAX, TUMOR (MEDIASTINAL), RESECTION",5A,Existing,thorax tumor mediastinal resection,-7.205249,19.028337
+335,SF706T,MIS REPAIR OF ESOPHAGEAL FISTULA AND ESOPHAGEAL ATRESIA,6B,Existing,mi repair esophageal fistula esophageal atresia,-32.55227,48.926376
+11,SB803A,"ANKLE, VARIOUS LESIONS, OPEN EXCISION/INTERPOSITION ARTHROPLASTY, WITH OR WITHOUT RESURFACING",4C,Existing,ankle various lesion open excisioninterposition arthroplasty without resurfacing,-36.190754,-29.031498
+131,SF803D,"DUODENUM, TUMOR, PANCREATICO-DUODENECTOMY",7C,Existing,duodenum tumor pancreaticoduodenectomy,-11.228947,43.29749
+233,SF805M,"MOUTH, CLEFT LIP, SECONDARY CORRECTION (ABBE FLAP)",6A,Existing,mouth cleft lip secondary correction abbe flap,-21.359203,-31.812553
+59,SM706L,"LARYNX, FRACTURES, OPERATION",5C,Existing,larynx fracture operation,-20.95626,51.789864
+94,SF800B,"BILE DUCT, BILIARY ATRESIA, PORTO-ENTEROSTOMY",6B,Existing,bile duct biliary atresia portoenterostomy,60.09164,-0.80586135
+3,SI702C,"UTERUS/CERVIX, TRANSCERVICAL RESECTION (TCR) MYOMA (<3CM), HYSTEROSCOPIC",3C,"Uptable, Descriptor change",uteruscervix transcervical resection tcr myoma 3cm hysteroscopic,17.564869,-16.680367
+452,SB751S,"SPINE, INFECTION, ANTERIOR DRAINAGE, DEBRIDEMENT AND REMOVAL OF IMPLANTS WITHOUT FUSION OR OTHER PROCEDURES",4C,Existing,spine infection anterior drainage debridement removal implant without fusion procedure,48.721043,1.3949764
+303,SF701S,"STOMACH, GASTROESOPHAGEAL REFLUX, FUNDOPLICATION, WITH/WITHOUT GASTROTOMY",5C,Descriptor change,stomach gastroesophageal reflux fundoplication withwithout gastrotomy,-11.895825,-16.16948
+296,SB711K,"KNEE, LIGAMENTS/MENISCUS/CARTILAGE/BONE COMBINED, MULTI-LIGAMENTED KNEE RECONSTRUCTION (3 OR MORE LIGAMENTS)",6A,Existing,knee ligamentsmeniscuscartilagebone combined multiligamented knee reconstruction 3 ligament,68.40982,-25.721252
+107,SI820U,"UTERUS, GRAVID, EVACUATION (SIMPLE)",2A,Existing,uterus gravid evacuation simple,9.819774,-3.6884398
+36,SF813A,"ABDOMINAL WALL, BURST ABDOMEN, REPAIR",3A,Existing,abdominal wall burst abdomen repair,40.388992,6.9626946
+19,SI810C,"CERVIX, VARIOUS LESIONS, COLPOSCOPY AND BIOPSY",1C,Existing,cervix various lesion colposcopy biopsy,5.0011578,-21.124367
+3,SJ701P,"PITUITARY, VARIOUS LESIONS, TRANSPHENOIDAL/TRANSEPTAL EXCISION WITH/WITHOUT GRAFTING",6B,Descriptor change,pituitary various lesion transphenoidaltranseptal excision withwithout grafting,-28.771166,17.153437
+55,SB827B,"BONE (UPPER LIMB), TUMOR (BENIGN), MAJOR EXCISION <3 CM WITH BONE GRAFTING +/- RECONSTRUCTION/INTERNAL FIXATION",4A,Existing,bone upper limb tumor benign major excision 3 cm bone grafting reconstructioninternal fixation,-16.989698,-69.72088
+74,SD837A,"AORTA, ABDOMINAL AORTIC ANEURYSM, ENDOVASCULAR ANEURYSM REPAIR (EVAR)",5C,Existing,aorta abdominal aortic aneurysm endovascular aneurysm repair evar,-21.20574,-53.894676
+227,SF716M,"MOUTH, SUBMANDIBULAR GLAND, VARIOUS LESIONS, EXCISION WITH BIOPSY",3C,Existing,mouth submandibular gland various lesion excision biopsy,-2.6239777,-38.457226
+174,SA879S,"SKIN, VARIOUS LESIONS, ABRASIVE THERAPY (LIMITED)",2A,Existing,skin various lesion abrasive therapy limited,-0.6932808,18.582102
+44,SL713E,"EYE, MEDIAL CANTHAL RECONSTRUCTION, UNILATERAL",3A,Existing,eye medial canthal reconstruction unilateral,-30.33875,-32.02763
+91,SL840E,"EYELIDS, STYE, INCISION",MSP,Existing,eyelid stye incision,-50.31574,27.120966
+309,SF707S,"STOMACH, WEDGE RESECTION/STOMACH FOR BENIGN GASTRIC DISEASES",4A,Existing,stomach wedge resectionstomach benign gastric disease,-19.6581,-21.426334
+30,SA816B,"BREAST, POST MASTECTOMY, LATISSMUS DORSI PEDICLED FLAP WITH OR WITHOUT IMPLANT RECONSTRUCTION (BILATERAL)",6C,Existing,breast post mastectomy latissmus dorsi pedicled flap without implant reconstruction bilateral,-5.2335134,-25.665537
+62,SC811T,"THORAX, VARIOUS LESIONS, THORACOTOMY (EXPLORATION) WITH/WITHOUT BIOPSY",3B,Existing,thorax various lesion thoracotomy exploration withwithout biopsy,24.308683,49.730194
+186,SK807S,"SKULL, FRACTURE WITH RHINORRHOEA/OTORRHOEA, CRANIOPLASTY AND REPAIR",6B,Existing,skull fracture rhinorrhoeaotorrhoea cranioplasty repair,-13.032891,25.388277
+62,SH805T,"TESTIS, VARIOUS LESIONS, BIOPSY OR ASPIRATION",1C,Existing,testis various lesion biopsy aspiration,35.008102,15.483358
+109,SI822U,"UTERUS, GRAVID, HYSTEROTOMY",4A,Existing,uterus gravid hysterotomy,7.7272887,-4.3759627
+450,SB749S,"SPINE, INFECTION, POSTERIOR DRAINAGE, DEBRIDEMENT AND REMOVAL OF IMPLANTS, WITHOUT FUSION OR OTHER PROCEDURES",4B,Existing,spine infection posterior drainage debridement removal implant without fusion procedure,48.97008,0.76099885
 383,SB841M,"MAXILLA, VARIOUS LESIONS, RESECTION/HEMIMAXILLECTOMY",5C,"Descriptor
-change",maxilla various lesion resectionhemimaxillectomy,1.8157219,9.622364
-169,SB712H,"HAND, FRACTURE OF FINGERS/METACARPALS, NON- UNION, BONE-GRAFTING AND FIXATION (SINGLE)",3C,Existing,hand fracture fingersmetacarpals non union bonegrafting fixation single,1.8857111,10.77443
-148,SL805O,"ORBIT, VARIOUS LESIONS, DECOMPRESSION (UNILATERAL)",4B,Existing,orbit various lesion decompression unilateral,-1.3202761,13.660468
-91,SI728U,EXCISION OR ABLATION OF ADENOMYOMA/ ADENOMYOSIS (SIMPLE <5CM),4C,New,excision ablation adenomyoma adenomyosis simple 5cm,-3.4325802,11.7213955
+change",maxilla various lesion resectionhemimaxillectomy,1.2268268,10.246251
+169,SB712H,"HAND, FRACTURE OF FINGERS/METACARPALS, NON- UNION, BONE-GRAFTING AND FIXATION (SINGLE)",3C,Existing,hand fracture fingersmetacarpals non union bonegrafting fixation single,31.7459,32.684982
+148,SL805O,"ORBIT, VARIOUS LESIONS, DECOMPRESSION (UNILATERAL)",4B,Existing,orbit various lesion decompression unilateral,-20.084059,2.9738722
+91,SI728U,EXCISION OR ABLATION OF ADENOMYOMA/ ADENOMYOSIS (SIMPLE <5CM),4C,New,excision ablation adenomyoma adenomyosis simple 5cm,16.692213,-8.373796
 275,SF805P,"PANCREAS, CYST/PSEUDOCYST, DRAINAGE AND ANASTOMOSIS TO INTESTINE/STOMACH",5A,"Descriptor
-change",pancreas cystpseudocyst drainage anastomosis intestinestomach,0.18126677,9.079225
-133,SK705S,"SPINE, FACET JOINT, RADIOFREQUENCY, MORE THAN 3 JOINTS",4A,Existing,spine facet joint radiofrequency 3 joint,3.5387988,7.1736097
-189,SA894S,"SUBCUTANEOUS TISSUE (UPPER LIMBS), OBESITY, LIPOSUCTION",3A,Existing,subcutaneous tissue upper limb obesity liposuction,1.24568,11.629695
-161,SI810V,"VAGINA, MALIGNANT CONDITION, VAGINECTOMY",4B,Existing,vagina malignant condition vaginectomy,-2.4123013,9.778102
-13,SJ802T,"THYROID, VARIOUS LESIONS, HEMITHYROIDECTOMY/PARTIAL THYROIDECTOMY",4A,Existing,thyroid various lesion hemithyroidectomypartial thyroidectomy,-1.1383892,10.243224
-9,SB801A,"ANKLE, ANKLE FRACTURE, UNIMALLEOLAR, ORIF",3B,Existing,ankle ankle fracture unimalleolar orif,2.9374678,8.160365
-80,SB703E,"ELBOW, DISLOCATION , LIGAMENT REPAIR (COMPLEX, WITH/WITHOUT IMPLANT)",4A,Existing,elbow dislocation ligament repair complex withwithout implant,2.6045523,8.646289
-120,SK805N,"NERVE-FACIAL (MASTOID PORTION), ENTRAPMENT, DECOMPRESSION",5C,Existing,nervefacial mastoid portion entrapment decompression,-0.5304508,9.837505
-14,SD713A,"ARTERY, BYPASS, ABOVE/BELOW-KNEE WITH VEIN",5C,Existing,artery bypass abovebelowknee vein,0.4994791,9.446693
-79,SL826E,"EYELIDS, ENTROPION, EVERTING SUTURES",MSP,Existing,eyelid entropion everting suture,-1.2703614,11.124793
-38,SI808F,"FALLOPIAN TUBE, TUBAL PATHOLOGY OTHER THAN ECTOPIC, SALPINGECTOMY/ SALPINGOSTOMY",4A,Existing,fallopian tube tubal pathology ectopic salpingectomy salpingostomy,0.7963127,15.2776785
-283,SF813P,"PAROTID, FISTULA, REPAIR",3A,Existing,parotid fistula repair,-0.16341919,9.741101
-70,SA706S,"SKIN, DEFECT, NEUROVASCULAR ISLAND FLAP",5A,Existing,skin defect neurovascular island flap,2.4748821,12.257486
-107,SL700I,IRIS RECONSTRUCTION / PUPILLOPLASTY,3A,Existing,iris reconstruction pupilloplasty,0.98737484,10.708502
-126,SG828U,"URETHRA, VARIOUS LESIONS, STAGED URETHROPLASTY (EACH STAGE)",3B,Existing,urethra various lesion staged urethroplasty stage,-4.3320565,10.343082
-44,SI801G,"GENITAL TRACT, PELVIC CYST, ULTRASOUND GUIDED PROCEDURE-ASPIRATION",2C,Existing,genital tract pelvic cyst ultrasound guided procedureaspiration,-2.703863,11.047567
-108,SI821U,"UTERUS, GRAVID, HYSTERECTOMY",4A,Existing,uterus gravid hysterectomy,-4.1053934,11.55094
-310,SB808K,"KNEE, VARIOUS LESIONS, MENISCECTOMY WITH/WITHOUT ARTHROSCOPY",4A,Existing,knee various lesion meniscectomy withwithout arthroscopy,2.9386222,7.4998775
-543,SB704W,"WRIST, DISTAL RADIUS FRACTURE, M&R, PERCUTANEOUS PINNING",3B,Existing,wrist distal radius fracture mr percutaneous pinning,2.4210317,8.136458
-97,SA801S,"SKIN AND SUBCUTANEOUS TISSUE, TUMOUR (MALIGNANT), WIDE EXCISION AND RECONSTRUCTION AND LOCAL FLAP/SKIN GRAFT",3A,Existing,skin subcutaneous tissue tumour malignant wide excision reconstruction local flapskin graft,0.33476225,11.243191
-60,SB832B,"BONE, VARIOUS LESIONS, BIOPSY",1B,Existing,bone various lesion biopsy,-0.59315133,10.289101
-2,SG701B,"BLADDER/URETER, LYMPHOLYSIS FOR CHYLURIA, MIS",4A,Existing,bladderureter lympholysis chyluria mi,1.5160916,8.802692
-197,SA904S,"SKIN, PRE-MALIGNANT LESIONS, EXCISION/VAPORISATION BY LASER AND OTHER ABLATIVE MODALITIES, THERAPEUTIC, 10 OR MORE LESIONS, NOT REQUIRING GENERAL ANAESTHESIA",1A,New,skin premalignant lesion excisionvaporisation laser ablative modality therapeutic 10 lesion requiring general anaesthesia,0.94244653,12.4899
-99,SF805B,"BILE DUCT, VARIOUS LESIONS, OPERATIVE CHOLEDOCHOSCOPY",1B,Existing,bile duct various lesion operative choledochoscopy,-3.8954918,7.5229664
-123,SD803H,"HEART, ARRHYTHMIA, IMPLANTABLE CARDIOVERTER DEFIBRILLATOR (ICD) IMPLANTATION",4C,Existing,heart arrhythmia implantable cardioverter defibrillator icd implantation,0.7401625,6.4997134
-54,SC803T,"THORAX, EFFUSION/FLUID/ABSCESS COLLECTION, IMAGING GUIDED PERCUTANEOUS ASPIRATION/DIAGNOSTIC TAP",1A,Existing,thorax effusionfluidabscess collection imaging guided percutaneous aspirationdiagnostic tap,-1.1462829,9.896285
-55,SF835A,"ANUS, HEMORRHOIDS, CRYOSURGERY",1A,Existing,anus hemorrhoid cryosurgery,-1.1805197,6.1928897
-261,SF706P,"PANCREAS, VARIOUS LESIONS, ENUCLEATION OF LESIONS (3 OR MORE)",5A,Existing,pancreas various lesion enucleation lesion 3,0.006712434,9.083327
-350,SF811T,"TOOTH (SUPERFICIAL), UNERUPTED/PARTIALLY ERUPTED/IMPACTED, EXCISION WITH INCISION OF OVERLYING SOFT TISSUE AND REMOVAL OF TOOTH",MSP,Existing,tooth superficial uneruptedpartially eruptedimpacted excision incision overlying soft tissue removal tooth,-0.46372575,8.902707
-328,SB700M,"MANDIBLE AND MAXILLA, VARIOUS LESIONS, OSTEOTOMY AND INSERTION OF DEVICE FOR DISTRACTION OSTEOGENESIS",7C,Existing,mandible maxilla various lesion osteotomy insertion device distraction osteogenesis,2.3852358,6.800133
-411,SB701R,"RADIUS AND ULNA, FRACTURE/DISLOCATION, NON UNION/DELAYED UNION BONE GRAFTING ONLY",3C,Existing,radius ulna fracturedislocation non uniondelayed union bone grafting,1.8501987,10.673644
-168,SD710V,"VEIN, STENOSIS/OCCLUSION, PERCUTANEOUS TRANSLUMINAL ANGIOPLASTY (PTA), DIFFICULT",4A,Existing,vein stenosisocclusion percutaneous transluminal angioplasty pta difficult,0.7391773,9.181633
-38,SB809B,"BONE AND JOINTS (LOWER LIMB), REMOVAL OF SIMPLE IMPLANTS (E.G. RUSH RODS/WIRES/K- WIRES/PINS/SCREWS)",1C,Existing,bone joint lower limb removal simple implant eg rush rodswiresk wirespinsscrews,3.5572398,10.133572
-422,SB710S,"SHOULDER, SHOULDER SOFT TISSUE INJURY, DECOMPRESSION WITH CUFF REPAIR",5B,Descriptor change,shoulder shoulder soft tissue injury decompression cuff repair,3.2342558,6.59194
-74,SF700B,"BILE DUCT, VARIOUS LESIONS. EXCISION OF LOWER 1/3 OF COMMON BILE DUCT BUT WITH PRESERVATION OF PANCREATIC HEAD",6A,Existing,bile duct various lesion excision lower 13 common bile duct preservation pancreatic head,-3.8666646,7.5216155
-99,SL849E,"EYELIDS, VARIOUS LESIONS, CANTHOPLASTY (MEDIAL/LATERAL)",1C,Existing,eyelid various lesion canthoplasty mediallateral,-1.2980603,11.181864
-153,SK729S,SPINAL- IMPLANT OF ELECTRICAL PUMP DEVICE,5C,Existing,spinal implant electrical pump device,-0.8820662,9.838845
-163,SK740S,"SPINE, REPLACEMENT OF COMPUTERIZED RESERVOIR DEVICE (E.G. SYNCHROMED)",3B,Existing,spine replacement computerized reservoir device eg synchromed,-1.8381943,10.290082
-35,SM821E,"EAR, PARTIAL AMPUTATION, RECONSTRUCTION",4A,Existing,ear partial amputation reconstruction,-3.0189514,9.271283
-211,SB822H,"HEAD-FACE, SOFT TISSUE TUMORS (SMALL), EXCISION",3A,Existing,headface soft tissue tumor small excision,2.6961906,11.383739
-264,SB810J,"JOINTS (LOWER LIMB), DISLOCATIONS, WOUND DEBRIDEMENT",2B,Existing,joint lower limb dislocation wound debridement,3.0946226,9.482834
-46,SM833E,"EAR, VARIOUS LESIONS, OSSICULAR CHAIN RECONSTRUCTION WITH/WITHOUT MYRINGOPLASTY",4B,Existing,ear various lesion ossicular chain reconstruction withwithout myringoplasty,-1.1938505,11.643309
-473,SB814S,"SPINE, SYRINGOMYELIA, LAMINECTOMY AND DRAINAGE",6B,Existing,spine syringomyelia laminectomy drainage,-1.8330216,5.952093
-2,SH706M,"MALE GENITALIA, ELECTROEJECULATION",1C,Existing,male genitalia electroejeculation,-2.3156161,8.467757
-180,SK801S,"SKULL, COMPOUND FRACTURE WITHOUT DURAL PENETRATION, OPERATION",5C,Existing,skull compound fracture without dural penetration operation,-1.7216759,11.059775
-255,SF700P,"PANCREAS, PSEUDOCYST/ABSCESS, IMAGING GUIDED PERCUTANEOUS DRAINAGE CATHETER INSERTION",2C,Existing,pancreas pseudocystabscess imaging guided percutaneous drainage catheter insertion,-1.0117818,9.881491
-111,SG812U,"URETER, VARIOUS LESIONS, URETEROTOMY/INSERTION OF DOUBLE J STENT",3B,Existing,ureter various lesion ureterotomyinsertion double j stent,-4.501229,9.3260975
-134,SF700E,"ESOPHAGUS/STOMACH, GASTROSCOPY AND DILATATION",3A,Existing,esophagusstomach gastroscopy dilatation,-1.2401692,9.295075
-157,SK733S,"SPINE, THORACIC/LUMBAR, EPIDURAL ADHESIOLYSIS, SINGLE CATHETER",3B,Existing,spine thoraciclumbar epidural adhesiolysis single catheter,-2.1389832,5.973151
-344,SF805T,"TONGUE, TONGUE TIE, REVISION",1B,Existing,tongue tongue tie revision,-0.6409844,13.223889
-84,SL831E,"EYELIDS, PTOSIS, CORRECTION FASANELLA (BILATERAL)",4A,Existing,eyelid ptosis correction fasanella bilateral,-2.2690516,12.003937
-356,SB814M,"MANDIBLE OR MAXILLA, VARIOUS LESIONS, ALVEOLOPLASTY WITH EPITHELIAL GRAFT OR BILATERAL SINUS-LIFT PROCEDURE OR RIDGE AUGMENTATION (MULTIPLE QUADRANTS) WITH GRAFTING",4A,Existing,mandible maxilla various lesion alveoloplasty epithelial graft bilateral sinuslift procedure ridge augmentation multiple quadrant grafting,1.3216829,10.097656
-30,SB801B,"BONE (LOWER LIMB), DEFORMITIES, CORRECTIVE SURGERY WITH INTERNAL FIXATION WITH OR WITHOUT FLUOROSCOPY",5C,Existing,bone lower limb deformity corrective surgery internal fixation without fluoroscopy,2.8605063,10.056204
-264,SF709P,"PANCREAS, VARIOUS LESIONS, SUBTOTAL PANCREATECTOMY (EXTENDING TO THE NECK) AND SPLENECTOMY",5C,Descriptor change,pancreas various lesion subtotal pancreatectomy extending neck splenectomy,-0.12006397,8.67746
-174,SI823V,"VULVA, BARTHOLIN CYST, INCISION/MARSUPIALIZATION WITH OR WITHOUT USE OF LASER",1B,Existing,vulva bartholin cyst incisionmarsupialization without use laser,-3.2945533,11.451722
-23,SE807L,"LYMPH NODE (RETROPERITONEAL), VARIOUS LESIONS, LIMITED EXCISION",4B,Existing,lymph node retroperitoneal various lesion limited excision,2.766004,14.321568
-52,SB824B,"BONE (UPPER LIMB), OSTEOMYELITIS SIMPLE DRAINAGE",2B,Existing,bone upper limb osteomyelitis simple drainage,3.7617316,10.473338
-209,SF814L,"LIVER, VARIOUS LESIONS, IMAGING GUIDED PERCUTANEOUS BIOPSY (LIVER PARENCHYMA, NON DIRECTED)",1C,Existing,liver various lesion imaging guided percutaneous biopsy liver parenchyma non directed,-1.9937884,7.8916793
-251,SB717J,"JOINTS, MAJOR INTRA-ARTICULAR FRACTURE WITH DISCONTINUITY OR BONE LOSS, RECONSTRUCTION (FOR LOWER LIMB)",5C,Existing,joint major intraarticular fracture discontinuity bone loss reconstruction lower limb,3.3555634,10.129157
-25,SF802A,"ABDOMINAL CAVITY, LYMPHOMA,FOR GRADING LYMPHOMA WITH SPLENECTOMY/LIVER/LYMPH NODE BIOPSY",4B,Descriptor change,abdominal cavity lymphomafor grading lymphoma splenectomyliverlymph node biopsy,-3.0264902,6.8561873
-168,SB711H,"HAND, FRACTURE OF FINGERS/METACARPALS, NON- UNION, BONE-GRAFTING AND FIXATION (MULTIPLE)",4C,Existing,hand fracture fingersmetacarpals non union bonegrafting fixation multiple,1.8535904,10.763678
-154,SB836F,"FOOT, VARIOUS LESIONS, MORE THAN ONE JOINT, ARTHRODESIS",5C,Existing,foot various lesion one joint arthrodesis,3.3910499,7.8299603
-116,SD735H,"HEART, RIGHT AND *LEFT HEART CATHERISATION (*THIS CAN ALSO REFER TO CORONARY ANGIOGRAPHY ONLY)",3B,New,heart right left heart catherisation also refer coronary angiography,0.68488926,6.994766
-39,SF816A,"ABDOMINAL WALL, EXOMPHALOS/GASTROSCHISIS, REPAIR",4A,Existing,abdominal wall exomphalosgastroschisis repair,-3.7898073,3.968091
-136,SD817H,"HEART, PATENT DUCTUS ARTERIOSUS, LIGATION",4A,Existing,heart patent ductus arteriosus ligation,0.5418714,6.7734146
-51,SK815B,"BRAIN, INTRACRANIAL TUMOR/INTRACRANIAL CYST, BIOPSY/DRAINAGE VIA BURR-HOLE",5C,Existing,brain intracranial tumorintracranial cyst biopsydrainage via burrhole,-2.636154,12.75472
-76,SD839A,"AORTA, COARCTATION, ENDOVASCULAR STENT PLACEMENT",4C,Existing,aorta coarctation endovascular stent placement,1.2786562,7.8587146
-412,SB800R,"RADIUS (HEAD), VARIOUS LESIONS, EXCISION",3B,Existing,radius head various lesion excision,0.44048217,10.631175
-146,SF807E,"ESOPHAGUS/INTESTINE/STOMACH, UPPER GL ENDOSCOPY WITH INSERTION OF PROSTHESIS",3A,Existing,esophagusintestinestomach upper gl endoscopy insertion prosthesis,0.5867386,9.009408
-124,SI838U,"UTERUS, RETAINED PLACENTA, MANUAL REMOVAL",1B,Descriptor change,uterus retained placenta manual removal,-4.202592,12.069946
-167,SL805R,"RETINA, TEARS, PHOTOCOAGULATION (LASER) (UNILATERAL)",3B,Existing,retina tear photocoagulation laser unilateral,-2.0204904,11.789159
-171,SK758S,"SUPERIOR HYPOGASTRIC PLEXUS, VARIOUS LESIONS, IMAGING GUIDED INJECTION OF NEUROLYTIC, RADIOFREQUENCY",3B,Existing,superior hypogastric plexus various lesion imaging guided injection neurolytic radiofrequency,-1.181782,9.930092
-30,SI706F,"FALLOPIAN TUBE/UTERUS/OVARY, LAPAROSCOPY, DIAGNOSTIC, WITH HYDROTUBATION",3B,Existing,fallopian tubeuterusovary laparoscopy diagnostic hydrotubation,0.69611734,15.129674
-167,SI816V,"VAGINA, SIMPLE TUMOR/GARTNER'S CYST, REMOVAL WITH BIOPSY",2B,Existing,vagina simple tumorgartners cyst removal biopsy,-2.569637,10.41359
-50,SA813F,"FAT TRANSFER, CORRECTION OF CONTOURS/CONGENITAL DEFORMITIES, RECONSTRUCTION POST ABLATIVE SURGERY/TRAUMA, 50 - 100CC",3A,Existing,fat transfer correction contourscongenital deformity reconstruction post ablative surgerytrauma 50 100cc,0.8906688,10.85473
-68,SA704S,"SKIN CANCER, MOHS MICROGRAPHIC SURGERY WITHOUT RECONSTRUCTION",2B,Existing,skin cancer mohs micrographic surgery without reconstruction,-0.24744506,11.625431
-508,SB822T,"TENDONS-FLEXOR (LOWER LIMB), DISRUPTION, REPAIR (MULTIPLE)",3B,Existing,tendonsflexor lower limb disruption repair multiple,3.8130438,9.143205
-123,SI837U,"UTERUS, PROLAPSE, VAGINAL HYSTERECTOMY",4A,Existing,uterus prolapse vaginal hysterectomy,-3.9202406,11.210185
-100,SB709F,"FEMUR, FRACTURE (SINGLE CONDYLAR), OPEN REDUCTION AND INTERNAL FIXATION (ORIF)",4B,Existing,femur fracture single condylar open reduction internal fixation orif,1.6786838,5.1559772
-49,SA812F,"FAT TRANSFER, CORRECTION OF CONTOURS/CONGENITAL DEFORMITIES, RECONSTRUCTION POST ABLATIVE SURGERY/TRAUMA, <=50CC",2A,Existing,fat transfer correction contourscongenital deformity reconstruction post ablative surgerytrauma 50cc,0.93557,10.90825
-15,SM801E,"EAR (MIDDLE), ROUND WINDOW PERFORATION, REPAIR",4A,Existing,ear middle round window perforation repair,-0.80652225,12.2871065
-323,SB810L,"LOWER LIMB, VARIOUS LESIONS, APPLICATION OF CAST",MSP,Existing,lower limb various lesion application cast,3.4592168,9.729863
-414,SB700S,"SHOULDER, THERAPEUTIC ARTHROSCOPY",4A,Existing,shoulder therapeutic arthroscopy,2.947317,7.138476
-83,SL830E,"EYELIDS, HEMANGIOMA, INTRA-LESION INJECTIONS (FULL COURSE)",3A,Existing,eyelid hemangioma intralesion injection full course,-1.0782206,11.105209
-53,SI807O,"OVARY, VARIOUS LESIONS, BIOPSY",3A,Existing,ovary various lesion biopsy,-1.3607396,9.182291
-542,SB703W,"WRIST, DISTAL OR RADIAL ULNAR JOINT (DRUJ) INSTABILITY, DARRACH OR SIMILAR PROCEDURE",3A,Existing,wrist distal radial ulnar joint druj instability darrach similar procedure,2.5953193,8.300551
-406,SB706P,"PELVIS, FRACTURE, REVISION FIXATION WITH/WITHOUT BONE GRAFTING",6B,New,pelvis fracture revision fixation withwithout bone grafting,1.6794257,10.292288
-101,SI813U,"UTERUS, FETAL DISORDER, ULTRASOUND GUIDED FETAL BLOOD SAMPLING/CORDOCENTESIS",2C,Existing,uterus fetal disorder ultrasound guided fetal blood samplingcordocentesis,-2.8005705,11.10301
-45,SH834P,"PROSTATE GLAND, VARIOUS LESIONS, TRANS-RECTAL ULTRASOUND (TRUS) GUIDED BIOPSY",1B,Existing,prostate gland various lesion transrectal ultrasound trus guided biopsy,1.8489779,14.6443
-202,SF807L,"LIVER, TRAUMA, MAJOR REPAIR LACERATION",6B,Existing,liver trauma major repair laceration,1.0205425,10.040656
-165,SL803R,"RETINA, TEARS, DIATHERMY/CRYOTHERAPY (UNILATERAL)",3A,Existing,retina tear diathermycryotherapy unilateral,-2.0074568,11.678141
-259,SF704P,"PANCREAS, VARIOUS LESIONS, DUODENUM PRESERVING PANCREATIC HEAD RESECTION WITH LONGITUDINAL PANCREATICO-ENTERIC ANASTOMOSIS (FREY'S OPERATION)",7A,Existing,pancreas various lesion duodenum preserving pancreatic head resection longitudinal pancreaticoenteric anastomosis frey operation,0.23728783,9.133642
-60,SI700P,"PELVIC FLOOR RECONSTRUCTION, MIS",4C,Existing,pelvic floor reconstruction mi,-2.1337502,9.5128765
-143,SB825F,"FINGER, VARIOUS LESIONS, AMPUTATION (MULTIPLE)",2C,Existing,finger various lesion amputation multiple,1.574282,10.490896
-400,SB804N,"NECK, TORTICOLLIS, CORRECTION",3B,Existing,neck torticollis correction,0.434526,10.30506
-92,SB701F,"FACE, FRACTURES (PANFACIAL), OPEN REDUCTION AND INTERNAL FIXATION",7C,Existing,face fracture panfacial open reduction internal fixation,1.5979937,5.124622
-50,SH801S,"SCROTUM, HYDROCELE/VARICOCELE (BILATERAL), EXCISION",3A,Existing,scrotum hydrocelevaricocele bilateral excision,-0.5140961,10.998457
-150,SA855S,"SKIN AND SUBCUTANEOUS TISSUE, WOUND (SMALL<3CM), SECONDARY SUTURE",MSP,Existing,skin subcutaneous tissue wound small3cm secondary suture,0.14566004,11.911966
-116,SF713C,"COLON, TOTAL PROCTOCOLECTOMY & ILEO-ANAL POUCH RECONSTRUCTION",6C,Existing,colon total proctocolectomy ileoanal pouch reconstruction,-0.61918163,6.9188466
-83,SB706E,"ELBOW, SUPRACONDYLAR FRACTURE, M&R, PERCUTANEOUS PINNING",3C,Existing,elbow supracondylar fracture mr percutaneous pinning,2.506347,8.656691
-154,SL700P,PHOTODYNAMIC THERAPY,3A,Existing,photodynamic therapy,-2.9798129,10.700641
-7,SF708A,"ABDOMEN, RETROPERITONEUM, TUMOR, REMOVAL",5C,Existing,abdomen retroperitoneum tumor removal,0.57121927,10.241868
-37,SF814A,"ABDOMINAL WALL, EPIGASTRIC/UMBILICAL HERNIA, REPAIR",3A,Descriptor change,abdominal wall epigastricumbilical hernia repair,-3.7856293,3.9719315
-106,SI819U,"UTERUS, GRAVID, EVACUATION (COMPLICATED)",2B,Existing,uterus gravid evacuation complicated,-4.1127667,11.894641
-201,SD815V,"VEIN-PORTAL, PORTAL HYPERTENSION, BYPASS",5C,Existing,veinportal portal hypertension bypass,0.48087293,9.377745
-279,SB826J,"JOINTS (UPPER LIMB), DEFORMITIES/CONTRACTURE, CORRECTIVE SURGERY",4B,Existing,joint upper limb deformitiescontracture corrective surgery,2.8636568,10.035277
-32,SL701E,"EYE, GLAUCOMA, GONIOTOMY/TRABECULOTOMY (BILATERAL)",5A,Existing,eye glaucoma goniotomytrabeculotomy bilateral,7.2273498,8.052666
-41,SB812B,"BONE (LOWER LIMB), VARIOUS LESIONS, EPIPHYSIOLYSIS WITH/WITHOUT MICROSURGERY",5C,Existing,bone lower limb various lesion epiphysiolysis withwithout microsurgery,3.4595609,9.973839
-71,SA707S,"SKIN, NEUROMAS/HEMANGIOMAS, EXCISION/VAPORISATION BY LASER AND OTHER ABLATIVE MODALITIES, THERAPEUTIC",1C,Existing,skin neuromashemangiomas excisionvaporisation laser ablative modality therapeutic,0.9459717,12.471825
-141,SM723S,"SKULL, BASE, RESECTION OF SKULL BASE SOFT TISSUE TUMOURS WITH RESECTION OF BONE AND DURA (INTRADURAL, INCLUDING CLIVUS, PARASELLAR AREA OR CAVERNOUS SINUS) WITH SKULL BASE RECONSTRUCTION",7C,Descriptor change,skull base resection skull base soft tissue tumour resection bone dura intradural including clivus parasellar area cavernous sinus skull base reconstruction,-0.7201885,12.647183
-172,SD714V,"VEIN, VARICOSE VEINS, IMAGING GUIDED ENDOVENOUS LASER TREATMENT, 2 LEGS",4A,Existing,vein varicose vein imaging guided endovenous laser treatment 2 leg,-0.20050256,9.776252
-74,SA710S,"SKIN, SURGICAL TREATMENT FOR VITILIGO (INVOLVING NON-CULTURED CELLULAR GRAFTING) (20-40 SQ CM)",4A,Existing,skin surgical treatment vitiligo involving noncultured cellular grafting 2040 sq cm,-0.6792287,10.855944
-223,SB834H,"HIP, VARIOUS LESIONS, ARTHRODESIS",6B,Existing,hip various lesion arthrodesis,3.3852496,8.273165
-128,SL810L,"LENS, CATARACT, EXTRACTION WITH INTRA-OCULAR LENS IMPLANT AND TRABECULECTOMY WITH/WITHOUT ANTIMETABOLITES",5A,Existing,lens cataract extraction intraocular lens implant trabeculectomy withwithout antimetabolite,7.6617503,6.4778805
-418,SB705S,"SCAPULA, SCAPULAR FRACTURE, OPEN REDUCTION AND INTERNAL FIXATION (ORIF) WITH PLATING",5A,Existing,scapula scapular fracture open reduction internal fixation orif plating,1.5989947,5.149594
-120,SL801L,"LACRIMAL GLAND (LACRIMAL SAC), VARIOUS LESIONS, EXCISION",3B,Existing,lacrimal gland lacrimal sac various lesion excision,-1.1043237,10.551224
-99,SD716H,"HEART, HEART BLOCK/ARRHYTHMIA, INSERTION OF DUAL CHAMBER PACEMAKER (PERMANENT)",3C,Existing,heart heart blockarrhythmia insertion dual chamber pacemaker permanent,0.5909733,6.486882
-172,SF705I,"INTESTINE, SMALL BOWEL, VARIOUS LESIONS, INTUBATION WITH/WITHOUT BIOPSY",1B,Existing,intestine small bowel various lesion intubation withwithout biopsy,-0.51105815,7.502758
-83,SI720U,"UTERUS, PROLAPSE, CYSTOCOELE, RECTOCOELE, TRANSOBTURATOR MESH + TRANSSACROSPINOUS LIGAMENT MESH",4B,Existing,uterus prolapse cystocoele rectocoele transobturator mesh transsacrospinous ligament mesh,-3.5810587,10.624266
-158,SA863S,"SKIN, KERATOSES/WARTS/TAGS/SIMILAR LESIONS, EXCISION (6 - 10 LESIONS)",2B,Existing,skin keratoseswartstagssimilar lesion excision 6 10 lesion,1.1622307,12.476705
-66,SF846A,"ANUS, VARIOUS LESIONS, BIOPSY OF MUSCLE/MUCOSA",1B,Existing,anus various lesion biopsy musclemucosa,-1.1289248,6.4845324
-8,SJ702T,"THYROID, VARIOUS LESIONS, TOTAL THYROIDECTOMY, COMPLEX (RECURRENCE), WITH/WITHOUT STERNAL SPLIT",6A,Existing,thyroid various lesion total thyroidectomy complex recurrence withwithout sternal split,-1.1618915,10.174846
-82,SF709B,"BILE DUCT/GALL BLADDER, ENDOSCOPIC RETROGRADE CHOLANGIOPANCREATOGRAPHY (ERCP) WITH INSERTION OF NASOBILIARY DRAIN",3C,Existing,bile ductgall bladder endoscopic retrograde cholangiopancreatography ercp insertion nasobiliary drain,-3.463024,7.7098837
-227,SB838H,"HIP, VARIOUS LESIONS, HEMI-ARTHROPLASTY",5C,Existing,hip various lesion hemiarthroplasty,3.4465652,8.495345
-89,SG700U,"URETER, CYSTOSCOPY AND INSERTION OF DOUBLE J STENT",2C,Existing,ureter cystoscopy insertion double j stent,-4.431214,9.368004
-31,SK708B,"BRAIN, INTRACEREBRAL TUMOR, BIOPSY AND/OR DECOMPRESSION/REMOVAL VIA CRANIOTOMY, COMPLEX",7A,Existing,brain intracerebral tumor biopsy andor decompressionremoval via craniotomy complex,-2.5356374,12.828321
-196,SK704T,"INTERPLEURAL SPACE, BLOCK, NO CATHETER",1B,Existing,interpleural space block catheter,2.823714,16.019932
-52,SA800H,"HAND, BURNS (MAJOR), EXCISION AND SPLIT SKIN GRAFT",4A,Existing,hand burn major excision split skin graft,1.4947176,12.572272
-197,SD811V,"VEIN, VARIOUS LESIONS, INSERTION OF CENTRAL VENOUS LINE",1A,Existing,vein various lesion insertion central venous line,-0.46195066,9.79749
-90,SD703H,"HEART, AUTOMATIC IMPLANTABLE CARDIOVERTER DEFRIBRILLATOR DUAL CHAMBER (INCLUSIVE OF DEFIBRILLATION THRESHOLD TESTING (DFT))",4C,Existing,heart automatic implantable cardioverter defribrillator dual chamber inclusive defibrillation threshold testing dft,0.68635154,6.4311304
-151,SI800V,"VAGINA, ATRESIA, VAGINOPLASTY",4B,Existing,vagina atresia vaginoplasty,-2.5340497,10.399405
-433,SB726S,"SPINE, VARIOUS LESIONS, REVISION SURGERY, DECOMPRESSION AND/OR DISCECTOMY, WITHOUT INSTRUMENTATION",6A,Existing,spine various lesion revision surgery decompression andor discectomy without instrumentation,-2.6854765,5.2486773
-122,SM724S,"SINUSES, NASAL, ENDOSCOPIC POST SINUS SURGERY TOILET/DEBRIDEMENT19",1B,New,sinus nasal endoscopic post sinus surgery toiletdebridement19,4.462987,12.248205
-24,SK701B,"BRAIN, ANEURYSM/ARTERIO-VENOUS MALFORMATION, CLIPPING/EXCISION, COMPLEX",7A,Existing,brain aneurysmarteriovenous malformation clippingexcision complex,-2.719424,12.4572735
-69,SM717L,"LARYNX, VARIOUS LESIONS, HEMI/PARTIAL LARYNGECTOMY",5C,Existing,larynx various lesion hemipartial laryngectomy,-0.24440442,12.986854
-113,SG814U,"URETHRA , EXCISION OF URETHRAL DIVERTICULUM",3B,Existing,urethra excision urethral diverticulum,-0.8365016,8.476771
-331,SB703M,"MANDIBLE OR MAXILLA, TUMOR, MARGINAL RESECTION WITH BONE GRAFT",6B,Existing,mandible maxilla tumor marginal resection bone graft,1.8899072,9.586327
-236,SB702J,"JOINTS, ARTHROSCOPY, DIAGNOSTIC",2C,Existing,joint arthroscopy diagnostic,2.8407598,7.2312546
-53,SK817B,"BRAIN, VARIOUS LESIONS, PALLIDOTOMY/THALAMOTOMY/OTHER STEREOTACTIC PROCEDURE - UNILATERAL",6A,Existing,brain various lesion pallidotomythalamotomyother stereotactic procedure unilateral,-2.750246,12.240444
-98,SG712U,"URETHRA, URETHROSCOPY, WITH RELATED PROCEDURES",1B,Existing,urethra urethroscopy related procedure,-4.329942,10.399945
-116,SM705P,"PHARYNX, VARIOUS LESIONS, PARTIAL PHARYNGECTOMY WITH PRIMARY CLOSURE",4B,Existing,pharynx various lesion partial pharyngectomy primary closure,-0.59696513,12.803559
-63,SI703P,"PELVIS, MALIGNANT, SECOND LOOK LAPAROTOMY",4A,Existing,pelvis malignant second look laparotomy,-1.009434,8.960105
-217,SB828H,"HIP, CONGENITAL DISLOCATION, OPEN REDUCTION",5C,Existing,hip congenital dislocation open reduction,2.946682,8.973079
-246,SB712J,"JOINTS (TEMPORO-MANDIBULAR), VARIOUS LESIONS, CONDYLECTOMY WITH RECONSTRUCTION (BILATERAL)",7A,Existing,joint temporomandibular various lesion condylectomy reconstruction bilateral,0.5827278,3.9788647
-203,SB814H,"HAND, FRACTURES/DISLOCATION, OPEN REDUCTION AND INTERNAL FIXATION (MULTIPLE)",5C,Existing,hand fracturesdislocation open reduction internal fixation multiple,1.5451708,5.1344185
-194,SF712L,"LIVER, TUMOUR, IMAGING GUIDED PERCUTANEOUS LOCAL ABLATION, COMPLEX (RADIOFREQUENCY, CRYOTHERAPY, MICROWAVE, LASER, ALCOHOL, ETC)",4A,Existing,liver tumour imaging guided percutaneous local ablation complex radiofrequency cryotherapy microwave laser alcohol etc,-1.7687083,15.873833
-5,SE704L,"LYMPH NODE (CERVICAL), VARIOUS LESIONS, NECK DISSECTION BILATERAL 3 OR LESS LEVELS",5A,Existing,lymph node cervical various lesion neck dissection bilateral 3 le level,2.5436764,14.506365
-21,SB706B,"BONE, TUMOUR, IMAGING GUIDED PERCUTANEOUS LOCAL ABLATION (RADIOFREQUENCY, CRYOTHERAPY, MICROWAVE, LASER, ALCOHOL,ETC) , SINGLE LESION",3C,Existing,bone tumour imaging guided percutaneous local ablation radiofrequency cryotherapy microwave laser alcoholetc single lesion,-1.7623907,15.8684
-438,SB735S,"SPINE, DISCOGRAM (MORE THAN 2 LEVELS)",3A,Existing,spine discogram 2 level,-1.7076427,5.618682
-215,SB826H,"HIP, AVASCULAR NECROSIS, CORE DECOMPRESSION",4A,Existing,hip avascular necrosis core decompression,3.43887,8.437211
-85,SA721S,"SOFT TISSUE (UPPER LIMB), TUMORS (BENIGN), MAJOR EXCISION BIOPSY",4A,Existing,soft tissue upper limb tumor benign major excision biopsy,2.9289632,11.20118
-15,SI806C,"CERVIX, POLYP, EXCISION/EROSION (SIMPLE) WITH BIOPSY",1B,Existing,cervix polyp excisionerosion simple biopsy,-2.9772289,9.872933
-78,SL824E,"EYELIDS, INVOLUTIONAL ECTROPION/ ENTROPION CORRECTION (BILATERAL)",4A,Existing,eyelid involutional ectropion entropion correction bilateral,-2.238642,12.209996
-110,SA814S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT (DEEP), DIRECT FLAP REPAIR (CROSS LEG)",5C,Existing,skin subcutaneous tissue defect deep direct flap repair cross leg,2.4215093,12.331934
-54,SF834A,"ANUS, HEMORRHOIDS, INJECTION/LIGATION/BANDING",MSP,Existing,anus hemorrhoid injectionligationbanding,-1.1947703,6.2127843
-170,SI819V,"VAGINA, VARIOUS LESIONS, BIOPSY",1A,Existing,vagina various lesion biopsy,-2.562223,10.305796
-91,SB700F,"FACE, FRACTURE, ENDOSCOPIC REDUCTION AND FIXATION",5C,Existing,face fracture endoscopic reduction fixation,1.5512588,5.194134
-114,SL705L,"LENS, COMBINED GLAUCOMA IMPLANTS WITH CATARACT EXTRACTION (WITH OR WITHOUT INTRAOCULAR LENS IMPLANTATION)",6A,Existing,lens combined glaucoma implant cataract extraction without intraocular lens implantation,7.60195,6.5342174
-231,SB842H,HUMERUS SUPRACONDYLAR AND INTERCONDYLAR FRACTURE,5A,Existing,humerus supracondylar intercondylar fracture,2.315022,10.210759
-58,SF838A,"ANUS, HEMORRHOIDS, REMOVAL OF EXTERNAL ANAL TAGS",1B,Existing,anus hemorrhoid removal external anal tag,-1.1911488,6.220884
-286,SB701K,"KNEE, LIGAMENTS/MENISCUS/CARTILAGE/BONE COMBINED, MIS ACL OR PCL RECONSTRUCTION",5C,Existing,knee ligamentsmeniscuscartilagebone combined mi acl pcl reconstruction,2.6721978,7.7031627
-232,SF804M,"MOUTH, CLEFT LIP, BILATERAL PRIMARY REPAIR",6A,Existing,mouth cleft lip bilateral primary repair,0.13916467,8.502133
-118,SG820U,"URETHRA, STRICTURE, URETHRAL WALL STENTING",2C,Existing,urethra stricture urethral wall stenting,-0.9840463,8.801034
-75,SM703M,"MOUTH, VARIOUS LESIONS, PHARYNGOTOMY (LATERAL) WITH EXCISION OF TONGUE",4A,Existing,mouth various lesion pharyngotomy lateral excision tongue,-0.6599242,13.200764
-85,SM702N,"NOSE, CHOANAL ATRESIA, REPAIR BY PUNCTURE AND DILATATION",2C,Existing,nose choanal atresia repair puncture dilatation,-1.5695298,11.3989315
-13,SB805A,"ANKLE, VARIOUS LESIONS, SYNOVECTOMIES",3B,Existing,ankle various lesion synovectomies,2.9739249,8.128509
-52,SG709K,"KIDNEY, CALCULUS, PERCUTANEOUS NEPHROLITHOTOMY OR PERCUTANEOUS NEPHROSTOLITHOTOMY (PCNL)",5A,Uptable,kidney calculus percutaneous nephrolithotomy percutaneous nephrostolithotomy pcnl,-1.4012613,9.160288
-31,SC705T,"THORAX, RESUSCITATIVE TRAUMA THORACOTOMY (HAEMOSTASIS, DAMAGE CONTROL, ORGAN REPAIR)",5A,Existing,thorax resuscitative trauma thoracotomy haemostasis damage control organ repair,1.2082261,9.348837
-430,SB723S,"SPINE (EXCLUDING CERVICAL SPINE), VARIOUS LESIONS, POSTERIOR DECOMPRESSION AND/OR DISCECTOMY WITHOUT INSERTION OF INTERSPINOUS DEVICE (1 SEGMENT) WITHOUT INSTRUMENTED FUSION",6A,Existing,spine excluding cervical spine various lesion posterior decompression andor discectomy without insertion interspinous device 1 segment without instrumented fusion,-2.634066,5.250358
-118,SK803N,"NERVE-CUTANEOUS, INJURY, PRIMARY SUTURE",3B,Existing,nervecutaneous injury primary suture,-1.2935545,10.807661
-66,SC815T,"TRACHEA, TRACHEO-ESOPHAGEAL FISTULA, LIGATION AND DIVISION",5C,Existing,trachea tracheoesophageal fistula ligation division,5.318714,9.69533
-19,SA805B,"BREAST, DROOPING, MASTOPEXY/REDUCTION (UNILATERAL)",4A,Existing,breast drooping mastopexyreduction unilateral,0.8925673,13.398463
-341,SF802T,"TEETH (4 OR MORE), IMPACTED, EXCISION WITH REMOVAL OF BONE AND TOOTH DIVISION",4B,Existing,teeth 4 impacted excision removal bone tooth division,-0.52603185,8.834675
-253,SF800N,"NECK, BRANCHIAL CYST, REMOVAL WITH BIOPSY",3B,Existing,neck branchial cyst removal biopsy,-1.2564727,10.468712
-403,SB703P,"PELVIS, FRACTURE, ANTERIOR FIXATION",5B,New,pelvis fracture anterior fixation,1.673868,10.212591
+change",pancreas cystpseudocyst drainage anastomosis intestinestomach,-7.411529,29.444986
+133,SK705S,"SPINE, FACET JOINT, RADIOFREQUENCY, MORE THAN 3 JOINTS",4A,Existing,spine facet joint radiofrequency 3 joint,8.982003,-7.721367
+189,SA894S,"SUBCUTANEOUS TISSUE (UPPER LIMBS), OBESITY, LIPOSUCTION",3A,Existing,subcutaneous tissue upper limb obesity liposuction,35.877583,6.2307773
+161,SI810V,"VAGINA, MALIGNANT CONDITION, VAGINECTOMY",4B,Existing,vagina malignant condition vaginectomy,-39.540382,39.93275
+13,SJ802T,"THYROID, VARIOUS LESIONS, HEMITHYROIDECTOMY/PARTIAL THYROIDECTOMY",4A,Existing,thyroid various lesion hemithyroidectomypartial thyroidectomy,53.93195,9.282614
+9,SB801A,"ANKLE, ANKLE FRACTURE, UNIMALLEOLAR, ORIF",3B,Existing,ankle ankle fracture unimalleolar orif,17.546337,11.667288
+80,SB703E,"ELBOW, DISLOCATION , LIGAMENT REPAIR (COMPLEX, WITH/WITHOUT IMPLANT)",4A,Existing,elbow dislocation ligament repair complex withwithout implant,-44.079605,-26.381384
+120,SK805N,"NERVE-FACIAL (MASTOID PORTION), ENTRAPMENT, DECOMPRESSION",5C,Existing,nervefacial mastoid portion entrapment decompression,-5.008243,60.31348
+14,SD713A,"ARTERY, BYPASS, ABOVE/BELOW-KNEE WITH VEIN",5C,Existing,artery bypass abovebelowknee vein,-17.378561,43.850513
+79,SL826E,"EYELIDS, ENTROPION, EVERTING SUTURES",MSP,Existing,eyelid entropion everting suture,-26.242159,24.733164
+38,SI808F,"FALLOPIAN TUBE, TUBAL PATHOLOGY OTHER THAN ECTOPIC, SALPINGECTOMY/ SALPINGOSTOMY",4A,Existing,fallopian tube tubal pathology ectopic salpingectomy salpingostomy,36.194843,-22.83902
+283,SF813P,"PAROTID, FISTULA, REPAIR",3A,Existing,parotid fistula repair,7.7164664,35.36409
+70,SA706S,"SKIN, DEFECT, NEUROVASCULAR ISLAND FLAP",5A,Existing,skin defect neurovascular island flap,7.422115,72.152626
+107,SL700I,IRIS RECONSTRUCTION / PUPILLOPLASTY,3A,Existing,iris reconstruction pupilloplasty,-3.9290228,5.677512
+126,SG828U,"URETHRA, VARIOUS LESIONS, STAGED URETHROPLASTY (EACH STAGE)",3B,Existing,urethra various lesion staged urethroplasty stage,-51.41507,6.9285636
+44,SI801G,"GENITAL TRACT, PELVIC CYST, ULTRASOUND GUIDED PROCEDURE-ASPIRATION",2C,Existing,genital tract pelvic cyst ultrasound guided procedureaspiration,4.599994,22.324863
+108,SI821U,"UTERUS, GRAVID, HYSTERECTOMY",4A,Existing,uterus gravid hysterectomy,-30.249613,37.86442
+310,SB808K,"KNEE, VARIOUS LESIONS, MENISCECTOMY WITH/WITHOUT ARTHROSCOPY",4A,Existing,knee various lesion meniscectomy withwithout arthroscopy,21.385271,9.475793
+543,SB704W,"WRIST, DISTAL RADIUS FRACTURE, M&R, PERCUTANEOUS PINNING",3B,Existing,wrist distal radius fracture mr percutaneous pinning,28.358555,44.102734
+97,SA801S,"SKIN AND SUBCUTANEOUS TISSUE, TUMOUR (MALIGNANT), WIDE EXCISION AND RECONSTRUCTION AND LOCAL FLAP/SKIN GRAFT",3A,Existing,skin subcutaneous tissue tumour malignant wide excision reconstruction local flapskin graft,-40.203876,32.985767
+60,SB832B,"BONE, VARIOUS LESIONS, BIOPSY",1B,Existing,bone various lesion biopsy,-0.90633714,5.363989
+2,SG701B,"BLADDER/URETER, LYMPHOLYSIS FOR CHYLURIA, MIS",4A,Existing,bladderureter lympholysis chyluria mi,-8.986796,14.300477
+197,SA904S,"SKIN, PRE-MALIGNANT LESIONS, EXCISION/VAPORISATION BY LASER AND OTHER ABLATIVE MODALITIES, THERAPEUTIC, 10 OR MORE LESIONS, NOT REQUIRING GENERAL ANAESTHESIA",1A,New,skin premalignant lesion excisionvaporisation laser ablative modality therapeutic 10 lesion requiring general anaesthesia,12.011476,60.538483
+99,SF805B,"BILE DUCT, VARIOUS LESIONS, OPERATIVE CHOLEDOCHOSCOPY",1B,Existing,bile duct various lesion operative choledochoscopy,63.562305,-4.133734
+123,SD803H,"HEART, ARRHYTHMIA, IMPLANTABLE CARDIOVERTER DEFIBRILLATOR (ICD) IMPLANTATION",4C,Existing,heart arrhythmia implantable cardioverter defibrillator icd implantation,4.5620723,-8.681423
+54,SC803T,"THORAX, EFFUSION/FLUID/ABSCESS COLLECTION, IMAGING GUIDED PERCUTANEOUS ASPIRATION/DIAGNOSTIC TAP",1A,Existing,thorax effusionfluidabscess collection imaging guided percutaneous aspirationdiagnostic tap,3.64628,31.326433
+55,SF835A,"ANUS, HEMORRHOIDS, CRYOSURGERY",1A,Existing,anus hemorrhoid cryosurgery,19.946524,-40.980526
+261,SF706P,"PANCREAS, VARIOUS LESIONS, ENUCLEATION OF LESIONS (3 OR MORE)",5A,Existing,pancreas various lesion enucleation lesion 3,10.719412,-26.029766
+350,SF811T,"TOOTH (SUPERFICIAL), UNERUPTED/PARTIALLY ERUPTED/IMPACTED, EXCISION WITH INCISION OF OVERLYING SOFT TISSUE AND REMOVAL OF TOOTH",MSP,Existing,tooth superficial uneruptedpartially eruptedimpacted excision incision overlying soft tissue removal tooth,27.196291,1.5479887
+328,SB700M,"MANDIBLE AND MAXILLA, VARIOUS LESIONS, OSTEOTOMY AND INSERTION OF DEVICE FOR DISTRACTION OSTEOGENESIS",7C,Existing,mandible maxilla various lesion osteotomy insertion device distraction osteogenesis,81.81131,-13.63961
+411,SB701R,"RADIUS AND ULNA, FRACTURE/DISLOCATION, NON UNION/DELAYED UNION BONE GRAFTING ONLY",3C,Existing,radius ulna fracturedislocation non uniondelayed union bone grafting,32.682156,35.025074
+168,SD710V,"VEIN, STENOSIS/OCCLUSION, PERCUTANEOUS TRANSLUMINAL ANGIOPLASTY (PTA), DIFFICULT",4A,Existing,vein stenosisocclusion percutaneous transluminal angioplasty pta difficult,28.724907,-49.82071
+38,SB809B,"BONE AND JOINTS (LOWER LIMB), REMOVAL OF SIMPLE IMPLANTS (E.G. RUSH RODS/WIRES/K- WIRES/PINS/SCREWS)",1C,Existing,bone joint lower limb removal simple implant eg rush rodswiresk wirespinsscrews,-43.939556,-1.7688808
+422,SB710S,"SHOULDER, SHOULDER SOFT TISSUE INJURY, DECOMPRESSION WITH CUFF REPAIR",5B,Descriptor change,shoulder shoulder soft tissue injury decompression cuff repair,-10.90596,-27.085272
+74,SF700B,"BILE DUCT, VARIOUS LESIONS. EXCISION OF LOWER 1/3 OF COMMON BILE DUCT BUT WITH PRESERVATION OF PANCREATIC HEAD",6A,Existing,bile duct various lesion excision lower 13 common bile duct preservation pancreatic head,63.401623,-2.6982822
+99,SL849E,"EYELIDS, VARIOUS LESIONS, CANTHOPLASTY (MEDIAL/LATERAL)",1C,Existing,eyelid various lesion canthoplasty mediallateral,-2.6861844,-7.742422
+153,SK729S,SPINAL- IMPLANT OF ELECTRICAL PUMP DEVICE,5C,Existing,spinal implant electrical pump device,-10.409466,1.9061702
+163,SK740S,"SPINE, REPLACEMENT OF COMPUTERIZED RESERVOIR DEVICE (E.G. SYNCHROMED)",3B,Existing,spine replacement computerized reservoir device eg synchromed,-46.117268,-3.7911265
+35,SM821E,"EAR, PARTIAL AMPUTATION, RECONSTRUCTION",4A,Existing,ear partial amputation reconstruction,-31.280546,1.1713413
+211,SB822H,"HEAD-FACE, SOFT TISSUE TUMORS (SMALL), EXCISION",3A,Existing,headface soft tissue tumor small excision,-24.95221,16.876133
+264,SB810J,"JOINTS (LOWER LIMB), DISLOCATIONS, WOUND DEBRIDEMENT",2B,Existing,joint lower limb dislocation wound debridement,-61.660004,1.1471989
+46,SM833E,"EAR, VARIOUS LESIONS, OSSICULAR CHAIN RECONSTRUCTION WITH/WITHOUT MYRINGOPLASTY",4B,Existing,ear various lesion ossicular chain reconstruction withwithout myringoplasty,-24.570103,-40.002506
+473,SB814S,"SPINE, SYRINGOMYELIA, LAMINECTOMY AND DRAINAGE",6B,Existing,spine syringomyelia laminectomy drainage,5.950545,2.2341223
+2,SH706M,"MALE GENITALIA, ELECTROEJECULATION",1C,Existing,male genitalia electroejeculation,-61.162613,-37.096607
+180,SK801S,"SKULL, COMPOUND FRACTURE WITHOUT DURAL PENETRATION, OPERATION",5C,Existing,skull compound fracture without dural penetration operation,-12.786937,24.336641
+255,SF700P,"PANCREAS, PSEUDOCYST/ABSCESS, IMAGING GUIDED PERCUTANEOUS DRAINAGE CATHETER INSERTION",2C,Existing,pancreas pseudocystabscess imaging guided percutaneous drainage catheter insertion,2.1098208,31.139486
+111,SG812U,"URETER, VARIOUS LESIONS, URETEROTOMY/INSERTION OF DOUBLE J STENT",3B,Existing,ureter various lesion ureterotomyinsertion double j stent,0.95443684,64.70934
+134,SF700E,"ESOPHAGUS/STOMACH, GASTROSCOPY AND DILATATION",3A,Existing,esophagusstomach gastroscopy dilatation,18.309887,27.953108
+157,SK733S,"SPINE, THORACIC/LUMBAR, EPIDURAL ADHESIOLYSIS, SINGLE CATHETER",3B,Existing,spine thoraciclumbar epidural adhesiolysis single catheter,17.286358,-70.393875
+344,SF805T,"TONGUE, TONGUE TIE, REVISION",1B,Existing,tongue tongue tie revision,-18.059168,18.076988
+84,SL831E,"EYELIDS, PTOSIS, CORRECTION FASANELLA (BILATERAL)",4A,Existing,eyelid ptosis correction fasanella bilateral,16.168156,-29.534643
+356,SB814M,"MANDIBLE OR MAXILLA, VARIOUS LESIONS, ALVEOLOPLASTY WITH EPITHELIAL GRAFT OR BILATERAL SINUS-LIFT PROCEDURE OR RIDGE AUGMENTATION (MULTIPLE QUADRANTS) WITH GRAFTING",4A,Existing,mandible maxilla various lesion alveoloplasty epithelial graft bilateral sinuslift procedure ridge augmentation multiple quadrant grafting,-65.7919,-12.8501425
+30,SB801B,"BONE (LOWER LIMB), DEFORMITIES, CORRECTIVE SURGERY WITH INTERNAL FIXATION WITH OR WITHOUT FLUOROSCOPY",5C,Existing,bone lower limb deformity corrective surgery internal fixation without fluoroscopy,-13.711374,55.670902
+264,SF709P,"PANCREAS, VARIOUS LESIONS, SUBTOTAL PANCREATECTOMY (EXTENDING TO THE NECK) AND SPLENECTOMY",5C,Descriptor change,pancreas various lesion subtotal pancreatectomy extending neck splenectomy,-0.14331599,-61.85446
+174,SI823V,"VULVA, BARTHOLIN CYST, INCISION/MARSUPIALIZATION WITH OR WITHOUT USE OF LASER",1B,Existing,vulva bartholin cyst incisionmarsupialization without use laser,-2.9691448,24.640924
+23,SE807L,"LYMPH NODE (RETROPERITONEAL), VARIOUS LESIONS, LIMITED EXCISION",4B,Existing,lymph node retroperitoneal various lesion limited excision,-37.03601,-41.615612
+52,SB824B,"BONE (UPPER LIMB), OSTEOMYELITIS SIMPLE DRAINAGE",2B,Existing,bone upper limb osteomyelitis simple drainage,19.66818,-3.967055
+209,SF814L,"LIVER, VARIOUS LESIONS, IMAGING GUIDED PERCUTANEOUS BIOPSY (LIVER PARENCHYMA, NON DIRECTED)",1C,Existing,liver various lesion imaging guided percutaneous biopsy liver parenchyma non directed,-0.51288307,31.859882
+251,SB717J,"JOINTS, MAJOR INTRA-ARTICULAR FRACTURE WITH DISCONTINUITY OR BONE LOSS, RECONSTRUCTION (FOR LOWER LIMB)",5C,Existing,joint major intraarticular fracture discontinuity bone loss reconstruction lower limb,-16.836119,8.001751
+25,SF802A,"ABDOMINAL CAVITY, LYMPHOMA,FOR GRADING LYMPHOMA WITH SPLENECTOMY/LIVER/LYMPH NODE BIOPSY",4B,Descriptor change,abdominal cavity lymphomafor grading lymphoma splenectomyliverlymph node biopsy,-61.375626,26.289948
+168,SB711H,"HAND, FRACTURE OF FINGERS/METACARPALS, NON- UNION, BONE-GRAFTING AND FIXATION (MULTIPLE)",4C,Existing,hand fracture fingersmetacarpals non union bonegrafting fixation multiple,31.746225,32.68421
+154,SB836F,"FOOT, VARIOUS LESIONS, MORE THAN ONE JOINT, ARTHRODESIS",5C,Existing,foot various lesion one joint arthrodesis,37.81554,58.6862
+116,SD735H,"HEART, RIGHT AND *LEFT HEART CATHERISATION (*THIS CAN ALSO REFER TO CORONARY ANGIOGRAPHY ONLY)",3B,New,heart right left heart catherisation also refer coronary angiography,19.112633,-35.232628
+39,SF816A,"ABDOMINAL WALL, EXOMPHALOS/GASTROSCHISIS, REPAIR",4A,Existing,abdominal wall exomphalosgastroschisis repair,41.907715,8.583119
+136,SD817H,"HEART, PATENT DUCTUS ARTERIOSUS, LIGATION",4A,Existing,heart patent ductus arteriosus ligation,13.177377,48.565456
+51,SK815B,"BRAIN, INTRACRANIAL TUMOR/INTRACRANIAL CYST, BIOPSY/DRAINAGE VIA BURR-HOLE",5C,Existing,brain intracranial tumorintracranial cyst biopsydrainage via burrhole,36.384556,22.568993
+76,SD839A,"AORTA, COARCTATION, ENDOVASCULAR STENT PLACEMENT",4C,Existing,aorta coarctation endovascular stent placement,31.356283,-20.047413
+412,SB800R,"RADIUS (HEAD), VARIOUS LESIONS, EXCISION",3B,Existing,radius head various lesion excision,29.509077,44.060028
+146,SF807E,"ESOPHAGUS/INTESTINE/STOMACH, UPPER GL ENDOSCOPY WITH INSERTION OF PROSTHESIS",3A,Existing,esophagusintestinestomach upper gl endoscopy insertion prosthesis,-41.16386,-32.874058
+124,SI838U,"UTERUS, RETAINED PLACENTA, MANUAL REMOVAL",1B,Descriptor change,uterus retained placenta manual removal,6.292005,-4.221121
+167,SL805R,"RETINA, TEARS, PHOTOCOAGULATION (LASER) (UNILATERAL)",3B,Existing,retina tear photocoagulation laser unilateral,-16.413412,-27.773512
+171,SK758S,"SUPERIOR HYPOGASTRIC PLEXUS, VARIOUS LESIONS, IMAGING GUIDED INJECTION OF NEUROLYTIC, RADIOFREQUENCY",3B,Existing,superior hypogastric plexus various lesion imaging guided injection neurolytic radiofrequency,45.64486,31.931625
+30,SI706F,"FALLOPIAN TUBE/UTERUS/OVARY, LAPAROSCOPY, DIAGNOSTIC, WITH HYDROTUBATION",3B,Existing,fallopian tubeuterusovary laparoscopy diagnostic hydrotubation,11.295812,3.6918404
+167,SI816V,"VAGINA, SIMPLE TUMOR/GARTNER'S CYST, REMOVAL WITH BIOPSY",2B,Existing,vagina simple tumorgartners cyst removal biopsy,-8.421565,24.466866
+50,SA813F,"FAT TRANSFER, CORRECTION OF CONTOURS/CONGENITAL DEFORMITIES, RECONSTRUCTION POST ABLATIVE SURGERY/TRAUMA, 50 - 100CC",3A,Existing,fat transfer correction contourscongenital deformity reconstruction post ablative surgerytrauma 50 100cc,-25.748522,-11.05315
+68,SA704S,"SKIN CANCER, MOHS MICROGRAPHIC SURGERY WITHOUT RECONSTRUCTION",2B,Existing,skin cancer mohs micrographic surgery without reconstruction,6.96123,-1.039043
+508,SB822T,"TENDONS-FLEXOR (LOWER LIMB), DISRUPTION, REPAIR (MULTIPLE)",3B,Existing,tendonsflexor lower limb disruption repair multiple,-53.411526,-28.357275
+123,SI837U,"UTERUS, PROLAPSE, VAGINAL HYSTERECTOMY",4A,Existing,uterus prolapse vaginal hysterectomy,-26.920555,37.70079
+100,SB709F,"FEMUR, FRACTURE (SINGLE CONDYLAR), OPEN REDUCTION AND INTERNAL FIXATION (ORIF)",4B,Existing,femur fracture single condylar open reduction internal fixation orif,24.76033,35.75703
+49,SA812F,"FAT TRANSFER, CORRECTION OF CONTOURS/CONGENITAL DEFORMITIES, RECONSTRUCTION POST ABLATIVE SURGERY/TRAUMA, <=50CC",2A,Existing,fat transfer correction contourscongenital deformity reconstruction post ablative surgerytrauma 50cc,-25.748522,-11.05315
+15,SM801E,"EAR (MIDDLE), ROUND WINDOW PERFORATION, REPAIR",4A,Existing,ear middle round window perforation repair,-21.449448,-14.714381
+323,SB810L,"LOWER LIMB, VARIOUS LESIONS, APPLICATION OF CAST",MSP,Existing,lower limb various lesion application cast,27.016531,16.261967
+414,SB700S,"SHOULDER, THERAPEUTIC ARTHROSCOPY",4A,Existing,shoulder therapeutic arthroscopy,23.944267,10.2655325
+83,SL830E,"EYELIDS, HEMANGIOMA, INTRA-LESION INJECTIONS (FULL COURSE)",3A,Existing,eyelid hemangioma intralesion injection full course,-14.17495,-3.0939076
+53,SI807O,"OVARY, VARIOUS LESIONS, BIOPSY",3A,Existing,ovary various lesion biopsy,-35.616764,-5.7402883
+542,SB703W,"WRIST, DISTAL OR RADIAL ULNAR JOINT (DRUJ) INSTABILITY, DARRACH OR SIMILAR PROCEDURE",3A,Existing,wrist distal radial ulnar joint druj instability darrach similar procedure,8.9707,-14.995006
+406,SB706P,"PELVIS, FRACTURE, REVISION FIXATION WITH/WITHOUT BONE GRAFTING",6B,New,pelvis fracture revision fixation withwithout bone grafting,-49.603077,35.282375
+101,SI813U,"UTERUS, FETAL DISORDER, ULTRASOUND GUIDED FETAL BLOOD SAMPLING/CORDOCENTESIS",2C,Existing,uterus fetal disorder ultrasound guided fetal blood samplingcordocentesis,5.321656,19.461117
+45,SH834P,"PROSTATE GLAND, VARIOUS LESIONS, TRANS-RECTAL ULTRASOUND (TRUS) GUIDED BIOPSY",1B,Existing,prostate gland various lesion transrectal ultrasound trus guided biopsy,8.790641,-55.22079
+202,SF807L,"LIVER, TRAUMA, MAJOR REPAIR LACERATION",6B,Existing,liver trauma major repair laceration,-27.423424,31.506609
+165,SL803R,"RETINA, TEARS, DIATHERMY/CRYOTHERAPY (UNILATERAL)",3A,Existing,retina tear diathermycryotherapy unilateral,-15.841604,-28.29584
+259,SF704P,"PANCREAS, VARIOUS LESIONS, DUODENUM PRESERVING PANCREATIC HEAD RESECTION WITH LONGITUDINAL PANCREATICO-ENTERIC ANASTOMOSIS (FREY'S OPERATION)",7A,Existing,pancreas various lesion duodenum preserving pancreatic head resection longitudinal pancreaticoenteric anastomosis frey operation,23.96747,-2.3475857
+60,SI700P,"PELVIC FLOOR RECONSTRUCTION, MIS",4C,Existing,pelvic floor reconstruction mi,-10.241702,71.99426
+143,SB825F,"FINGER, VARIOUS LESIONS, AMPUTATION (MULTIPLE)",2C,Existing,finger various lesion amputation multiple,-38.905052,4.572736
+400,SB804N,"NECK, TORTICOLLIS, CORRECTION",3B,Existing,neck torticollis correction,-10.713771,21.37834
+92,SB701F,"FACE, FRACTURES (PANFACIAL), OPEN REDUCTION AND INTERNAL FIXATION",7C,Existing,face fracture panfacial open reduction internal fixation,23.102701,38.36291
+50,SH801S,"SCROTUM, HYDROCELE/VARICOCELE (BILATERAL), EXCISION",3A,Existing,scrotum hydrocelevaricocele bilateral excision,-1.1745815,-4.3963213
+150,SA855S,"SKIN AND SUBCUTANEOUS TISSUE, WOUND (SMALL<3CM), SECONDARY SUTURE",MSP,Existing,skin subcutaneous tissue wound small3cm secondary suture,-23.51395,24.299181
+116,SF713C,"COLON, TOTAL PROCTOCOLECTOMY & ILEO-ANAL POUCH RECONSTRUCTION",6C,Existing,colon total proctocolectomy ileoanal pouch reconstruction,3.3248394,-39.013885
+83,SB706E,"ELBOW, SUPRACONDYLAR FRACTURE, M&R, PERCUTANEOUS PINNING",3C,Existing,elbow supracondylar fracture mr percutaneous pinning,-41.044136,-26.387257
+154,SL700P,PHOTODYNAMIC THERAPY,3A,Existing,photodynamic therapy,0.301112,21.079346
+7,SF708A,"ABDOMEN, RETROPERITONEUM, TUMOR, REMOVAL",5C,Existing,abdomen retroperitoneum tumor removal,39.65951,6.220095
+37,SF814A,"ABDOMINAL WALL, EPIGASTRIC/UMBILICAL HERNIA, REPAIR",3A,Descriptor change,abdominal wall epigastricumbilical hernia repair,42.683975,9.733462
+106,SI819U,"UTERUS, GRAVID, EVACUATION (COMPLICATED)",2B,Existing,uterus gravid evacuation complicated,13.068359,-6.824345
+201,SD815V,"VEIN-PORTAL, PORTAL HYPERTENSION, BYPASS",5C,Existing,veinportal portal hypertension bypass,-16.924156,44.70198
+279,SB826J,"JOINTS (UPPER LIMB), DEFORMITIES/CONTRACTURE, CORRECTIVE SURGERY",4B,Existing,joint upper limb deformitiescontracture corrective surgery,-13.717726,56.964092
+32,SL701E,"EYE, GLAUCOMA, GONIOTOMY/TRABECULOTOMY (BILATERAL)",5A,Existing,eye glaucoma goniotomytrabeculotomy bilateral,58.87032,32.945705
+41,SB812B,"BONE (LOWER LIMB), VARIOUS LESIONS, EPIPHYSIOLYSIS WITH/WITHOUT MICROSURGERY",5C,Existing,bone lower limb various lesion epiphysiolysis withwithout microsurgery,-29.30373,5.379542
+71,SA707S,"SKIN, NEUROMAS/HEMANGIOMAS, EXCISION/VAPORISATION BY LASER AND OTHER ABLATIVE MODALITIES, THERAPEUTIC",1C,Existing,skin neuromashemangiomas excisionvaporisation laser ablative modality therapeutic,10.430202,60.085243
+141,SM723S,"SKULL, BASE, RESECTION OF SKULL BASE SOFT TISSUE TUMOURS WITH RESECTION OF BONE AND DURA (INTRADURAL, INCLUDING CLIVUS, PARASELLAR AREA OR CAVERNOUS SINUS) WITH SKULL BASE RECONSTRUCTION",7C,Descriptor change,skull base resection skull base soft tissue tumour resection bone dura intradural including clivus parasellar area cavernous sinus skull base reconstruction,30.402191,26.87551
+172,SD714V,"VEIN, VARICOSE VEINS, IMAGING GUIDED ENDOVENOUS LASER TREATMENT, 2 LEGS",4A,Existing,vein varicose vein imaging guided endovenous laser treatment 2 leg,5.193487,58.24782
+74,SA710S,"SKIN, SURGICAL TREATMENT FOR VITILIGO (INVOLVING NON-CULTURED CELLULAR GRAFTING) (20-40 SQ CM)",4A,Existing,skin surgical treatment vitiligo involving noncultured cellular grafting 2040 sq cm,-61.34603,-46.03524
+223,SB834H,"HIP, VARIOUS LESIONS, ARTHRODESIS",6B,Existing,hip various lesion arthrodesis,40.49423,59.77526
+128,SL810L,"LENS, CATARACT, EXTRACTION WITH INTRA-OCULAR LENS IMPLANT AND TRABECULECTOMY WITH/WITHOUT ANTIMETABOLITES",5A,Existing,lens cataract extraction intraocular lens implant trabeculectomy withwithout antimetabolite,39.755398,-45.19805
+418,SB705S,"SCAPULA, SCAPULAR FRACTURE, OPEN REDUCTION AND INTERNAL FIXATION (ORIF) WITH PLATING",5A,Existing,scapula scapular fracture open reduction internal fixation orif plating,25.007341,37.774296
+120,SL801L,"LACRIMAL GLAND (LACRIMAL SAC), VARIOUS LESIONS, EXCISION",3B,Existing,lacrimal gland lacrimal sac various lesion excision,70.593414,-11.675825
+99,SD716H,"HEART, HEART BLOCK/ARRHYTHMIA, INSERTION OF DUAL CHAMBER PACEMAKER (PERMANENT)",3C,Existing,heart heart blockarrhythmia insertion dual chamber pacemaker permanent,4.4221873,-14.058265
+172,SF705I,"INTESTINE, SMALL BOWEL, VARIOUS LESIONS, INTUBATION WITH/WITHOUT BIOPSY",1B,Existing,intestine small bowel various lesion intubation withwithout biopsy,15.233836,23.946968
+83,SI720U,"UTERUS, PROLAPSE, CYSTOCOELE, RECTOCOELE, TRANSOBTURATOR MESH + TRANSSACROSPINOUS LIGAMENT MESH",4B,Existing,uterus prolapse cystocoele rectocoele transobturator mesh transsacrospinous ligament mesh,50.26281,-14.435033
+158,SA863S,"SKIN, KERATOSES/WARTS/TAGS/SIMILAR LESIONS, EXCISION (6 - 10 LESIONS)",2B,Existing,skin keratoseswartstagssimilar lesion excision 6 10 lesion,27.183926,-28.147701
+66,SF846A,"ANUS, VARIOUS LESIONS, BIOPSY OF MUSCLE/MUCOSA",1B,Existing,anus various lesion biopsy musclemucosa,-12.556164,0.6772588
+8,SJ702T,"THYROID, VARIOUS LESIONS, TOTAL THYROIDECTOMY, COMPLEX (RECURRENCE), WITH/WITHOUT STERNAL SPLIT",6A,Existing,thyroid various lesion total thyroidectomy complex recurrence withwithout sternal split,-22.166529,6.954015
+82,SF709B,"BILE DUCT/GALL BLADDER, ENDOSCOPIC RETROGRADE CHOLANGIOPANCREATOGRAPHY (ERCP) WITH INSERTION OF NASOBILIARY DRAIN",3C,Existing,bile ductgall bladder endoscopic retrograde cholangiopancreatography ercp insertion nasobiliary drain,55.639896,-1.3294308
+227,SB838H,"HIP, VARIOUS LESIONS, HEMI-ARTHROPLASTY",5C,Existing,hip various lesion hemiarthroplasty,-30.075935,-7.361944
+89,SG700U,"URETER, CYSTOSCOPY AND INSERTION OF DOUBLE J STENT",2C,Existing,ureter cystoscopy insertion double j stent,1.1522754,65.172455
+31,SK708B,"BRAIN, INTRACEREBRAL TUMOR, BIOPSY AND/OR DECOMPRESSION/REMOVAL VIA CRANIOTOMY, COMPLEX",7A,Existing,brain intracerebral tumor biopsy andor decompressionremoval via craniotomy complex,38.591957,21.213833
+196,SK704T,"INTERPLEURAL SPACE, BLOCK, NO CATHETER",1B,Existing,interpleural space block catheter,-32.91107,-20.061779
+52,SA800H,"HAND, BURNS (MAJOR), EXCISION AND SPLIT SKIN GRAFT",4A,Existing,hand burn major excision split skin graft,-22.051413,7.790396
+197,SD811V,"VEIN, VARIOUS LESIONS, INSERTION OF CENTRAL VENOUS LINE",1A,Existing,vein various lesion insertion central venous line,-12.493754,-10.242893
+90,SD703H,"HEART, AUTOMATIC IMPLANTABLE CARDIOVERTER DEFRIBRILLATOR DUAL CHAMBER (INCLUSIVE OF DEFIBRILLATION THRESHOLD TESTING (DFT))",4C,Existing,heart automatic implantable cardioverter defribrillator dual chamber inclusive defibrillation threshold testing dft,3.7522163,-12.278281
+151,SI800V,"VAGINA, ATRESIA, VAGINOPLASTY",4B,Existing,vagina atresia vaginoplasty,-32.57187,48.922325
+433,SB726S,"SPINE, VARIOUS LESIONS, REVISION SURGERY, DECOMPRESSION AND/OR DISCECTOMY, WITHOUT INSTRUMENTATION",6A,Existing,spine various lesion revision surgery decompression andor discectomy without instrumentation,58.936817,-13.407534
+122,SM724S,"SINUSES, NASAL, ENDOSCOPIC POST SINUS SURGERY TOILET/DEBRIDEMENT19",1B,New,sinus nasal endoscopic post sinus surgery toiletdebridement19,33.52694,-4.643391
+24,SK701B,"BRAIN, ANEURYSM/ARTERIO-VENOUS MALFORMATION, CLIPPING/EXCISION, COMPLEX",7A,Existing,brain aneurysmarteriovenous malformation clippingexcision complex,-11.359437,-7.3337626
+69,SM717L,"LARYNX, VARIOUS LESIONS, HEMI/PARTIAL LARYNGECTOMY",5C,Existing,larynx various lesion hemipartial laryngectomy,76.45181,1.2373514
+113,SG814U,"URETHRA , EXCISION OF URETHRAL DIVERTICULUM",3B,Existing,urethra excision urethral diverticulum,30.690296,22.23589
+331,SB703M,"MANDIBLE OR MAXILLA, TUMOR, MARGINAL RESECTION WITH BONE GRAFT",6B,Existing,mandible maxilla tumor marginal resection bone graft,41.36593,-8.703856
+236,SB702J,"JOINTS, ARTHROSCOPY, DIAGNOSTIC",2C,Existing,joint arthroscopy diagnostic,22.329882,8.342724
+53,SK817B,"BRAIN, VARIOUS LESIONS, PALLIDOTOMY/THALAMOTOMY/OTHER STEREOTACTIC PROCEDURE - UNILATERAL",6A,Existing,brain various lesion pallidotomythalamotomyother stereotactic procedure unilateral,-9.680735,-5.140293
+98,SG712U,"URETHRA, URETHROSCOPY, WITH RELATED PROCEDURES",1B,Existing,urethra urethroscopy related procedure,-13.206543,4.679723
+116,SM705P,"PHARYNX, VARIOUS LESIONS, PARTIAL PHARYNGECTOMY WITH PRIMARY CLOSURE",4B,Existing,pharynx various lesion partial pharyngectomy primary closure,-26.258318,-15.528706
+63,SI703P,"PELVIS, MALIGNANT, SECOND LOOK LAPAROTOMY",4A,Existing,pelvis malignant second look laparotomy,-40.19148,-4.901099
+217,SB828H,"HIP, CONGENITAL DISLOCATION, OPEN REDUCTION",5C,Existing,hip congenital dislocation open reduction,-64.24226,-2.559306
+246,SB712J,"JOINTS (TEMPORO-MANDIBULAR), VARIOUS LESIONS, CONDYLECTOMY WITH RECONSTRUCTION (BILATERAL)",7A,Existing,joint temporomandibular various lesion condylectomy reconstruction bilateral,43.867947,-59.360123
+203,SB814H,"HAND, FRACTURES/DISLOCATION, OPEN REDUCTION AND INTERNAL FIXATION (MULTIPLE)",5C,Existing,hand fracturesdislocation open reduction internal fixation multiple,24.9948,39.675484
+194,SF712L,"LIVER, TUMOUR, IMAGING GUIDED PERCUTANEOUS LOCAL ABLATION, COMPLEX (RADIOFREQUENCY, CRYOTHERAPY, MICROWAVE, LASER, ALCOHOL, ETC)",4A,Existing,liver tumour imaging guided percutaneous local ablation complex radiofrequency cryotherapy microwave laser alcohol etc,64.32734,8.136609
+5,SE704L,"LYMPH NODE (CERVICAL), VARIOUS LESIONS, NECK DISSECTION BILATERAL 3 OR LESS LEVELS",5A,Existing,lymph node cervical various lesion neck dissection bilateral 3 le level,-38.527096,-48.536964
+21,SB706B,"BONE, TUMOUR, IMAGING GUIDED PERCUTANEOUS LOCAL ABLATION (RADIOFREQUENCY, CRYOTHERAPY, MICROWAVE, LASER, ALCOHOL,ETC) , SINGLE LESION",3C,Existing,bone tumour imaging guided percutaneous local ablation radiofrequency cryotherapy microwave laser alcoholetc single lesion,61.314842,9.124504
+438,SB735S,"SPINE, DISCOGRAM (MORE THAN 2 LEVELS)",3A,Existing,spine discogram 2 level,39.239044,42.15529
+215,SB826H,"HIP, AVASCULAR NECROSIS, CORE DECOMPRESSION",4A,Existing,hip avascular necrosis core decompression,-27.354998,-6.5789843
+85,SA721S,"SOFT TISSUE (UPPER LIMB), TUMORS (BENIGN), MAJOR EXCISION BIOPSY",4A,Existing,soft tissue upper limb tumor benign major excision biopsy,-39.40765,28.457598
+15,SI806C,"CERVIX, POLYP, EXCISION/EROSION (SIMPLE) WITH BIOPSY",1B,Existing,cervix polyp excisionerosion simple biopsy,7.9556518,-22.447275
+78,SL824E,"EYELIDS, INVOLUTIONAL ECTROPION/ ENTROPION CORRECTION (BILATERAL)",4A,Existing,eyelid involutional ectropion entropion correction bilateral,27.16524,-33.909214
+110,SA814S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT (DEEP), DIRECT FLAP REPAIR (CROSS LEG)",5C,Existing,skin subcutaneous tissue defect deep direct flap repair cross leg,-19.788778,-8.012627
+54,SF834A,"ANUS, HEMORRHOIDS, INJECTION/LIGATION/BANDING",MSP,Existing,anus hemorrhoid injectionligationbanding,19.946524,-40.980526
+170,SI819V,"VAGINA, VARIOUS LESIONS, BIOPSY",1A,Existing,vagina various lesion biopsy,-19.00238,33.049263
+91,SB700F,"FACE, FRACTURE, ENDOSCOPIC REDUCTION AND FIXATION",5C,Existing,face fracture endoscopic reduction fixation,-7.2100115,10.384508
+114,SL705L,"LENS, COMBINED GLAUCOMA IMPLANTS WITH CATARACT EXTRACTION (WITH OR WITHOUT INTRAOCULAR LENS IMPLANTATION)",6A,Existing,lens combined glaucoma implant cataract extraction without intraocular lens implantation,39.756462,-44.229958
+231,SB842H,HUMERUS SUPRACONDYLAR AND INTERCONDYLAR FRACTURE,5A,Existing,humerus supracondylar intercondylar fracture,-11.167096,51.183662
+58,SF838A,"ANUS, HEMORRHOIDS, REMOVAL OF EXTERNAL ANAL TAGS",1B,Existing,anus hemorrhoid removal external anal tag,18.692965,-41.336643
+286,SB701K,"KNEE, LIGAMENTS/MENISCUS/CARTILAGE/BONE COMBINED, MIS ACL OR PCL RECONSTRUCTION",5C,Existing,knee ligamentsmeniscuscartilagebone combined mi acl pcl reconstruction,69.65879,-25.821686
+232,SF804M,"MOUTH, CLEFT LIP, BILATERAL PRIMARY REPAIR",6A,Existing,mouth cleft lip bilateral primary repair,-19.875551,-33.587513
+118,SG820U,"URETHRA, STRICTURE, URETHRAL WALL STENTING",2C,Existing,urethra stricture urethral wall stenting,19.04519,46.330505
+75,SM703M,"MOUTH, VARIOUS LESIONS, PHARYNGOTOMY (LATERAL) WITH EXCISION OF TONGUE",4A,Existing,mouth various lesion pharyngotomy lateral excision tongue,-26.258595,-34.777603
+85,SM702N,"NOSE, CHOANAL ATRESIA, REPAIR BY PUNCTURE AND DILATATION",2C,Existing,nose choanal atresia repair puncture dilatation,-32.410057,49.429886
+13,SB805A,"ANKLE, VARIOUS LESIONS, SYNOVECTOMIES",3B,Existing,ankle various lesion synovectomies,16.983574,11.19226
+52,SG709K,"KIDNEY, CALCULUS, PERCUTANEOUS NEPHROLITHOTOMY OR PERCUTANEOUS NEPHROSTOLITHOTOMY (PCNL)",5A,Uptable,kidney calculus percutaneous nephrolithotomy percutaneous nephrostolithotomy pcnl,-1.1940349,-33.725063
+31,SC705T,"THORAX, RESUSCITATIVE TRAUMA THORACOTOMY (HAEMOSTASIS, DAMAGE CONTROL, ORGAN REPAIR)",5A,Existing,thorax resuscitative trauma thoracotomy haemostasis damage control organ repair,25.042816,50.04535
+430,SB723S,"SPINE (EXCLUDING CERVICAL SPINE), VARIOUS LESIONS, POSTERIOR DECOMPRESSION AND/OR DISCECTOMY WITHOUT INSERTION OF INTERSPINOUS DEVICE (1 SEGMENT) WITHOUT INSTRUMENTED FUSION",6A,Existing,spine excluding cervical spine various lesion posterior decompression andor discectomy without insertion interspinous device 1 segment without instrumented fusion,61.446846,-14.29566
+118,SK803N,"NERVE-CUTANEOUS, INJURY, PRIMARY SUTURE",3B,Existing,nervecutaneous injury primary suture,-27.606913,23.46641
+66,SC815T,"TRACHEA, TRACHEO-ESOPHAGEAL FISTULA, LIGATION AND DIVISION",5C,Existing,trachea tracheoesophageal fistula ligation division,-29.362972,59.623272
+19,SA805B,"BREAST, DROOPING, MASTOPEXY/REDUCTION (UNILATERAL)",4A,Existing,breast drooping mastopexyreduction unilateral,-1.3624322,-13.4470625
+341,SF802T,"TEETH (4 OR MORE), IMPACTED, EXCISION WITH REMOVAL OF BONE AND TOOTH DIVISION",4B,Existing,teeth 4 impacted excision removal bone tooth division,46.917095,-5.2145834
+253,SF800N,"NECK, BRANCHIAL CYST, REMOVAL WITH BIOPSY",3B,Existing,neck branchial cyst removal biopsy,-8.08558,23.462244
+403,SB703P,"PELVIS, FRACTURE, ANTERIOR FIXATION",5B,New,pelvis fracture anterior fixation,-49.8541,35.935497
 49,SG706K,"KIDNEY TRANSPLANT, DONATION (LIVE DONOR)",5C,"Descriptor
-change",kidney transplant donation live donor,-2.636695,7.777669
-96,SM713N,"NOSE, VARIOUS LESIONS (POSTNASAL SPACE), DIRECT EXAMINATION WITH BIOPSY AND NASENDOSCOPY",1B,Existing,nose various lesion postnasal space direct examination biopsy nasendoscopy,-1.1952596,12.223249
-329,SB701M,"MANDIBLE OR MAXILLA, BONY PROTUBERANCE, EXCISION",1B,Existing,mandible maxilla bony protuberance excision,1.890113,9.614592
-77,SA713S,"SOFT TISSUE (LOWER LIMB), OPEN WOUND/INFECTION, MAJOR DESLOUGHING",2A,Existing,soft tissue lower limb open woundinfection major desloughing,3.3253107,10.444288
-209,SB820H,"HAND, WART/CORN/NAEVUS, EXCISION",1B,Existing,hand wartcornnaevus excision,2.4054587,11.22701
-419,SB707S,"SHOULDER, SHOULDER SOFT TISSUE INJURY, BANKART OR SUPERIOR LABRUM FROM ANTERIOR TO POSTERIOR (SLAP) REPAIR",5A,Descriptor change,shoulder shoulder soft tissue injury bankart superior labrum anterior posterior slap repair,3.1940508,6.5627866
-198,SK700V,"VEIN, INTRAVENOUS, ANAESTHETIC",MSP,Existing,vein intravenous anaesthetic,-0.20354527,9.871161
-37,SC711T,"THORAX, MIS THYMECTOMY",6B,Existing,thorax mi thymectomy,1.5446464,9.034882
-33,SM819E,"EAR, MICROTIA, INSERTION OF CARTILAGE/SILASTIC FRAMEWORK",4A,Existing,ear microtia insertion cartilagesilastic framework,-0.852238,11.570169
-169,SA874S,"SKIN, BURNS SCAR/TATTOO (LESS THAN 1%), LASER EXCISION",1C,Descriptor change,skin burn scartattoo le 1 laser excision,1.4257202,12.659986
-12,SE711L,"LYMPH NODE, VARIOUS LESIONS, IMAGING GUIDED PERCUTANEOUS BIOPSY, DEEP (INTRATHORACIC/ABDOMINAL/PELVIC, RETROPERITONEAL)",2A,Existing,lymph node various lesion imaging guided percutaneous biopsy deep intrathoracicabdominalpelvic retroperitoneal,2.7609985,14.195355
-125,SG827U,"URETHRA, VARIOUS LESIONS, POSTERIOR URETHROPLASTY",5C,Existing,urethra various lesion posterior urethroplasty,-4.3162794,10.391361
-121,SF804C,"COLON, VARIOUS LESIONS, TOTAL COLECTOMY WITH ILEORECTAL ANASTOMOSIS/ILEOSTOMY",6A,Existing,colon various lesion total colectomy ileorectal anastomosisileostomy,-0.63327545,6.8889728
-327,SF812S,"STOMACH, TOTAL/PROXIMAL GASTRECTOMY FOR BENIGN GASTRIC DISEASES",6B,Existing,stomach totalproximal gastrectomy benign gastric disease,-0.77629715,8.243625
-20,SB705B,"BONE, TUMOUR, IMAGING GUIDED PERCUTANEOUS LOCAL ABLATION, SIMPLE, > 1 LESION (RADIOFREQUENCY, CRYOTHERAPY, MICROWAVE, LASER, ALCOHOL, ETC)",4A,Existing,bone tumour imaging guided percutaneous local ablation simple 1 lesion radiofrequency cryotherapy microwave laser alcohol etc,-1.783077,15.895399
-382,SB840M,"MAXILLA, VARIOUS LESIONS, OSTECTOMY/OSTEOTOMY (MORE THAN 1 SEGMENT)",6B,Existing,maxilla various lesion ostectomyosteotomy 1 segment,2.032812,9.528749
-11,SE710L,LYMPH NODE EXCISION FOR MYCOBACTERIUM AVIARE INTRACELLULARE SCROPHYLLORIUM,2C,Existing,lymph node excision mycobacterium aviare intracellulare scrophyllorium,2.7237916,14.35208
-104,SB713F,"FOREARM, RADIAL HEAD FRACTURE, OPEN REDUCTION OF RADIAL HEAD FOR MISSED MONTEGGIA",4A,Existing,forearm radial head fracture open reduction radial head missed monteggia,2.2173455,8.597836
-66,SI702U,"UTERUS, BENIGN CONDITIONS, TOTAL ABDOMINAL HYSTERECTOMY WITH/WITHOUT SALPINGO- OOPHORECTOMY AND PELVIC FLOOR REPAIR (COMBINED OPERATION)",4C,Existing,uterus benign condition total abdominal hysterectomy withwithout salpingo oophorectomy pelvic floor repair combined operation,-2.2180235,9.53404
-63,SD821A,"ARTERY, VARIOUS LESIONS, ARTERIO-VENUOUS FISTULA CREATION",3C,Existing,artery various lesion arteriovenuous fistula creation,0.32036066,9.685405
-166,SK752S,"SPLANCHNIC NERVES, BLOCK, ANAESTHETIC",2B,Existing,splanchnic nerve block anaesthetic,2.8712158,4.2190022
-328,SF813S,"STOMACH, VARIOUS LESIONS, WEDGE RESECTION",4A,Existing,stomach various lesion wedge resection,-0.8199767,8.556528
-50,SK814B,"BRAIN, INTRACRANIAL EXTRACEREBRAL TUMOR, CRANIOTOMY & REMOVAL, SIMPLE",6B,Existing,brain intracranial extracerebral tumor craniotomy removal simple,-2.5676677,12.7721
-55,SI809O,"OVARY, VARIOUS LESIONS, OVARIOPLASTY, LAPAROTOMY/MIS (USING MICROSURGICAL TECHNIQUES)",6B,Existing,ovary various lesion ovarioplasty laparotomymis using microsurgical technique,4.509778,7.8729386
-41,SD741A,"AORTA, TOTAL ARCH REPLACEMENT",7C,Existing,aorta total arch replacement,0.49153826,10.342938
-280,SB828J,"JOINTS (UPPER LIMB), FRACTURES/DISLOCATION/SPRAIN, FULL CAST",MSP,Existing,joint upper limb fracturesdislocationsprain full cast,3.3066537,9.825881
-69,SH801V,"VAS DEFERENS, VARIOUS LESIONS, REANASTOMOSIS (MICROSURGICAL)",4C,Existing,va deferens various lesion reanastomosis microsurgical,9.792714,8.674912
-4,SK703A,"ARTERY, EXTRACRANIAL, VARIOUS LESIONS, INFUSION",3C,Existing,artery extracranial various lesion infusion,0.439526,9.229993
-32,SB803B,"BONE (LOWER LIMB), DEFECT/NON UNION, IMPLANTATION OF BONE STIMULATOR",3B,Existing,bone lower limb defectnon union implantation bone stimulator,2.7724319,10.628908
-265,SB811J,"JOINTS (LOWER LIMB), LOOSE BODIES, REMOVAL",3B,Existing,joint lower limb loose body removal,3.5148637,9.88691
-136,SA840S,"SKIN AND SUBCUTANEOUS TISSUE, HEMATOMA, ABSCESS/CELLULITIS/SIMILAR LESION<3CM, SAUCERISATION/INCISION & DRAINAGE",1A,Existing,skin subcutaneous tissue hematoma abscesscellulitissimilar lesion3cm saucerisationincision drainage,0.6115811,12.038616
-26,SA812B,"BREAST, LUMP (SINGLE), EXCISION BIOPSY",2C,Existing,breast lump single excision biopsy,-0.38346198,11.146075
-100,SI811U,"UTERUS, ENDOMETRIAL, BIOPSY WITHOUT GENERAL ANAESTHESIA",MSP,Existing,uterus endometrial biopsy without general anaesthesia,-1.765639,10.44061
-30,SC704T,"THORAX, PLEURAL EFFUSION, BIOPSY",1C,Existing,thorax pleural effusion biopsy,1.4654317,9.252087
-19,SD718A,"ARTERY, PLACEMENT ARTERIAL (PA) LINE INSERTION",MSP,Existing,artery placement arterial pa line insertion,1.1649854,8.0991
-186,SF704L,"LIVER, ABSCESS, IMAGING GUIDED PERCUTANEOUS DRAINAGE CATHETER INSERTION",2C,Existing,liver abscess imaging guided percutaneous drainage catheter insertion,-1.0341644,9.802803
-90,SL839E,"EYELIDS, SIMPLE LACERATION, REPAIR",1B,Existing,eyelid simple laceration repair,-0.36882684,11.523824
-193,SA899S,"SKIN, INTRALESIONAL STEROID INJECTION",MSP,Existing,skin intralesional steroid injection,-0.9215355,10.343887
-90,SB803E,"ELBOW, VARIOUS LESIONS, RECONSTRUCTION WITH OR WITHOUT SYNOVECTOMY",5A,Existing,elbow various lesion reconstruction without synovectomy,3.0358486,8.261288
-234,SB700J,"JOINTS (TEMPOROMANDIBULAR), VARIOUS LESIONS, ARTHROSCOPY (UNILATERAL)",2C,Existing,joint temporomandibular various lesion arthroscopy unilateral,0.5449252,3.9423146
-437,SB733S,"CERVICAL SPINE, VARIOUS LESIONS, ANTERIOR DECOMPRESSION AND FUSION AND/OR DISC REPLACEMENT (3 OR MORE SEGMENTS)",7A,Descriptor change,cervical spine various lesion anterior decompression fusion andor disc replacement 3 segment,-2.549376,5.2819023
-257,SF702P,"PANCREAS, TRANSPLANT (RECIPIENT)",7C,Existing,pancreas transplant recipient,-2.4400654,7.8253703
-54,SI808O,"OVARY, VARIOUS LESIONS, OVARIOPEXY",3B,Existing,ovary various lesion ovariopexy,-1.3465378,9.136228
-479,SB704T,"TIBIA, TIBIAL PLATEAU, UNICONDYLAR, ORIF",4B,Existing,tibia tibial plateau unicondylar orif,2.266357,9.874558
-469,SB808S,"SPINE, DEFORMITIES, THREE-COLUMN OSTEOTOMY (SUCH AS PSO, VCR, TOTAL SPONDYLECTOMY OR THEIR EQUIVALENT)",7C,Existing,spine deformity threecolumn osteotomy pso vcr total spondylectomy equivalent,2.3112638,10.640083
-244,SB710J,"JOINTS (TEMPORO-MANDIBULAR), VARIOUS LESIONS, CONDYLECTOMY/CORONOIDECTOMY/MENISECTOMY",4B,Existing,joint temporomandibular various lesion condylectomycoronoidectomymenisectomy,0.5865058,3.9879313
-129,SA833S,"SKIN AND SUBCUTANEOUS TISSUE, HEMATOMA (SMALL)/FURUNCLE/ABSCESS/SIMILAR LESION, INCISION WITH DRAINAGE",MSP,Existing,skin subcutaneous tissue hematoma smallfuruncleabscesssimilar lesion incision drainage,0.62854034,12.039153
-129,SK701S,"SPINE, IMPLANTATION OF PORT E.G. PORT-A-CATH",2B,Existing,spine implantation port eg portacath,-1.8415216,10.3425255
-421,SB709S,"SHOULDER, SHOULDER SOFT TISSUE INJURY, DECOMPRESSION ALONE",5A,Descriptor change,shoulder shoulder soft tissue injury decompression alone,3.2260902,6.5739255
-70,SM718L,"LARYNX, VARIOUS LESIONS, HEMI/PARTIAL LARYNGECTOMY WITH RADICAL NECK DISSECTION",6B,Existing,larynx various lesion hemipartial laryngectomy radical neck dissection,-0.2403436,13.05065
-34,SB805B,"BONE (LOWER LIMB), GRADE 1 AND 2 OPEN FRACTURES/OPEN DISLOCATION OR OPEN FRACTURE- DISLOCATION WOUND DEBRIDEMENT",2B,Existing,bone lower limb grade 1 2 open fracturesopen dislocation open fracture dislocation wound debridement,2.9162643,9.123088
-48,SH837P,"PROSTATE GLAND, VARIOUS LESIONS, TRANSURETHRAL RESECTION (TURP)/ENUCLEATION OF PROSTATE (RESECTED WEIGHT MORE THAN 30G)",5C,Descriptor change,prostate gland various lesion transurethral resection turpenucleation prostate resected weight 30g,1.8964349,14.670354
-108,SB717F,"FOOT, CONGENITAL TALIPES EQUINOVARUS (CTEV), MEDIAL RELEASE",4A,Existing,foot congenital talipes equinovarus ctev medial release,1.7043564,11.42468
-262,SB808J,"JOINTS (LOWER LIMB), DEFORMITIES, CORRECTIVE SURGERY WITH PLATE FIXATION AND FLUOROSCOPY",5C,Existing,joint lower limb deformity corrective surgery plate fixation fluoroscopy,2.9333863,10.009991
-58,SL801E,"EYE, EXOPHTHALMOS DUE TO THYROTOXICOSIS, RETRACTOR RECESSIONS (UNILATERAL)",4A,Existing,eye exophthalmos due thyrotoxicosis retractor recession unilateral,7.061499,8.205047
-184,SB727H,"HUMERUS, CUBITUS VARUS, CORRECTIVE OSTEOTOMY WITH PLATING",5A,Existing,humerus cubitus varus corrective osteotomy plating,2.5826025,10.097027
-47,SF826A,"ANUS, ANO-RECTAL PROLAPSE, CIRCUMANAL SUTURE",1A,Existing,anus anorectal prolapse circumanal suture,-1.4444829,6.630347
+change",kidney transplant donation live donor,71.691185,31.531439
+96,SM713N,"NOSE, VARIOUS LESIONS (POSTNASAL SPACE), DIRECT EXAMINATION WITH BIOPSY AND NASENDOSCOPY",1B,Existing,nose various lesion postnasal space direct examination biopsy nasendoscopy,26.952953,-16.905096
+329,SB701M,"MANDIBLE OR MAXILLA, BONY PROTUBERANCE, EXCISION",1B,Existing,mandible maxilla bony protuberance excision,1.5275894,12.223384
+77,SA713S,"SOFT TISSUE (LOWER LIMB), OPEN WOUND/INFECTION, MAJOR DESLOUGHING",2A,Existing,soft tissue lower limb open woundinfection major desloughing,-36.259987,14.655017
+209,SB820H,"HAND, WART/CORN/NAEVUS, EXCISION",1B,Existing,hand wartcornnaevus excision,-27.557108,13.385768
+419,SB707S,"SHOULDER, SHOULDER SOFT TISSUE INJURY, BANKART OR SUPERIOR LABRUM FROM ANTERIOR TO POSTERIOR (SLAP) REPAIR",5A,Descriptor change,shoulder shoulder soft tissue injury bankart superior labrum anterior posterior slap repair,-9.762539,-26.550526
+198,SK700V,"VEIN, INTRAVENOUS, ANAESTHETIC",MSP,Existing,vein intravenous anaesthetic,38.36998,36.66414
+37,SC711T,"THORAX, MIS THYMECTOMY",6B,Existing,thorax mi thymectomy,-8.704577,15.546541
+33,SM819E,"EAR, MICROTIA, INSERTION OF CARTILAGE/SILASTIC FRAMEWORK",4A,Existing,ear microtia insertion cartilagesilastic framework,-7.9952025,-1.1029108
+169,SA874S,"SKIN, BURNS SCAR/TATTOO (LESS THAN 1%), LASER EXCISION",1C,Descriptor change,skin burn scartattoo le 1 laser excision,-4.6493683,13.519942
+12,SE711L,"LYMPH NODE, VARIOUS LESIONS, IMAGING GUIDED PERCUTANEOUS BIOPSY, DEEP (INTRATHORACIC/ABDOMINAL/PELVIC, RETROPERITONEAL)",2A,Existing,lymph node various lesion imaging guided percutaneous biopsy deep intrathoracicabdominalpelvic retroperitoneal,-33.93818,-44.673
+125,SG827U,"URETHRA, VARIOUS LESIONS, POSTERIOR URETHROPLASTY",5C,Existing,urethra various lesion posterior urethroplasty,-13.208568,7.7277317
+121,SF804C,"COLON, VARIOUS LESIONS, TOTAL COLECTOMY WITH ILEORECTAL ANASTOMOSIS/ILEOSTOMY",6A,Existing,colon various lesion total colectomy ileorectal anastomosisileostomy,3.9474633,-39.452797
+327,SF812S,"STOMACH, TOTAL/PROXIMAL GASTRECTOMY FOR BENIGN GASTRIC DISEASES",6B,Existing,stomach totalproximal gastrectomy benign gastric disease,-18.828667,-40.410606
+20,SB705B,"BONE, TUMOUR, IMAGING GUIDED PERCUTANEOUS LOCAL ABLATION, SIMPLE, > 1 LESION (RADIOFREQUENCY, CRYOTHERAPY, MICROWAVE, LASER, ALCOHOL, ETC)",4A,Existing,bone tumour imaging guided percutaneous local ablation simple 1 lesion radiofrequency cryotherapy microwave laser alcohol etc,63.459736,8.178834
+382,SB840M,"MAXILLA, VARIOUS LESIONS, OSTECTOMY/OSTEOTOMY (MORE THAN 1 SEGMENT)",6B,Existing,maxilla various lesion ostectomyosteotomy 1 segment,-37.730606,-56.864395
+11,SE710L,LYMPH NODE EXCISION FOR MYCOBACTERIUM AVIARE INTRACELLULARE SCROPHYLLORIUM,2C,Existing,lymph node excision mycobacterium aviare intracellulare scrophyllorium,-36.412987,-44.55176
+104,SB713F,"FOREARM, RADIAL HEAD FRACTURE, OPEN REDUCTION OF RADIAL HEAD FOR MISSED MONTEGGIA",4A,Existing,forearm radial head fracture open reduction radial head missed monteggia,9.447944,-18.035633
+66,SI702U,"UTERUS, BENIGN CONDITIONS, TOTAL ABDOMINAL HYSTERECTOMY WITH/WITHOUT SALPINGO- OOPHORECTOMY AND PELVIC FLOOR REPAIR (COMBINED OPERATION)",4C,Existing,uterus benign condition total abdominal hysterectomy withwithout salpingo oophorectomy pelvic floor repair combined operation,-10.211472,72.768295
+63,SD821A,"ARTERY, VARIOUS LESIONS, ARTERIO-VENUOUS FISTULA CREATION",3C,Existing,artery various lesion arteriovenuous fistula creation,12.979719,36.63404
+166,SK752S,"SPLANCHNIC NERVES, BLOCK, ANAESTHETIC",2B,Existing,splanchnic nerve block anaesthetic,38.901676,37.277416
+328,SF813S,"STOMACH, VARIOUS LESIONS, WEDGE RESECTION",4A,Existing,stomach various lesion wedge resection,-19.405724,-20.304728
+50,SK814B,"BRAIN, INTRACRANIAL EXTRACEREBRAL TUMOR, CRANIOTOMY & REMOVAL, SIMPLE",6B,Existing,brain intracranial extracerebral tumor craniotomy removal simple,42.58345,19.98922
+55,SI809O,"OVARY, VARIOUS LESIONS, OVARIOPLASTY, LAPAROTOMY/MIS (USING MICROSURGICAL TECHNIQUES)",6B,Existing,ovary various lesion ovarioplasty laparotomymis using microsurgical technique,-41.883175,-13.807166
+41,SD741A,"AORTA, TOTAL ARCH REPLACEMENT",7C,Existing,aorta total arch replacement,-24.35271,-24.848274
+280,SB828J,"JOINTS (UPPER LIMB), FRACTURES/DISLOCATION/SPRAIN, FULL CAST",MSP,Existing,joint upper limb fracturesdislocationsprain full cast,27.207611,18.378258
+69,SH801V,"VAS DEFERENS, VARIOUS LESIONS, REANASTOMOSIS (MICROSURGICAL)",4C,Existing,va deferens various lesion reanastomosis microsurgical,63.529682,-35.297276
+4,SK703A,"ARTERY, EXTRACRANIAL, VARIOUS LESIONS, INFUSION",3C,Existing,artery extracranial various lesion infusion,15.23211,-64.24759
+32,SB803B,"BONE (LOWER LIMB), DEFECT/NON UNION, IMPLANTATION OF BONE STIMULATOR",3B,Existing,bone lower limb defectnon union implantation bone stimulator,-70.10169,-19.67167
+265,SB811J,"JOINTS (LOWER LIMB), LOOSE BODIES, REMOVAL",3B,Existing,joint lower limb loose body removal,-28.44743,6.6322184
+136,SA840S,"SKIN AND SUBCUTANEOUS TISSUE, HEMATOMA, ABSCESS/CELLULITIS/SIMILAR LESION<3CM, SAUCERISATION/INCISION & DRAINAGE",1A,Existing,skin subcutaneous tissue hematoma abscesscellulitissimilar lesion3cm saucerisationincision drainage,0.5315324,-53.582184
+26,SA812B,"BREAST, LUMP (SINGLE), EXCISION BIOPSY",2C,Existing,breast lump single excision biopsy,-0.19100606,-11.443984
+100,SI811U,"UTERUS, ENDOMETRIAL, BIOPSY WITHOUT GENERAL ANAESTHESIA",MSP,Existing,uterus endometrial biopsy without general anaesthesia,16.506252,56.13135
+30,SC704T,"THORAX, PLEURAL EFFUSION, BIOPSY",1C,Existing,thorax pleural effusion biopsy,-7.9443536,17.554926
+19,SD718A,"ARTERY, PLACEMENT ARTERIAL (PA) LINE INSERTION",MSP,Existing,artery placement arterial pa line insertion,-26.29622,-3.2325242
+186,SF704L,"LIVER, ABSCESS, IMAGING GUIDED PERCUTANEOUS DRAINAGE CATHETER INSERTION",2C,Existing,liver abscess imaging guided percutaneous drainage catheter insertion,2.8498309,29.362326
+90,SL839E,"EYELIDS, SIMPLE LACERATION, REPAIR",1B,Existing,eyelid simple laceration repair,-24.426884,31.254135
+193,SA899S,"SKIN, INTRALESIONAL STEROID INJECTION",MSP,Existing,skin intralesional steroid injection,-15.5805235,-5.0148883
+90,SB803E,"ELBOW, VARIOUS LESIONS, RECONSTRUCTION WITH OR WITHOUT SYNOVECTOMY",5A,Existing,elbow various lesion reconstruction without synovectomy,-25.835705,0.121338
+234,SB700J,"JOINTS (TEMPOROMANDIBULAR), VARIOUS LESIONS, ARTHROSCOPY (UNILATERAL)",2C,Existing,joint temporomandibular various lesion arthroscopy unilateral,44.240726,-56.13393
+437,SB733S,"CERVICAL SPINE, VARIOUS LESIONS, ANTERIOR DECOMPRESSION AND FUSION AND/OR DISC REPLACEMENT (3 OR MORE SEGMENTS)",7A,Descriptor change,cervical spine various lesion anterior decompression fusion andor disc replacement 3 segment,35.70773,-55.279213
+257,SF702P,"PANCREAS, TRANSPLANT (RECIPIENT)",7C,Existing,pancreas transplant recipient,0.2524396,41.18227
+54,SI808O,"OVARY, VARIOUS LESIONS, OVARIOPEXY",3B,Existing,ovary various lesion ovariopexy,-35.698566,-5.662375
+479,SB704T,"TIBIA, TIBIAL PLATEAU, UNICONDYLAR, ORIF",4B,Existing,tibia tibial plateau unicondylar orif,53.73296,24.297375
+469,SB808S,"SPINE, DEFORMITIES, THREE-COLUMN OSTEOTOMY (SUCH AS PSO, VCR, TOTAL SPONDYLECTOMY OR THEIR EQUIVALENT)",7C,Existing,spine deformity threecolumn osteotomy pso vcr total spondylectomy equivalent,-30.00988,10.285146
+244,SB710J,"JOINTS (TEMPORO-MANDIBULAR), VARIOUS LESIONS, CONDYLECTOMY/CORONOIDECTOMY/MENISECTOMY",4B,Existing,joint temporomandibular various lesion condylectomycoronoidectomymenisectomy,43.676,-58.12476
+129,SA833S,"SKIN AND SUBCUTANEOUS TISSUE, HEMATOMA (SMALL)/FURUNCLE/ABSCESS/SIMILAR LESION, INCISION WITH DRAINAGE",MSP,Existing,skin subcutaneous tissue hematoma smallfuruncleabscesssimilar lesion incision drainage,0.6607697,-54.366165
+129,SK701S,"SPINE, IMPLANTATION OF PORT E.G. PORT-A-CATH",2B,Existing,spine implantation port eg portacath,-47.66438,-0.7374822
+421,SB709S,"SHOULDER, SHOULDER SOFT TISSUE INJURY, DECOMPRESSION ALONE",5A,Descriptor change,shoulder shoulder soft tissue injury decompression alone,-10.976671,-27.081818
+70,SM718L,"LARYNX, VARIOUS LESIONS, HEMI/PARTIAL LARYNGECTOMY WITH RADICAL NECK DISSECTION",6B,Existing,larynx various lesion hemipartial laryngectomy radical neck dissection,76.852615,0.051946133
+34,SB805B,"BONE (LOWER LIMB), GRADE 1 AND 2 OPEN FRACTURES/OPEN DISLOCATION OR OPEN FRACTURE- DISLOCATION WOUND DEBRIDEMENT",2B,Existing,bone lower limb grade 1 2 open fracturesopen dislocation open fracture dislocation wound debridement,-62.097767,0.53057176
+48,SH837P,"PROSTATE GLAND, VARIOUS LESIONS, TRANSURETHRAL RESECTION (TURP)/ENUCLEATION OF PROSTATE (RESECTED WEIGHT MORE THAN 30G)",5C,Descriptor change,prostate gland various lesion transurethral resection turpenucleation prostate resected weight 30g,9.956412,-52.880672
+108,SB717F,"FOOT, CONGENITAL TALIPES EQUINOVARUS (CTEV), MEDIAL RELEASE",4A,Existing,foot congenital talipes equinovarus ctev medial release,-70.87597,-1.4941046
+262,SB808J,"JOINTS (LOWER LIMB), DEFORMITIES, CORRECTIVE SURGERY WITH PLATE FIXATION AND FLUOROSCOPY",5C,Existing,joint lower limb deformity corrective surgery plate fixation fluoroscopy,-13.384404,54.145508
+58,SL801E,"EYE, EXOPHTHALMOS DUE TO THYROTOXICOSIS, RETRACTOR RECESSIONS (UNILATERAL)",4A,Existing,eye exophthalmos due thyrotoxicosis retractor recession unilateral,6.592538,-10.948051
+184,SB727H,"HUMERUS, CUBITUS VARUS, CORRECTIVE OSTEOTOMY WITH PLATING",5A,Existing,humerus cubitus varus corrective osteotomy plating,-10.327221,55.936962
+47,SF826A,"ANUS, ANO-RECTAL PROLAPSE, CIRCUMANAL SUTURE",1A,Existing,anus anorectal prolapse circumanal suture,63.225826,20.397938
 98,SK732N,"NERVE ROOTS, DORSAL ROOT GANGLION, PULSED RADIOFREQUENCY, NEUROLYTIC, ONE TO TWO",3A,"Downtable, Descriptor
-change",nerve root dorsal root ganglion pulsed radiofrequency neurolytic one two,2.4742627,4.237524
-151,SL808O,"ORBIT, VARIOUS LESIONS, RECONSTRUCTION INCLUDING ORBITAL SHIFT AND SOFT TISSUE (CRANIOFACIAL APPROACH)",7C,Existing,orbit various lesion reconstruction including orbital shift soft tissue craniofacial approach,-1.2721044,13.471275
-178,SA883S,"SKIN, VARIOUS LESIONS, WOUND INSPECTION/DRESSING/REMOVAL OF SUTURES",MSP,Existing,skin various lesion wound inspectiondressingremoval suture,-0.08818714,11.884055
-110,SG811U,"URETER, VARIOUS LESIONS, URETEROSTOMY",3C,Existing,ureter various lesion ureterostomy,-4.5762873,9.284065
-154,SK730S,"SPINAL/EPIDURAL REMOVAL, REVISION OF IMPLANTED RESERVOIR DEVICE (E.G. PAR)",2C,Existing,spinalepidural removal revision implanted reservoir device eg par,-1.7966566,10.290345
-471,SB811S,"SPINE, PROLAPSED DISC, NUCLEOPLASTY",3C,Existing,spine prolapsed disc nucleoplasty,-1.7775534,5.5633273
-185,SA890S,"SUBCUTANEOUS TISSUE (ABDOMEN), OBESITY, LIPOSUCTION",3B,Existing,subcutaneous tissue abdomen obesity liposuction,1.2546773,11.554921
-41,SH830P,"PROSTATE GLAND, VARIOUS LESIONS, RADICAL PROSTATECTOMY, WITHOUT LYMPH NODE DISSECTION",6A,Descriptor change,prostate gland various lesion radical prostatectomy without lymph node dissection,2.362543,14.498073
-494,SB808T,"TENDON SHEATH (UPPER LIMB), TENOSYNOVITIS (SINGLE), DRAINAGE",2B,Existing,tendon sheath upper limb tenosynovitis single drainage,4.3909345,9.305199
-133,SI701V,"VAGINA, CYSTOCOELE, RECTOCOELE, ANTERIOR REPAIR/KELLY'S OPERATION + POSTERIOR REPAIR",3B,Existing,vagina cystocoele rectocoele anterior repairkellys operation posterior repair,-3.4213538,10.449561
-113,SI826U,"UTERUS, MALIGNANT CONDITION, POSTERIOR PELVIC EXENTERATION",6B,Existing,uterus malignant condition posterior pelvic exenteration,-2.3910823,9.615186
-99,SB708F,"FEMUR, FRACTURE (PAEDIATRIC SHAFT), INTRAMEDULLARY FLEXIBLE NAILING",4A,Existing,femur fracture paediatric shaft intramedullary flexible nailing,2.168836,10.164612
-37,SH825P,"PENIS, VARIOUS LESIONS, INSERTION OF PENILE PROSTHESIS",5A,Existing,penis various lesion insertion penile prosthesis,-2.9053156,8.90404
-26,SH814P,"PENIS, TRAUMA (AMPUTATION), MICROVASCULAR REATTACHMENT",7C,Existing,penis trauma amputation microvascular reattachment,-3.1072738,9.147269
-147,SM705T,"TONSILS, VARIOUS LESIONS, REMOVAL WITH/WITHOUT ADENOIDECTOMY",3B,Existing,tonsil various lesion removal withwithout adenoidectomy,-0.96321166,10.741356
-62,SL806E,"EYE, INTRAOCULAR FOREIGN BODY, REMOVAL FROM ANTERIOR SEGMENT",3A,Existing,eye intraocular foreign body removal anterior segment,5.2104974,11.075983
-74,SG802K,"KIDNEY, CALCULUS, EXTRA CORPOREAL SHOCKWAVE LITHOTRIPSY (ESWL)",4B,Existing,kidney calculus extra corporeal shockwave lithotripsy eswl,-1.4289885,8.989032
-13,SI804C,"CERVIX, ECTROPION, AMPUTATION/REPAIR OF CERVIX (TRACHELORRHAPHY)",3B,Existing,cervix ectropion amputationrepair cervix trachelorrhaphy,-3.0669155,9.998531
-46,SL715E,"EYE, SOCKET, COMPLEX ANOPHTHALMIC SOCKET RECONSTRUCTION",5A,Existing,eye socket complex anophthalmic socket reconstruction,7.049401,8.200851
-179,SA884S,"SKIN, VARIOUS LESIONS OF FACE (SINGLE), EXCISION/PUNCH/ SHAVE BIOPSY",1A,Existing,skin various lesion face single excisionpunch shave biopsy,0.25543302,11.595641
-105,SD723H,"HEART, PERCUTANEOUS CLOSURE OF CONGENITAL HEART DEFECT",4A,Existing,heart percutaneous closure congenital heart defect,0.37194744,6.742186
-18,SE800L,"LYMPH NODE (AXILLARY), VARIOUS LESIONS, LIMITED EXCISION/BIOPSY",3A,Existing,lymph node axillary various lesion limited excisionbiopsy,2.8040187,14.280645
-431,SB724S,"SPINE, REMOVAL OF SPINE IMPLANTS WITHOUT OTHER PROCEDURES (POSTERIOR APPROACH)",3B,Existing,spine removal spine implant without procedure posterior approach,-2.3566306,5.7271953
-78,SK710N,"NERVE (OROFACIAL), INJURY, DECOMPRESSION (SINGLE)",3A,Existing,nerve orofacial injury decompression single,4.557962,7.9682417
-22,SL803C,"CONJUNCTIVA, PTERYGIUM, REMOVAL WITH CONJUNCTIVAL GRAFT",3A,Existing,conjunctiva pterygium removal conjunctival graft,-2.122036,11.146405
-25,SG804B,"BLADDER, DIVERTICULUM, OPEN EXCISION",3B,Existing,bladder diverticulum open excision,-1.166921,8.318563
-119,SA823S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT, FREE GRAFTS (SPLIT SKIN GRAFT /CULTURED EPITHELIAL AUTOGRAFTS 1/2 TO LESS THAN 2%)",2B,Descriptor change,skin subcutaneous tissue defect free graft split skin graft cultured epithelial autograft 12 le 2,2.0513468,12.574985
-12,SF713A,ANAL SPHINCTER BULKING INJECTION WITH OR WITHOUT RECTAL ULTRASOUND GUIDANCE,2C,Existing,anal sphincter bulking injection without rectal ultrasound guidance,0.41651765,10.224707
-77,SI714U,"UTERUS, INTRAUTERINE INSEMINATION",MSP,Existing,uterus intrauterine insemination,-4.2396193,12.038478
+change",nerve root dorsal root ganglion pulsed radiofrequency neurolytic one two,21.770647,-27.812101
+151,SL808O,"ORBIT, VARIOUS LESIONS, RECONSTRUCTION INCLUDING ORBITAL SHIFT AND SOFT TISSUE (CRANIOFACIAL APPROACH)",7C,Existing,orbit various lesion reconstruction including orbital shift soft tissue craniofacial approach,36.33619,28.085293
+178,SA883S,"SKIN, VARIOUS LESIONS, WOUND INSPECTION/DRESSING/REMOVAL OF SUTURES",MSP,Existing,skin various lesion wound inspectiondressingremoval suture,-24.901672,24.502214
+110,SG811U,"URETER, VARIOUS LESIONS, URETEROSTOMY",3C,Existing,ureter various lesion ureterostomy,0.8707712,-26.721949
+154,SK730S,"SPINAL/EPIDURAL REMOVAL, REVISION OF IMPLANTED RESERVOIR DEVICE (E.G. PAR)",2C,Existing,spinalepidural removal revision implanted reservoir device eg par,-45.993362,-3.3044655
+471,SB811S,"SPINE, PROLAPSED DISC, NUCLEOPLASTY",3C,Existing,spine prolapsed disc nucleoplasty,38.26908,-58.195637
+185,SA890S,"SUBCUTANEOUS TISSUE (ABDOMEN), OBESITY, LIPOSUCTION",3B,Existing,subcutaneous tissue abdomen obesity liposuction,37.872387,6.33075
+41,SH830P,"PROSTATE GLAND, VARIOUS LESIONS, RADICAL PROSTATECTOMY, WITHOUT LYMPH NODE DISSECTION",6A,Descriptor change,prostate gland various lesion radical prostatectomy without lymph node dissection,6.518464,-56.839214
+494,SB808T,"TENDON SHEATH (UPPER LIMB), TENOSYNOVITIS (SINGLE), DRAINAGE",2B,Existing,tendon sheath upper limb tenosynovitis single drainage,0.91138685,-82.41383
+133,SI701V,"VAGINA, CYSTOCOELE, RECTOCOELE, ANTERIOR REPAIR/KELLY'S OPERATION + POSTERIOR REPAIR",3B,Existing,vagina cystocoele rectocoele anterior repairkellys operation posterior repair,51.27445,-16.097654
+113,SI826U,"UTERUS, MALIGNANT CONDITION, POSTERIOR PELVIC EXENTERATION",6B,Existing,uterus malignant condition posterior pelvic exenteration,-38.662582,41.487255
+99,SB708F,"FEMUR, FRACTURE (PAEDIATRIC SHAFT), INTRAMEDULLARY FLEXIBLE NAILING",4A,Existing,femur fracture paediatric shaft intramedullary flexible nailing,13.572963,-35.22665
+37,SH825P,"PENIS, VARIOUS LESIONS, INSERTION OF PENILE PROSTHESIS",5A,Existing,penis various lesion insertion penile prosthesis,-17.742016,-1.4913656
+26,SH814P,"PENIS, TRAUMA (AMPUTATION), MICROVASCULAR REATTACHMENT",7C,Existing,penis trauma amputation microvascular reattachment,-48.61283,-60.548016
+147,SM705T,"TONSILS, VARIOUS LESIONS, REMOVAL WITH/WITHOUT ADENOIDECTOMY",3B,Existing,tonsil various lesion removal withwithout adenoidectomy,3.0982068,-5.591073
+62,SL806E,"EYE, INTRAOCULAR FOREIGN BODY, REMOVAL FROM ANTERIOR SEGMENT",3A,Existing,eye intraocular foreign body removal anterior segment,18.592667,73.94287
+74,SG802K,"KIDNEY, CALCULUS, EXTRA CORPOREAL SHOCKWAVE LITHOTRIPSY (ESWL)",4B,Existing,kidney calculus extra corporeal shockwave lithotripsy eswl,3.2010984,-32.40453
+13,SI804C,"CERVIX, ECTROPION, AMPUTATION/REPAIR OF CERVIX (TRACHELORRHAPHY)",3B,Existing,cervix ectropion amputationrepair cervix trachelorrhaphy,25.045683,-32.752758
+46,SL715E,"EYE, SOCKET, COMPLEX ANOPHTHALMIC SOCKET RECONSTRUCTION",5A,Existing,eye socket complex anophthalmic socket reconstruction,8.707165,-10.914009
+179,SA884S,"SKIN, VARIOUS LESIONS OF FACE (SINGLE), EXCISION/PUNCH/ SHAVE BIOPSY",1A,Existing,skin various lesion face single excisionpunch shave biopsy,-5.0716414,10.247958
+105,SD723H,"HEART, PERCUTANEOUS CLOSURE OF CONGENITAL HEART DEFECT",4A,Existing,heart percutaneous closure congenital heart defect,-57.301228,-4.229759
+18,SE800L,"LYMPH NODE (AXILLARY), VARIOUS LESIONS, LIMITED EXCISION/BIOPSY",3A,Existing,lymph node axillary various lesion limited excisionbiopsy,-37.508373,-41.017582
+431,SB724S,"SPINE, REMOVAL OF SPINE IMPLANTS WITHOUT OTHER PROCEDURES (POSTERIOR APPROACH)",3B,Existing,spine removal spine implant without procedure posterior approach,-16.397755,-10.365417
+78,SK710N,"NERVE (OROFACIAL), INJURY, DECOMPRESSION (SINGLE)",3A,Existing,nerve orofacial injury decompression single,24.219557,-6.5698195
+22,SL803C,"CONJUNCTIVA, PTERYGIUM, REMOVAL WITH CONJUNCTIVAL GRAFT",3A,Existing,conjunctiva pterygium removal conjunctival graft,-2.0689807,52.53375
+25,SG804B,"BLADDER, DIVERTICULUM, OPEN EXCISION",3B,Existing,bladder diverticulum open excision,31.788908,19.866646
+119,SA823S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT, FREE GRAFTS (SPLIT SKIN GRAFT /CULTURED EPITHELIAL AUTOGRAFTS 1/2 TO LESS THAN 2%)",2B,Descriptor change,skin subcutaneous tissue defect free graft split skin graft cultured epithelial autograft 12 le 2,-51.66666,-49.236633
+12,SF713A,ANAL SPHINCTER BULKING INJECTION WITH OR WITHOUT RECTAL ULTRASOUND GUIDANCE,2C,Existing,anal sphincter bulking injection without rectal ultrasound guidance,-52.60077,-10.332726
+77,SI714U,"UTERUS, INTRAUTERINE INSEMINATION",MSP,Existing,uterus intrauterine insemination,7.9229407,-3.577699
 207,SF812L,"LIVER, VARIOUS LESIONS, LOBECTOMY (3 - 4 SEGMENTS)",6B,"Descriptor
-change",liver various lesion lobectomy 3 4 segment,-1.9780959,7.776711
-179,SK800S,"SKULL, COMPOUND FRACTURE WITH DURAL PENETRATION AND BRAIN DAMAGE, OPERATION",6B,Existing,skull compound fracture dural penetration brain damage operation,-1.7802144,11.069476
-3,SD702A,"AORTIC DISSECTION, ENDOVASCULAR FENESTRATION",3B,Existing,aortic dissection endovascular fenestration,1.5872108,7.5816245
-115,SF712C,"COLON, TOTAL COLECTOMY / SUBTOTAL COLECTOMY",6A,Existing,colon total colectomy subtotal colectomy,-0.65044224,6.893937
-95,SK729N,"NERVE ROOTS, DORSAL ROOT GANGLION, ANAESTHETIC, MORE THAN TWO",3C,Existing,nerve root dorsal root ganglion anaesthetic two,2.5471709,4.273534
-188,SD802V,"VEIN (MAJOR), TRAUMA, REPAIR",5C,Existing,vein major trauma repair,1.028311,10.058919
-113,SL704L,"LENS, CATARACT (PAEDIATRIC), EXTRACTION WITH ANTERIOR VITRECTOMY AND INTRAOCULAR LENS IMPLANTATION - BILATERAL",5B,Existing,lens cataract paediatric extraction anterior vitrectomy intraocular lens implantation bilateral,7.5873766,6.5437493
-80,SL827E,"EYELIDS, EXPOSURE, TARSORRHAPHY (PERMANENT)",1B,Existing,eyelid exposure tarsorrhaphy permanent,-1.3214692,11.147419
-101,SD718H,"HEART, IMPLANT OF EPICARDIAL LEADS FOR PERMANENT PACEMAKERS",4A,Existing,heart implant epicardial lead permanent pacemaker,0.48815885,6.6562076
-15,SD714A,"ARTERY, BYPASS, DISTAL LEG/PEDAL WITH VEIN",6B,Existing,artery bypass distal legpedal vein,0.4235766,9.5403
-300,SF808R,"RECTUM, VARIOUS LESIONS, HARTMANN'S PROCEDURE",5C,Existing,rectum various lesion hartmanns procedure,-0.9190383,7.809881
-167,SB710H,"HAND, FRACTURE OF FINGERS/METACARPALS, EXTERNAL FIXATION",3B,Existing,hand fracture fingersmetacarpals external fixation,1.1783996,10.828687
-117,SF714C,"COLON, HIRSCHSPRUNG'S DISEASE, PULLTHROUGH FOR LONG SEGMENT DISEASE",6A,Descriptor change,colon hirschsprung disease pullthrough long segment disease,-0.9406098,7.665346
-70,SL814E,"ORBITAL, ENUCLEATION WITH INTEGRATED ORBITAL IMPLANT",4A,Existing,orbital enucleation integrated orbital implant,0.16748966,10.083793
-60,SK700F,"FACIAL, TRIGEMINAL GANGLION BLOCK, ANAESTHETIC",3A,Existing,facial trigeminal ganglion block anaesthetic,2.5335648,4.2264276
-496,SB810T,"TENDON-EXTENSOR (UPPER LIMB), ADHESION, TENOLYSIS (MULTIPLE)",5A,Existing,tendonextensor upper limb adhesion tenolysis multiple,4.314059,8.767174
-100,SD717H,"HEART, REPLACEMENT OF PACEMAKER",2B,Existing,heart replacement pacemaker,0.5418523,6.541492
-57,SF837A,"ANUS, HEMORRHOIDS,STAPLED HAEMORRHOIDECTOMY",3A,Existing,anus hemorrhoidsstapled haemorrhoidectomy,-1.1483617,6.492452
-4,SB703A,"ANKLE, VARIOUS LESIONS, PRIMARY TOTAL JOINT REPLACEMENT WITH AUGMENTATION, REQUIRING EXTRA IMPLANTS OR BONE GRAFTS",6B,Descriptor Change,ankle various lesion primary total joint replacement augmentation requiring extra implant bone graft,4.0099974,6.5920033
-175,SA880S,"SKIN, VARIOUS LESIONS, INSERTION OF TISSUE EXPANDER (MULTIPLE)",3A,Existing,skin various lesion insertion tissue expander multiple,0.112887,11.603356
-221,SB832H,"HIP, SNAPPING SYNDROME, RELEASE",1B,Existing,hip snapping syndrome release,5.119169,8.642782
-282,SF812P,"PAROTID, CALCULUS (SUPERFICIAL), REMOVAL",1C,Existing,parotid calculus superficial removal,-0.09592879,10.109899
-121,SA825S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT, FREE GRAFTS (SPLIT SKIN GRAFT/CULTURED EPITHELIAL AUTOGRAFTS 5 TO 10%)",4A,Descriptor change,skin subcutaneous tissue defect free graft split skin graftcultured epithelial autograft 5 10,2.1034367,12.581178
-84,SB707E,"ELBOW, VARIOUS LESIONS, PRIMARY TOTAL JOINT ARTHROPLASTY WITH AUGMENTATION, REQUIRING EXTRA IMPLANTS OR BONE GRAFTS",6B,Descriptor change,elbow various lesion primary total joint arthroplasty augmentation requiring extra implant bone graft,4.0224295,6.6227837
-173,SD715V,"VEIN, VARICOSITIES (RECURRENT) SURGERY",4A,Existing,vein varicosity recurrent surgery,0.774148,8.174936
-133,SM715S,"SINUSES, NASAL, VARIOUS LESIONS, INTRANASAL OPERATION",3B,Existing,sinus nasal various lesion intranasal operation,4.4614687,12.246616
-119,SI833U,"UTERUS, PREGNANCY, COMPLICATED VAGINAL DELIVERY (E.G TWINS, BREECH, INSTRUMENTAL DELIVERY, VBAC)",3A,Descriptor change,uterus pregnancy complicated vaginal delivery eg twin breech instrumental delivery vbac,-3.9991624,11.759272
-336,SF707T,"TONGUE, VARIOUS LESIONS (BENIGN CONDITION), EXCISION BIOPSY <3CM",1B,Existing,tongue various lesion benign condition excision biopsy 3cm,-0.57544285,13.045999
-118,SD740H,"HEART, LEFT ATRIAL APPENDAGE CLOSURE WITH/WITHOUT WATCHMAN DEVICE IMPLANTATION",5A,Existing,heart left atrial appendage closure withwithout watchman device implantation,0.4970213,6.6953897
-23,SM809E,"EAR, DEFORMITY, LOBULE RECONSTRUCTION (BILATERAL)",2C,Existing,ear deformity lobule reconstruction bilateral,-0.55909145,11.345126
-76,SB703D,"DIGIT(S), SOFT TISSUE DEFECT, SIMPLE SKIN FLAP",3A,Existing,digit soft tissue defect simple skin flap,2.514522,12.2488575
-93,SF720B,"BOWELS, ENDOSCOPIC ULTRASOUND WITH STENT INSERTION",3C,Existing,bowel endoscopic ultrasound stent insertion,-0.53865355,10.468227
-116,SI830U,"UTERUS, MALIGNANT CONDITIONS, RADICAL HYSTERECTOMY INCLUDING PELVIC LYMPHADENECTOMY",6B,Descriptor change,uterus malignant condition radical hysterectomy including pelvic lymphadenectomy,-2.3325653,9.565861
-161,SB704H,"HAND, CLOSED FRACTURE, ORIF/PLATE AND SCREWS (SINGLE), JOINT/NON-JOINT",3C,Existing,hand closed fracture orifplate screw single jointnonjoint,1.9529074,10.856186
-334,SF705T,"TEETH (4 OR MORE) UNERUPTED/ PARTIALLY ERUPTED/ IMPACTED, SURGICAL EXPOSURE AND BONDING FOR TRACTION AND ASSISTED ERUPTION",4A,Existing,teeth 4 unerupted partially erupted impacted surgical exposure bonding traction assisted eruption,-0.5142039,8.955356
-330,SB702M,"MANDIBLE OR MAXILLA, DENTAL IMPLANT(S), OSSEOINTEGRATED, TREPHINE REMOVAL (X NUMBER OF IMPLANTS REMOVED)",1C,Existing,mandible maxilla dental implant osseointegrated trephine removal x number implant removed,0.17430985,10.298155
-284,SF814P,"PAROTID, TUMOR, SUPERFICIAL PAROTIDECTOMY",5C,Existing,parotid tumor superficial parotidectomy,-0.36707383,9.626927
-333,SB705M,"MANDIBLE OR MAXILLA, VARIOUS LESIONS, VESTIBULOPLASTY, COMPLEX",3C,Existing,mandible maxilla various lesion vestibuloplasty complex,1.8410765,9.66369
-84,SI721U,"UTERUS, PROLAPSE, CYSTOCOELE, RECTOCOELE, VAGINAL HYSTERECTOMY + ANTERIOR REPAIR + BILATERAL SALPINGO-OOPHORECTOMY ± POSTERIOR REPAIR",4B,Existing,uterus prolapse cystocoele rectocoele vaginal hysterectomy anterior repair bilateral salpingooophorectomy posterior repair,-3.5637002,10.616853
-153,SD836H,"HEART-VENTRICLE, ARRHYTHMIA, ARRHYTHMIA SURGERY",7B,Existing,heartventricle arrhythmia arrhythmia surgery,0.88516724,6.8005524
-316,SF800S,"SACRUM & COCCYX, PILONIDAL SINUS/CYST, EXCISION WITH BIOPSY",2C,Existing,sacrum coccyx pilonidal sinuscyst excision biopsy,-0.2266138,11.318394
-52,SC801T,"THORAX, MEDIASTINAL LESIONS, CERVICAL EXPLORATION WITH/WITHOUT BIOPSY",1A,Existing,thorax mediastinal lesion cervical exploration withwithout biopsy,1.2622613,9.3668375
-287,SF817P,"PAROTID, TUMOR, TOTAL PAROTIDECTOMY WITH RADICAL NECK DISSECTION",6B,Existing,parotid tumor total parotidectomy radical neck dissection,-0.33049896,9.594203
-306,SF704S,"STOMACH, VARIOUS LESIONS, PERCUTANEOUS GASTROSTOMY/ JEJUNOSTOMY INSERTION (WITH OR WITHOUT IMAGE GUIDANCE)",3A,Descriptor change,stomach various lesion percutaneous gastrostomy jejunostomy insertion without image guidance,-0.7155257,8.784687
-87,SB800E,"ELBOW (MEDIAL EPICONDYLE), FRACTURE, EXCISION BONY FRAGMENT",2B,Existing,elbow medial epicondyle fracture excision bony fragment,2.51712,8.687549
-26,SK703B,"BRAIN, DEEP BRAIN STIMULATION, BILATERAL",7C,Existing,brain deep brain stimulation bilateral,-2.8312001,12.403057
-207,SB818H,"HAND, SUPERFICIAL INFECTION, DRAINAGE",1A,Existing,hand superficial infection drainage,3.5857239,11.119702
-104,SF701C,"COLON, ANTERIOR RESECTION",6C,Descriptor change,colon anterior resection,-0.5756536,7.0036855
-164,SA869S,"SKIN, SCAR/VARIOUS LESION (SINGLE/UNILATERAL), REMOVAL OF TISSUE EXPANDER/PROSTHESIS (INCLUDING BREAST IMPLANTS WITH OR WITHOUT CAPSULOTOMY) AND REVISION OF SCAR",3A,Descriptor change,skin scarvarious lesion singleunilateral removal tissue expanderprosthesis including breast implant without capsulotomy revision scar,0.94058,11.952704
-260,SF705P,"PANCREAS, VARIOUS LESIONS, ENUCLEATION OF LESIONS (1 TO 2)",4C,Existing,pancreas various lesion enucleation lesion 1 2,-0.014664472,9.045083
-109,SG810U,"URETER, VARIOUS LESIONS, URETEROCALYCOSTOMY",5C,Existing,ureter various lesion ureterocalycostomy,-4.5320463,9.26932
-224,SB835H,"HIP, VARIOUS LESIONS, ARTHROTOMY",3B,Existing,hip various lesion arthrotomy,3.407477,8.444913
-139,SM721S,"SKULL, BASE, RESECTION OF SKULL BASE SOFT TISSUE TUMOURS WITH NO BONE INVOLVEMENT",5C,Descriptor change,skull base resection skull base soft tissue tumour bone involvement,-0.7287179,12.608238
-168,SF701I,"INTESTINE/STOMACH, UPPER GI ENDOSCOPY WITH/WITHOUT BIOPSY8",1B,Existing,intestinestomach upper gi endoscopy withwithout biopsy8,0.5696657,9.046174
-326,SF811S,"STOMACH, VARIOUS LESIONS/POST-GASTRECTOMY COMPLICATIONS, REVISION GASTRECTOMY",5C,Existing,stomach various lesionspostgastrectomy complication revision gastrectomy,-0.76911885,8.293123
-53,SC802T,"THORAX, PECTUS EXCAVATUM/PECTUS CARINATUM, RADICAL CORRECTION",4B,Existing,thorax pectus excavatumpectus carinatum radical correction,1.4985929,9.221745
-66,SA701S,"SKIN AND SUBCUTANEOUS TISSUE, TUMOR/CYST/ULCER/SCAR, EXCISION BIOPSY,  REMOVAL OF 2 OR MORE OR RECURRENT  OR COMPLICATED (ADHERENT), EXCISION",2A,Existing,skin subcutaneous tissue tumorcystulcerscar excision biopsy removal 2 recurrent complicated adherent excision,0.7717912,12.188684
-17,SG716B,"BLADDER/URETER, CYSTOSCOPY, WITH URETERIC CATHETERISATION",1C,Existing,bladderureter cystoscopy ureteric catheterisation,-1.3365802,8.316246
-4,SC703B,"BRONCHUS/LUNG, BRONCHOSCOPY WITH/WITHOUT BIOPSY",1B,Existing,bronchuslung bronchoscopy withwithout biopsy,1.5927769,8.450255
+change",liver various lesion lobectomy 3 4 segment,-5.9902916,32.82408
+179,SK800S,"SKULL, COMPOUND FRACTURE WITH DURAL PENETRATION AND BRAIN DAMAGE, OPERATION",6B,Existing,skull compound fracture dural penetration brain damage operation,-12.704541,24.18759
+3,SD702A,"AORTIC DISSECTION, ENDOVASCULAR FENESTRATION",3B,Existing,aortic dissection endovascular fenestration,30.718641,-23.755743
+115,SF712C,"COLON, TOTAL COLECTOMY / SUBTOTAL COLECTOMY",6A,Existing,colon total colectomy subtotal colectomy,3.4763145,-39.609337
+95,SK729N,"NERVE ROOTS, DORSAL ROOT GANGLION, ANAESTHETIC, MORE THAN TWO",3C,Existing,nerve root dorsal root ganglion anaesthetic two,21.741709,-28.462158
+188,SD802V,"VEIN (MAJOR), TRAUMA, REPAIR",5C,Existing,vein major trauma repair,-45.59686,9.60932
+113,SL704L,"LENS, CATARACT (PAEDIATRIC), EXTRACTION WITH ANTERIOR VITRECTOMY AND INTRAOCULAR LENS IMPLANTATION - BILATERAL",5B,Existing,lens cataract paediatric extraction anterior vitrectomy intraocular lens implantation bilateral,43.4194,-43.214443
+80,SL827E,"EYELIDS, EXPOSURE, TARSORRHAPHY (PERMANENT)",1B,Existing,eyelid exposure tarsorrhaphy permanent,-0.14152367,-6.348078
+101,SD718H,"HEART, IMPLANT OF EPICARDIAL LEADS FOR PERMANENT PACEMAKERS",4A,Existing,heart implant epicardial lead permanent pacemaker,-22.310724,-4.5243144
+15,SD714A,"ARTERY, BYPASS, DISTAL LEG/PEDAL WITH VEIN",6B,Existing,artery bypass distal legpedal vein,-18.002378,42.819725
+300,SF808R,"RECTUM, VARIOUS LESIONS, HARTMANN'S PROCEDURE",5C,Existing,rectum various lesion hartmanns procedure,-17.578049,23.245626
+167,SB710H,"HAND, FRACTURE OF FINGERS/METACARPALS, EXTERNAL FIXATION",3B,Existing,hand fracture fingersmetacarpals external fixation,-0.96984154,37.15078
+117,SF714C,"COLON, HIRSCHSPRUNG'S DISEASE, PULLTHROUGH FOR LONG SEGMENT DISEASE",6A,Descriptor change,colon hirschsprung disease pullthrough long segment disease,-51.330307,-5.397758
+70,SL814E,"ORBITAL, ENUCLEATION WITH INTEGRATED ORBITAL IMPLANT",4A,Existing,orbital enucleation integrated orbital implant,10.183856,-27.646584
+60,SK700F,"FACIAL, TRIGEMINAL GANGLION BLOCK, ANAESTHETIC",3A,Existing,facial trigeminal ganglion block anaesthetic,17.534662,42.11274
+496,SB810T,"TENDON-EXTENSOR (UPPER LIMB), ADHESION, TENOLYSIS (MULTIPLE)",5A,Existing,tendonextensor upper limb adhesion tenolysis multiple,-36.64548,-10.754876
+100,SD717H,"HEART, REPLACEMENT OF PACEMAKER",2B,Existing,heart replacement pacemaker,-23.163555,-22.978771
+57,SF837A,"ANUS, HEMORRHOIDS,STAPLED HAEMORRHOIDECTOMY",3A,Existing,anus hemorrhoidsstapled haemorrhoidectomy,-13.33278,0.613676
+4,SB703A,"ANKLE, VARIOUS LESIONS, PRIMARY TOTAL JOINT REPLACEMENT WITH AUGMENTATION, REQUIRING EXTRA IMPLANTS OR BONE GRAFTS",6B,Descriptor Change,ankle various lesion primary total joint replacement augmentation requiring extra implant bone graft,52.62175,-49.51873
+175,SA880S,"SKIN, VARIOUS LESIONS, INSERTION OF TISSUE EXPANDER (MULTIPLE)",3A,Existing,skin various lesion insertion tissue expander multiple,-8.161116,1.4343945
+221,SB832H,"HIP, SNAPPING SYNDROME, RELEASE",1B,Existing,hip snapping syndrome release,22.096296,18.948849
+282,SF812P,"PAROTID, CALCULUS (SUPERFICIAL), REMOVAL",1C,Existing,parotid calculus superficial removal,8.279257,35.00069
+121,SA825S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT, FREE GRAFTS (SPLIT SKIN GRAFT/CULTURED EPITHELIAL AUTOGRAFTS 5 TO 10%)",4A,Descriptor change,skin subcutaneous tissue defect free graft split skin graftcultured epithelial autograft 5 10,-52.281006,-50.245155
+84,SB707E,"ELBOW, VARIOUS LESIONS, PRIMARY TOTAL JOINT ARTHROPLASTY WITH AUGMENTATION, REQUIRING EXTRA IMPLANTS OR BONE GRAFTS",6B,Descriptor change,elbow various lesion primary total joint arthroplasty augmentation requiring extra implant bone graft,54.204956,-50.151672
+173,SD715V,"VEIN, VARICOSITIES (RECURRENT) SURGERY",4A,Existing,vein varicosity recurrent surgery,35.394398,49.931553
+133,SM715S,"SINUSES, NASAL, VARIOUS LESIONS, INTRANASAL OPERATION",3B,Existing,sinus nasal various lesion intranasal operation,33.966312,-5.646447
+119,SI833U,"UTERUS, PREGNANCY, COMPLICATED VAGINAL DELIVERY (E.G TWINS, BREECH, INSTRUMENTAL DELIVERY, VBAC)",3A,Descriptor change,uterus pregnancy complicated vaginal delivery eg twin breech instrumental delivery vbac,-34.583225,-14.050731
+336,SF707T,"TONGUE, VARIOUS LESIONS (BENIGN CONDITION), EXCISION BIOPSY <3CM",1B,Existing,tongue various lesion benign condition excision biopsy 3cm,-19.290728,-13.44743
+118,SD740H,"HEART, LEFT ATRIAL APPENDAGE CLOSURE WITH/WITHOUT WATCHMAN DEVICE IMPLANTATION",5A,Existing,heart left atrial appendage closure withwithout watchman device implantation,-29.973005,43.36997
+23,SM809E,"EAR, DEFORMITY, LOBULE RECONSTRUCTION (BILATERAL)",2C,Existing,ear deformity lobule reconstruction bilateral,-33.26923,9.258195
+76,SB703D,"DIGIT(S), SOFT TISSUE DEFECT, SIMPLE SKIN FLAP",3A,Existing,digit soft tissue defect simple skin flap,-34.134056,27.927538
+93,SF720B,"BOWELS, ENDOSCOPIC ULTRASOUND WITH STENT INSERTION",3C,Existing,bowel endoscopic ultrasound stent insertion,10.453092,19.840734
+116,SI830U,"UTERUS, MALIGNANT CONDITIONS, RADICAL HYSTERECTOMY INCLUDING PELVIC LYMPHADENECTOMY",6B,Descriptor change,uterus malignant condition radical hysterectomy including pelvic lymphadenectomy,-15.20112,-49.19847
+161,SB704H,"HAND, CLOSED FRACTURE, ORIF/PLATE AND SCREWS (SINGLE), JOINT/NON-JOINT",3C,Existing,hand closed fracture orifplate screw single jointnonjoint,1.064157,-45.793365
+334,SF705T,"TEETH (4 OR MORE) UNERUPTED/ PARTIALLY ERUPTED/ IMPACTED, SURGICAL EXPOSURE AND BONDING FOR TRACTION AND ASSISTED ERUPTION",4A,Existing,teeth 4 unerupted partially erupted impacted surgical exposure bonding traction assisted eruption,45.487946,-4.9792166
+330,SB702M,"MANDIBLE OR MAXILLA, DENTAL IMPLANT(S), OSSEOINTEGRATED, TREPHINE REMOVAL (X NUMBER OF IMPLANTS REMOVED)",1C,Existing,mandible maxilla dental implant osseointegrated trephine removal x number implant removed,-23.535318,-3.773165
+284,SF814P,"PAROTID, TUMOR, SUPERFICIAL PAROTIDECTOMY",5C,Existing,parotid tumor superficial parotidectomy,-4.010952,-71.3519
+333,SB705M,"MANDIBLE OR MAXILLA, VARIOUS LESIONS, VESTIBULOPLASTY, COMPLEX",3C,Existing,mandible maxilla various lesion vestibuloplasty complex,1.9312263,11.982493
+84,SI721U,"UTERUS, PROLAPSE, CYSTOCOELE, RECTOCOELE, VAGINAL HYSTERECTOMY + ANTERIOR REPAIR + BILATERAL SALPINGO-OOPHORECTOMY ± POSTERIOR REPAIR",4B,Existing,uterus prolapse cystocoele rectocoele vaginal hysterectomy anterior repair bilateral salpingooophorectomy posterior repair,51.3206,-14.928882
+153,SD836H,"HEART-VENTRICLE, ARRHYTHMIA, ARRHYTHMIA SURGERY",7B,Existing,heartventricle arrhythmia arrhythmia surgery,5.4972224,-7.4676075
+316,SF800S,"SACRUM & COCCYX, PILONIDAL SINUS/CYST, EXCISION WITH BIOPSY",2C,Existing,sacrum coccyx pilonidal sinuscyst excision biopsy,-1.9768672,-2.1159325
+52,SC801T,"THORAX, MEDIASTINAL LESIONS, CERVICAL EXPLORATION WITH/WITHOUT BIOPSY",1A,Existing,thorax mediastinal lesion cervical exploration withwithout biopsy,34.466824,1.5436006
+287,SF817P,"PAROTID, TUMOR, TOTAL PAROTIDECTOMY WITH RADICAL NECK DISSECTION",6B,Existing,parotid tumor total parotidectomy radical neck dissection,-4.718223,-70.847305
+306,SF704S,"STOMACH, VARIOUS LESIONS, PERCUTANEOUS GASTROSTOMY/ JEJUNOSTOMY INSERTION (WITH OR WITHOUT IMAGE GUIDANCE)",3A,Descriptor change,stomach various lesion percutaneous gastrostomy jejunostomy insertion without image guidance,-11.498071,-14.160207
+87,SB800E,"ELBOW (MEDIAL EPICONDYLE), FRACTURE, EXCISION BONY FRAGMENT",2B,Existing,elbow medial epicondyle fracture excision bony fragment,-31.221558,-31.829332
+26,SK703B,"BRAIN, DEEP BRAIN STIMULATION, BILATERAL",7C,Existing,brain deep brain stimulation bilateral,-8.23191,-6.363305
+207,SB818H,"HAND, SUPERFICIAL INFECTION, DRAINAGE",1A,Existing,hand superficial infection drainage,45.564865,0.7439904
+104,SF701C,"COLON, ANTERIOR RESECTION",6C,Descriptor change,colon anterior resection,6.1796265,-39.964214
+164,SA869S,"SKIN, SCAR/VARIOUS LESION (SINGLE/UNILATERAL), REMOVAL OF TISSUE EXPANDER/PROSTHESIS (INCLUDING BREAST IMPLANTS WITH OR WITHOUT CAPSULOTOMY) AND REVISION OF SCAR",3A,Descriptor change,skin scarvarious lesion singleunilateral removal tissue expanderprosthesis including breast implant without capsulotomy revision scar,39.80311,-1.446477
+260,SF705P,"PANCREAS, VARIOUS LESIONS, ENUCLEATION OF LESIONS (1 TO 2)",4C,Existing,pancreas various lesion enucleation lesion 1 2,10.719412,-26.029766
+109,SG810U,"URETER, VARIOUS LESIONS, URETEROCALYCOSTOMY",5C,Existing,ureter various lesion ureterocalycostomy,0.73189205,-27.049742
+224,SB835H,"HIP, VARIOUS LESIONS, ARTHROTOMY",3B,Existing,hip various lesion arthrotomy,-30.075935,-7.361944
+139,SM721S,"SKULL, BASE, RESECTION OF SKULL BASE SOFT TISSUE TUMOURS WITH NO BONE INVOLVEMENT",5C,Descriptor change,skull base resection skull base soft tissue tumour bone involvement,30.35638,26.856524
+168,SF701I,"INTESTINE/STOMACH, UPPER GI ENDOSCOPY WITH/WITHOUT BIOPSY8",1B,Existing,intestinestomach upper gi endoscopy withwithout biopsy8,-36.398983,-34.692963
+326,SF811S,"STOMACH, VARIOUS LESIONS/POST-GASTRECTOMY COMPLICATIONS, REVISION GASTRECTOMY",5C,Existing,stomach various lesionspostgastrectomy complication revision gastrectomy,-18.091156,-42.48147
+53,SC802T,"THORAX, PECTUS EXCAVATUM/PECTUS CARINATUM, RADICAL CORRECTION",4B,Existing,thorax pectus excavatumpectus carinatum radical correction,-10.07775,17.713282
+66,SA701S,"SKIN AND SUBCUTANEOUS TISSUE, TUMOR/CYST/ULCER/SCAR, EXCISION BIOPSY,  REMOVAL OF 2 OR MORE OR RECURRENT  OR COMPLICATED (ADHERENT), EXCISION",2A,Existing,skin subcutaneous tissue tumorcystulcerscar excision biopsy removal 2 recurrent complicated adherent excision,12.549191,-19.939177
+17,SG716B,"BLADDER/URETER, CYSTOSCOPY, WITH URETERIC CATHETERISATION",1C,Existing,bladderureter cystoscopy ureteric catheterisation,11.158414,-41.249107
+4,SC703B,"BRONCHUS/LUNG, BRONCHOSCOPY WITH/WITHOUT BIOPSY",1B,Existing,bronchuslung bronchoscopy withwithout biopsy,33.353825,-29.540049

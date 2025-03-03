@@ -4,6 +4,7 @@ import nltk
 import numpy as np
 import matplotlib.pyplot as plt
 import umap
+from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import DBSCAN
 from sklearn.neighbors import NearestNeighbors
 from nltk.corpus import stopwords
@@ -49,7 +50,11 @@ df = pd.read_csv("DataSets/DBSCAN_Datasets/cleaned_base_dataset.csv")
 vectorizer = TfidfVectorizer(max_features=500)
 tfidf_matrix = vectorizer.fit_transform(df["Cleaned_Description"])
 
-reduction_tech = 'pca'  # Toggle this to change dimensionality reduction technique
+# normalize
+scaler = StandardScaler()
+tfidf_matrix_normalized = scaler.fit_transform(tfidf_matrix.toarray())
+
+reduction_tech = 'tsne'  # Toggle this to change dimensionality reduction technique
 
 if reduction_tech.lower() == 'pca':
     reducer = PCA(n_components=2, random_state=42)
@@ -59,7 +64,7 @@ else:
     reducer = umap.UMAP(n_components=2, random_state=42, min_dist=0.1)
     #reducer = umap.UMAP(n_components=2, n_neighbors=15, min_dist=0.1, random_state=42)
 
-reduced_embeddings = reducer.fit_transform(tfidf_matrix.toarray())
+reduced_embeddings = reducer.fit_transform(tfidf_matrix_normalized)
 
 df["X"] = reduced_embeddings[:, 0]
 df["Y"] = reduced_embeddings[:, 1]
@@ -127,16 +132,16 @@ df.to_csv("DataSets/DBSCAN_Datasets/dbscan_clustered.csv", index=False)
 
 
 plt.scatter(df["X"], df["Y"], c=df["Cluster"], cmap="Spectral", marker="o", edgecolor="k")
-plt.title(f"DBSCAN Clustering (Silhouette Score: {best_score:.3f})")
+plt.title(f"DBSCAN Clustering [{reduction_tech.upper()}] (Silhouette Score: {best_score:.3f})")
 plt.xlabel("Component 1")
 plt.ylabel("Component 2")
 plt.colorbar(label="Cluster")
 plt.text(0.05, 0.95, f"eps = {best_eps}", fontsize=12, ha='left', va='top', transform=plt.gca().transAxes, color='white')
 plt.text(0.05, 0.90, f"min_samples = {best_min_samples}", fontsize=12, ha='left', va='top', transform=plt.gca().transAxes, color='white')
-plt.savefig("DBSCAN_graphs/dbscan_clustering_visualization_" + reduction_tech + ".png")
+plt.savefig("DBSCAN_graphs/dbscan_clustering_visualization_{reduction_tech}.png")
 plt.show()
 
-print("Clustering visualization saved as 'DBSCAN_graphs/dbscan_clustering_visualization_" + reduction_tech + ".png'.")
+print("Clustering visualization saved as 'DBSCAN_graphs/dbscan_clustering_visualization_{reduction_tech}.png'.")
 
 # Here’s how to interpret the score:
 
