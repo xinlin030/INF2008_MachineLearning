@@ -6,6 +6,7 @@ from sklearn.preprocessing import StandardScaler
 import xgboost as xgb
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 import matplotlib.pyplot as plt
+import os
 
 
 class TOSPXGBoost:
@@ -30,7 +31,7 @@ class TOSPXGBoost:
         df['procedure_type'] = df['Description'].apply(lambda x: x.split(',')[0])
         df['is_bilateral'] = df['Description'].str.contains('BILATERAL').astype(int)
         df['is_unilateral'] = df['Description'].str.contains('UNILATERAL').astype(int)
-        df['word_count'] = df['Description'].str.split().str.len()
+        df['word_count'] = df['Description'].apply(lambda x: len(x.split()))
 
         # Convert table to numeric
         df['table_numeric'] = df['Table'].apply(lambda x:
@@ -122,16 +123,24 @@ class TOSPXGBoost:
 
         return metrics, feature_importance
 
-    def plot_feature_importance(self, feature_importance):
+    import os
+
+    def plot_feature_importance(self, feature_importance, save_path="DataSets/Charts/feature_importance.png"):
         """
-        Plot feature importance
+        Plot feature importance and save to file
         """
+        os.makedirs(os.path.dirname(save_path), exist_ok=True)  # Ensure directory exists
+
         plt.figure(figsize=(10, 6))
         plt.bar(feature_importance['feature'], feature_importance['importance'])
         plt.title('Feature Importance in XGBoost Model')
         plt.xticks(rotation=45)
         plt.tight_layout()
-        plt.show()
+
+        # Save chart to file
+        plt.savefig(save_path)
+        print(f"Feature importance chart saved to {save_path}")
+        plt.close()  # Close the figure to free memory
 
     def predict_inappropriate_pairs(self, pairs_df, threshold=0.7):
         """
@@ -148,13 +157,14 @@ class TOSPXGBoost:
 
         # Filter suspicious pairs
         suspicious_pairs = pairs_df[pairs_df['fraud_probability'] > threshold]
+
         return suspicious_pairs.sort_values('fraud_probability', ascending=False)
 
 
 # Example usage
 if __name__ == "__main__":
     # Load data
-    data = pd.read_csv('DataSets/CleanedDataset/combined_dataset.csv')
+    data = pd.read_csv('DataSets/CleanedDataset/SL_Eye.csv')
 
     # Initialize model
     xgb_model = TOSPXGBoost()
@@ -177,14 +187,17 @@ if __name__ == "__main__":
     print(feature_importance)
 
     # Plot feature importance
-    xgb_model.plot_feature_importance(feature_importance)
+    xgb_model.plot_feature_importance(feature_importance, save_path="DataSets/Charts/XGBoost_feature_importance.png")
 
     # Get predictions
     suspicious_pairs = xgb_model.predict_inappropriate_pairs(pairs)
 
     print("\n=== Top Suspicious Pairs ===")
     for _, row in suspicious_pairs.head().iterrows():
-        print(f"\nPair: {row['code1']} - {row['code2']}")
+        desc1 = processed_data.loc[processed_data['Code'] == row['code1'], 'Description'].values[0]
+        desc2 = processed_data.loc[processed_data['Code'] == row['code2'], 'Description'].values[0]
+
+        print(f"\nPair: {row['code1']} ({desc1}) and {row['code2']} ({desc2})")
         print(f"Fraud Probability: {row['fraud_probability']:.2f}")
         print(f"Same Procedure: {'Yes' if row['same_procedure'] else 'No'}")
         print(f"Bilateral Conflict: {'Yes' if row['bilateral_conflict'] else 'No'}")

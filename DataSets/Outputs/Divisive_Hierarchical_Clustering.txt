@@ -1,0 +1,93 @@
+Clusters: 2, Silhouette Score: 0.1662
+Clusters: 3, Silhouette Score: 0.0279
+Clusters: 4, Silhouette Score: 0.0330
+Clusters: 5, Silhouette Score: 0.0436
+Clusters: 6, Silhouette Score: 0.0577
+Clusters: 7, Silhouette Score: 0.0572
+Clusters: 8, Silhouette Score: 0.0532
+Clusters: 9, Silhouette Score: 0.0652
+Clusters: 10, Silhouette Score: 0.0717
+
+=== Cluster Statistics ===
+         count  is_bilateral  is_unilateral
+cluster                                    
+0            8             0              0
+1            5             0              0
+2          132            21              2
+3           30             1             19
+
+=== Top Potential Conflicts ===
+
+Conflict: SL702L and SL808L
+Conflict Type: Bilateral/Unilateral
+Cluster: 2
+Description 1: LENS, CATARACT (PAEDIATRIC), EXTRACTION WITH ANTERIOR VITRECTOMY - BILATERAL
+Description 2: LENS, CATARACT, EXTRACTION WITH INTRA-OCULAR LENS IMPLANT (UNILATERAL LEFT)
+
+Conflict: SL702L and SL809L
+Conflict Type: Bilateral/Unilateral
+Cluster: 2
+Description 1: LENS, CATARACT (PAEDIATRIC), EXTRACTION WITH ANTERIOR VITRECTOMY - BILATERAL
+Description 2: LENS, CATARACT, EXTRACTION WITH INTRA-OCULAR LENS IMPLANT (UNILATERAL RIGHT)
+
+Conflict: SL704L and SL808L
+Conflict Type: Bilateral/Unilateral
+Cluster: 2
+Description 1: LENS, CATARACT (PAEDIATRIC), EXTRACTION WITH ANTERIOR VITRECTOMY AND INTRAOCULAR LENS IMPLANTATION - BILATERAL
+Description 2: LENS, CATARACT, EXTRACTION WITH INTRA-OCULAR LENS IMPLANT (UNILATERAL LEFT)
+
+Conflict: SL704L and SL809L
+Conflict Type: Bilateral/Unilateral
+Cluster: 2
+Description 1: LENS, CATARACT (PAEDIATRIC), EXTRACTION WITH ANTERIOR VITRECTOMY AND INTRAOCULAR LENS IMPLANTATION - BILATERAL
+Description 2: LENS, CATARACT, EXTRACTION WITH INTRA-OCULAR LENS IMPLANT (UNILATERAL RIGHT)
+
+Conflict: SL807L and SL808L
+Conflict Type: Bilateral/Unilateral
+Cluster: 2
+Description 1: LENS, CATARACT, EXTRACTION WITH INTRA-OCULAR LENS IMPLANT (BILATERAL)
+Description 2: LENS, CATARACT, EXTRACTION WITH INTRA-OCULAR LENS IMPLANT (UNILATERAL LEFT)
+
+=== Highly Similar Procedures ===
+
+Pair: SL808L - SL809L
+Similarity: 1.0000
+Cluster: 2
+
+Pair: SL801C - SL802C
+Similarity: 1.0000
+Cluster: 2
+
+Pair: SL827E - SL828E
+Similarity: 1.0000
+Cluster: 2
+
+Pair: SL812E - SL813E
+Similarity: 0.7430
+Cluster: 0
+
+Pair: SL840E - SL842E
+Similarity: 0.7430
+Cluster: 2
+
+Pair: SL700T - SL800Z
+Similarity: 0.7430
+Cluster: 2
+
+Pair: SL828E - SL842E
+Similarity: 0.6141
+Cluster: 2
+
+Pair: SL827E - SL842E
+Similarity: 0.6141
+Cluster: 2
+
+Pair: SL700P - SL700T
+Similarity: 0.5823
+Cluster: 2
+
+Pair: SL828E - SL840E
+Similarity: 0.5823
+Cluster: 2
+
+Process finished with exit code 0

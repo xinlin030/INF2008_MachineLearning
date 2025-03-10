@@ -159,7 +159,7 @@ class TOSPAnalyzer:
             print("6. Suspicious Pairs:")
             print("\nTop potentially inappropriate pairs:")
             for _, row in suspicious_pairs.head().iterrows():
-                print(f"\nPair: {row['code1']} - {row['code2']}")
+                print(f"\nPair: {row['code1']} and {row['code2']}")
                 print(f"Fraud Probability: {row['fraud_probability']:.2f}")
                 print(f"Description Similarity: {row['desc_similarity']:.2f}")
                 print(f"Same Procedure Type: {'Yes' if row['same_procedure'] else 'No'}")
@@ -170,7 +170,7 @@ class TOSPAnalyzer:
 # Example usage:
 if __name__ == "__main__":
     # Load data
-    data = pd.read_csv('DataSets/CleanedDataset/combined_dataset.csv')
+    data = pd.read_csv('DataSets/CleanedDataset/SL_Eye.csv')
 
     # Initialize analyzer
     analyzer = TOSPAnalyzer()
