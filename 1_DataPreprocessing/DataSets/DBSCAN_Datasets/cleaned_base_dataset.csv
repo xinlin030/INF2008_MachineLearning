@@ -118,8 +118,8 @@ change",breast tumor malignant various lesion simple mastectomy therapeuticproph
 116,SA820S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT (SINGLE DIGIT), FREE FULL THICKNESS GRAFT",2C,Existing,skin subcutaneous tissue defect single digit free full thickness graft
 117,SA821S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT, DIRECT FLAP (CROSS FINGER/SIMILAR FLAPS)",4A,Existing,skin subcutaneous tissue defect direct flap cross fingersimilar flap
 118,SA822S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT, FREE GRAFT (SPLIT SKIN GRAFT/PINCH GRAFTS/CULTURED EPITHELIAL AUTOGRAFTS UNDER 1/2%)",1B,Descriptor change,skin subcutaneous tissue defect free graft split skin graftpinch graftscultured epithelial autograft 12
-119,SA823S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT, FREE GRAFTS (SPLIT SKIN GRAFT /CULTURED EPITHELIAL AUTOGRAFTS 1/2 TO LESS THAN 2%)",2B,Descriptor change,skin subcutaneous tissue defect free graft split skin graft cultured epithelial autograft 12 le 2
-120,SA824S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT, FREE GRAFTS (SPLIT SKIN GRAFT/CULTURED EPITHELIAL AUTOGRAFTS 2 TO LESS THAN 5%)",3A,Descriptor change,skin subcutaneous tissue defect free graft split skin graftcultured epithelial autograft 2 le 5
+119,SA823S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT, FREE GRAFTS (SPLIT SKIN GRAFT /CULTURED EPITHELIAL AUTOGRAFTS 1/2 TO LESS THAN 2%)",2B,Descriptor change,skin subcutaneous tissue defect free graft split skin graft cultured epithelial autograft 12 less 2
+120,SA824S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT, FREE GRAFTS (SPLIT SKIN GRAFT/CULTURED EPITHELIAL AUTOGRAFTS 2 TO LESS THAN 5%)",3A,Descriptor change,skin subcutaneous tissue defect free graft split skin graftcultured epithelial autograft 2 less 5
 121,SA825S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT, FREE GRAFTS (SPLIT SKIN GRAFT/CULTURED EPITHELIAL AUTOGRAFTS 5 TO 10%)",4A,Descriptor change,skin subcutaneous tissue defect free graft split skin graftcultured epithelial autograft 5 10
 122,SA826S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT, FREE GRAFTS (SPLIT SKIN GRAFT/CULTURED EPITHELIAL AUTOGRAFTS MORE THAN 10%)",5B,Descriptor change,skin subcutaneous tissue defect free graft split skin graftcultured epithelial autograft 10
 123,SA827S,"SKIN AND SUBCUTANEOUS TISSUE, DEFECT, LOCAL FLAP TO MULTIPLE DIGITS (CROSS FINGER/THENAR/FLAG/ROTATION FLAP)",5A,Existing,skin subcutaneous tissue defect local flap multiple digit cross fingerthenarflagrotation flap
@@ -138,7 +138,7 @@ change",breast tumor malignant various lesion simple mastectomy therapeuticproph
 136,SA840S,"SKIN AND SUBCUTANEOUS TISSUE, HEMATOMA, ABSCESS/CELLULITIS/SIMILAR LESION<3CM, SAUCERISATION/INCISION & DRAINAGE",1A,Existing,skin subcutaneous tissue hematoma abscesscellulitissimilar lesion3cm saucerisationincision drainage
 137,SA841S,"SKIN AND SUBCUTANEOUS TISSUE, HEMATOMA /CARBUNCLE CELLULITIS/SIMILAR LESION>3CM, SAUCERISATION/INCISION WITH DRAINAGE",1B,Existing,skin subcutaneous tissue hematoma carbuncle cellulitissimilar lesion3cm saucerisationincision drainage
 138,SA842S,"SKIN AND  SUBCUTANEOUS TISSUE, LACERATIONS (DEEP >3CM/MULTIPLE) LACERATIONS, REPAIR/TOILET & SUTURE, WITH/WITHOUT DEBRIDEMENT",3B,Existing,skin subcutaneous tissue laceration deep 3cmmultiple laceration repairtoilet suture withwithout debridement
-139,SA843S,"SKIN AND SUBCUTANEOUS TISSUE, LACERATION (SUPERFICIAL) OF LESS THAN 7CM, REPAIR",1B,Existing,skin subcutaneous tissue laceration superficial le 7cm repair
+139,SA843S,"SKIN AND SUBCUTANEOUS TISSUE, LACERATION (SUPERFICIAL) OF LESS THAN 7CM, REPAIR",1B,Existing,skin subcutaneous tissue laceration superficial less 7cm repair
 140,SA844S,"SKIN AND SUBCUTANEOUS TISSUE, LACERATION (SUPERFICIAL) OF MORE THAN 7CM, REPAIR",2C,Existing,skin subcutaneous tissue laceration superficial 7cm repair
 141,SA845S,"SKIN AND SUBCUTANEOUS TISSUE, NEUROFIBROMATOSIS OF FACE AND NECK, EXCISION (LARGE >3CM AND COMPLICATED/MULTIPLE)",5C,Existing,skin subcutaneous tissue neurofibromatosis face neck excision large 3cm complicatedmultiple
 142,SA846S,"SKIN AND SUBCUTANEOUS TISSUE, NEUROFIBROMATOSIS OF FACE AND NECK, EXCISION (LARGE)",4A,Existing,skin subcutaneous tissue neurofibromatosis face neck excision large
@@ -152,8 +152,8 @@ change",breast tumor malignant various lesion simple mastectomy therapeuticproph
 150,SA855S,"SKIN AND SUBCUTANEOUS TISSUE, WOUND (SMALL<3CM), SECONDARY SUTURE",MSP,Existing,skin subcutaneous tissue wound small3cm secondary suture
 151,SA856S,"SKIN, ANGIOMA, CAUTERISATION/INJECTION",1A,Existing,skin angioma cauterisationinjection
 152,SA857S,"SKIN, BURNS (2% TO 5%), EXCISION",2B,Existing,skin burn 2 5 excision
-153,SA858S,"SKIN, BURNS (LESS THAN 10%), DRESSING",MSP,Existing,skin burn le 10 dressing
-154,SA859S,"SKIN, BURNS (LESS THAN 2%), EXCISION",1B,Existing,skin burn le 2 excision
+153,SA858S,"SKIN, BURNS (LESS THAN 10%), DRESSING",MSP,Existing,skin burn less 10 dressing
+154,SA859S,"SKIN, BURNS (LESS THAN 2%), EXCISION",1B,Existing,skin burn less 2 excision
 155,SA860S,"SKIN, BURNS (MORE THAN 10%), DRESSING",1B,Existing,skin burn 10 dressing
 156,SA861S,"SKIN, BURNS (MORE THAN 10%), EXCISION",3B,Existing,skin burn 10 excision
 157,SA862S,"SKIN, BURNS (MORE THAN 5% TO 10%) EXCISION",2C,Existing,skin burn 5 10 excision
@@ -169,7 +169,7 @@ change",breast tumor malignant various lesion simple mastectomy therapeuticproph
 167,SA872S,"SKIN, SUPERFICIAL NASAL DERMOID, EXCISION",3A,Existing,skin superficial nasal dermoid excision
 168,SA873S,"SKIN, BURNS SCAR/TATTOO (1% TO 2%), LASER EXCISION",2B,"Descriptor
 change",skin burn scartattoo 1 2 laser excision
-169,SA874S,"SKIN, BURNS SCAR/TATTOO (LESS THAN 1%), LASER EXCISION",1C,Descriptor change,skin burn scartattoo le 1 laser excision
+169,SA874S,"SKIN, BURNS SCAR/TATTOO (LESS THAN 1%), LASER EXCISION",1C,Descriptor change,skin burn scartattoo less 1 laser excision
 170,SA875S,"SKIN, BURNS SCAR/TATTOO (MULTIPLE/MORE THAN 2%), LASER EXCISION",3A,Descriptor change,skin burn scartattoo multiplemore 2 laser excision
 171,SA876S,"SKIN, BURNS SCAR/TATTOO, REPEAT LASER EXCISION",1A,Descriptor change,skin burn scartattoo repeat laser excision
 172,SA877S,"SKIN, VARIOUS LESIONS OF FACE (2 TO 3), EXCISION BIOPSY",1B,Existing,skin various lesion face 2 3 excision biopsy
@@ -197,7 +197,7 @@ change",skin wrinkle total rhytidectomy5
 193,SA899S,"SKIN, INTRALESIONAL STEROID INJECTION",MSP,Existing,skin intralesional steroid injection
 194,SA900S,"SUBCUTANEOUS TISSUE, OBESITY, EXCISION/LIPECTOMY, LIMBS (UNILATERAL/BILATERAL) FOLLOWING WEIGHT LOSS SURGERY (SF702S/SF703S/SF713S/SF803S/SF804S)",4A,Existing,subcutaneous tissue obesity excisionlipectomy limb unilateralbilateral following weight loss surgery sf702ssf703ssf713ssf803ssf804s
 195,SA901S,"SUBCUTANEOUS TISSUE, OBESITY, EXCISION/LIPECTOMY, THORAX/BACK/BUTTOCKS, FOLLOWING WEIGHT LOSS SURGERY (SF702S/SF703S/SF713S/SF803S/SF804S)",4B,Existing,subcutaneous tissue obesity excisionlipectomy thoraxbackbuttocks following weight loss surgery sf702ssf703ssf713ssf803ssf804s
-196,SA903S,"SKIN, PRE-MALIGNANT LESIONS, EXCISION/VAPORISATION BY LASER AND OTHER ABLATIVE MODALITIES, THERAPEUTIC, LESS THAN 10 LESIONS, NOT REQUIRING GENERAL ANAESTHESIA",MSP,New,skin premalignant lesion excisionvaporisation laser ablative modality therapeutic le 10 lesion requiring general anaesthesia
+196,SA903S,"SKIN, PRE-MALIGNANT LESIONS, EXCISION/VAPORISATION BY LASER AND OTHER ABLATIVE MODALITIES, THERAPEUTIC, LESS THAN 10 LESIONS, NOT REQUIRING GENERAL ANAESTHESIA",MSP,New,skin premalignant lesion excisionvaporisation laser ablative modality therapeutic less 10 lesion requiring general anaesthesia
 197,SA904S,"SKIN, PRE-MALIGNANT LESIONS, EXCISION/VAPORISATION BY LASER AND OTHER ABLATIVE MODALITIES, THERAPEUTIC, 10 OR MORE LESIONS, NOT REQUIRING GENERAL ANAESTHESIA",1A,New,skin premalignant lesion excisionvaporisation laser ablative modality therapeutic 10 lesion requiring general anaesthesia
 198,SA905S,"SKIN, PRE-MALIGNANT LESIONS, EXCISION/VAPORISATION BY LASER AND OTHER ABLATIVE MODALITIES, THERAPEUTIC, SINGLE/MULTIPLE, WHERE UNDERTAKEN IN THE OPERATING THEATRE REQUIRING GENERAL ANAESTHESIA",1B,New,skin premalignant lesion excisionvaporisation laser ablative modality therapeutic singlemultiple undertaken operating theatre requiring general anaesthesia
 199,SA700T,"TENDON SHEATH AND SUBCUTANEOUS TISSUE, GANGLION/LARGE BURSA, (>3CM) EXCISION BIOPSY",2B,Existing,tendon sheath subcutaneous tissue ganglionlarge bursa 3cm excision biopsy
@@ -1046,7 +1046,7 @@ change,",spine excluding cervical spine various lesion interbody fusion single s
 2,SE701L,"LYMPH NODE (AXILLARY), VARIOUS LESIONS, SENTINEL LN BIOPSY ONLY",3A,Existing,lymph node axillary various lesion sentinel ln biopsy
 3,SE702L,"LYMPH NODE (CERVICAL), DEEP, VARIOUS LESIONS, BIOPSY",2C,Existing,lymph node cervical deep various lesion biopsy
 4,SE703L,"LYMPH NODE (CERVICAL), SUPERFICIAL, VARIOUS LESIONS, BIOPSY",1B,Existing,lymph node cervical superficial various lesion biopsy
-5,SE704L,"LYMPH NODE (CERVICAL), VARIOUS LESIONS, NECK DISSECTION BILATERAL 3 OR LESS LEVELS",5A,Existing,lymph node cervical various lesion neck dissection bilateral 3 le level
+5,SE704L,"LYMPH NODE (CERVICAL), VARIOUS LESIONS, NECK DISSECTION BILATERAL 3 OR LESS LEVELS",5A,Existing,lymph node cervical various lesion neck dissection bilateral 3 less level
 6,SE705L,"LYMPH NODE (CERVICAL), VARIOUS LESIONS, NECK DISSECTION BILATERAL AT LEAST WITH ONE SIDE 4 TO 5 LEVELS",6A,Existing,lymph node cervical various lesion neck dissection bilateral least one side 4 5 level
 7,SE706L,"LYMPH NODE (CERVICAL), VARIOUS LESIONS, NECK DISSECTION UNILATERAL 4-5 LEVELS",5C,Existing,lymph node cervical various lesion neck dissection unilateral 45 level
 8,SE707L,"LYMPH NODE (PELVIC) DISSECTION, UNILATERAL/BILATERAL",5A,Descriptor change,lymph node pelvic dissection unilateralbilateral
@@ -1111,7 +1111,7 @@ change",spleen various nontraumatic lesion splenectomy
 21,SF722A,"ANUS, SPHINCTEROPLASTY FOR ANAL INCONTINENCE",4B,Existing,anus sphincteroplasty anal incontinence
 22,SF723A,"APPENDIX, VARIOUS LESIONS/ABSCESS, APPENDICECTOMY WITH DRAINAGE",4A,Descriptor change,appendix various lesionsabscess appendicectomy drainage
 23,SF800A,"ABDOMINAL CAVITY, ADHESIONS (EXTENSIVE), LYSIS AS PRIMARY PROCEDURE, EXTENSIVE WITH OR WITHOUT BOWEL RESECTION WHERE TIME TAKEN IS MORE THAN 2HOURS",4A,Descriptor change,abdominal cavity adhesion extensive lysis primary procedure extensive without bowel resection time taken 2hours
-24,SF801A,"ABDOMINAL CAVITY, ADHESIONS (LIMITED), LYSIS AS PRIMARY PROCEDURE WHERE TIME TAKEN IS LESS THAN 2HOURS",3B,Descriptor change,abdominal cavity adhesion limited lysis primary procedure time taken le 2hours
+24,SF801A,"ABDOMINAL CAVITY, ADHESIONS (LIMITED), LYSIS AS PRIMARY PROCEDURE WHERE TIME TAKEN IS LESS THAN 2HOURS",3B,Descriptor change,abdominal cavity adhesion limited lysis primary procedure time taken less 2hours
 25,SF802A,"ABDOMINAL CAVITY, LYMPHOMA,FOR GRADING LYMPHOMA WITH SPLENECTOMY/LIVER/LYMPH NODE BIOPSY",4B,Descriptor change,abdominal cavity lymphomafor grading lymphoma splenectomyliverlymph node biopsy
 26,SF803A,"ABDOMINAL CAVITY, MULTIPLE RUPTURES, MAJOR REPAIR/REMOVAL",6B,Existing,abdominal cavity multiple rupture major repairremoval
 27,SF804A,"ABDOMINAL CAVITY, NEONATAL ALIMENTARY OBSTRUCTION, LAPAROTOMY",5C,Existing,abdominal cavity neonatal alimentary obstruction laparotomy
@@ -1196,9 +1196,9 @@ change",abdominal wall inguinalfemoral hernia unilateral herniorrhaphy
 105,SF702C,"COLON, COLONOSCOPY, FIBREOPTIC WITH/WITHOUT BIOPSY",2C,Existing,colon colonoscopy fibreoptic withwithout biopsy
 106,SF703C,"COLON, COLONOSCOPY (SCREENING), FIBREOPTIC WITH/WITHOUT BIOPSY",2C,Existing,colon colonoscopy screening fibreoptic withwithout biopsy
 107,SF704C,"COLON, COLONOSCOPY, FIBREOPTIC WITH REMOVAL OF POLYP (SINGLE OR MULTIPLE LESS THAN 1CM)7",3A,"Descriptor
-change",colon colonoscopy fibreoptic removal polyp single multiple le 1cm7
+change",colon colonoscopy fibreoptic removal polyp single multiple less 1cm7
 108,SF705C,"COLON, COLONOSCOPY, FIBREOPTIC WITH REMOVAL OF POLYPS (MULTIPLE MORE THAN 1CM)",3B,Existing,colon colonoscopy fibreoptic removal polyp multiple 1cm
-109,SF706C,"COLON, COLONOSCOPY (SCREENING), FIBREOPTIC WITH REMOVAL OF POLYP (SINGLE OR MULTIPLE LESS THAN 1CM)",3A,Existing,colon colonoscopy screening fibreoptic removal polyp single multiple le 1cm
+109,SF706C,"COLON, COLONOSCOPY (SCREENING), FIBREOPTIC WITH REMOVAL OF POLYP (SINGLE OR MULTIPLE LESS THAN 1CM)",3A,Existing,colon colonoscopy screening fibreoptic removal polyp single multiple less 1cm
 110,SF707C,"COLON, COLONOSCOPY (SCREENING), FIBREOPTIC WITH REMOVAL OF POLYPS (MULTIPLE MORE THAN 1CM)",3B,Existing,colon colonoscopy screening fibreoptic removal polyp multiple 1cm
 111,SF708C,"COLON, COLONOSCOPY WITH ENDOSCOPIC MUCOSAL RESECTION (EMR) OF LARGE POLYPS (>3CM)",3C,Existing,colon colonoscopy endoscopic mucosal resection emr large polyp 3cm
 112,SF709C,"COLON, HIRSCHSPRUNG’S DISEASE, ENDORECTAL PULLTHROUGH (MIS)",5B,Existing,colon hirschsprung disease endorectal pullthrough mi
@@ -1253,7 +1253,7 @@ change",esophagus benign tumour resection
 change",gallbladder various lesion cholecystectomy transcystic common bile duct exploration
 159,SF706G,GALLBLADDER (COMPLICATED) CHOLECYESTECTOMY (PARTIAL/TOTAL),4C,Descriptor change,gallbladder complicated cholecyestectomy partialtotal
 160,SF707G,"GALLBLADDER, VARIOUS LESIONS,  CHOLECYSTECTOMY, CHOLEDOCHOTOMY, COMMON BILE DUCT EXPLORATION WITH CHOLEDOCHO-DUODENOSTOMY",5C,Descriptor change,gallbladder various lesion cholecystectomy choledochotomy common bile duct exploration choledochoduodenostomy
-161,SF708G,RADICAL CHOLEDOCHECTOMY WITH LIVER RESECTION (LESS THAN 4 SEGMENTS),7A,Existing,radical choledochectomy liver resection le 4 segment
+161,SF708G,RADICAL CHOLEDOCHECTOMY WITH LIVER RESECTION (LESS THAN 4 SEGMENTS),7A,Existing,radical choledochectomy liver resection less 4 segment
 162,SF709G,RADICAL CHOLEDOCHECTOMY WITH LIVER RESECTIONS (4 OR MORE SEGMENTS) OR WITH MULTIPLE HEPATICOENTERIC ANASTOMOSIS,7C,Existing,radical choledochectomy liver resection 4 segment multiple hepaticoenteric anastomosis
 163,SF800G,"GALLBLADDER, VARIOUS LESIONS, CHOLECYSTOSTOMY",3B,Descriptor change,gallbladder various lesion cholecystostomy
 164,SF801G,"GALLBLADDER, VARIOUS LESIONS, CHOLECYSTECTOMY (PARTIAL/TOTAL)",4A,"Descriptor
@@ -1280,7 +1280,7 @@ change",gallbladder various lesion cholecystectomy partialtotal
 184,SF702L,"LIVER TRANSPLANT, RECIPIENT",7C,Existing,liver transplant recipient
 185,SF703L,"LIVER, ABSCESS, IMAGING GUIDED PERCUTANEOUS ASPIRATION",2A,Existing,liver abscess imaging guided percutaneous aspiration
 186,SF704L,"LIVER, ABSCESS, IMAGING GUIDED PERCUTANEOUS DRAINAGE CATHETER INSERTION",2C,Existing,liver abscess imaging guided percutaneous drainage catheter insertion
-187,SF705L,"LIVER, PORTAL HYPERTENSION, TRANSJULAR INTRAHEPATIC PORTO-SYSTEMIC SHUNT CREATION (TIPSS)",5A,Existing,liver portal hypertension transjular intrahepatic portosystemic shunt creation tip
+187,SF705L,"LIVER, PORTAL HYPERTENSION, TRANSJULAR INTRAHEPATIC PORTO-SYSTEMIC SHUNT CREATION (TIPSS)",5A,Existing,liver portal hypertension transjular intrahepatic portosystemic shunt creation tipss
 188,SF706L,"LIVER, TUMOUR, IMAGING GUIDED PERCUTANEOUS LOCAL ABLATION, SIMPLE (RADIOFREQUENCY, CRYOTHERAPY, MICROWAVE, LASER, ALCOHOL, ETC)",3C,Existing,liver tumour imaging guided percutaneous local ablation simple radiofrequency cryotherapy microwave laser alcohol etc
 189,SF707L,"LIVER, TUMOUR, TRANS-ARTERIAL CHEMO- EMBOLIZATION (TACE)",4A,Existing,liver tumour transarterial chemo embolization tace
 190,SF708L,"LIVER, TUMOUR, TRANS-ARTERIAL RADIO NUCLIDE INFUSION",4B,Existing,liver tumour transarterial radio nuclide infusion
@@ -1633,7 +1633,7 @@ change",penis correction chordee transplantation prepuce
 44,SH833P,"PROSTATE GLAND, VARIOUS LESIONS, TRANS-RECTAL ULTRASOUND (TRUS)",1A,Existing,prostate gland various lesion transrectal ultrasound trus
 45,SH834P,"PROSTATE GLAND, VARIOUS LESIONS, TRANS-RECTAL ULTRASOUND (TRUS) GUIDED BIOPSY",1B,Existing,prostate gland various lesion transrectal ultrasound trus guided biopsy
 46,SH835P,"PROSTATE GLAND, VARIOUS LESIONS, SATURATION PROSTATE BIOPSY OR MRI-US GUIDED FUSION BIOPSY",2A,Descriptor change,prostate gland various lesion saturation prostate biopsy mrius guided fusion biopsy
-47,SH836P,"PROSTATE GLAND, VARIOUS LESIONS, TRANSURETHRAL RESECTION (TURP)/ENUCLEATION OF PROSTATE (RESECTED WEIGHT LESS THAN 30G)",4B,Descriptor change,prostate gland various lesion transurethral resection turpenucleation prostate resected weight le 30g
+47,SH836P,"PROSTATE GLAND, VARIOUS LESIONS, TRANSURETHRAL RESECTION (TURP)/ENUCLEATION OF PROSTATE (RESECTED WEIGHT LESS THAN 30G)",4B,Descriptor change,prostate gland various lesion transurethral resection turpenucleation prostate resected weight less 30g
 48,SH837P,"PROSTATE GLAND, VARIOUS LESIONS, TRANSURETHRAL RESECTION (TURP)/ENUCLEATION OF PROSTATE (RESECTED WEIGHT MORE THAN 30G)",5C,Descriptor change,prostate gland various lesion transurethral resection turpenucleation prostate resected weight 30g
 49,SH800S,"SCROTUM, HYDROCELE, ASPIRATION",MSP,Existing,scrotum hydrocele aspiration
 50,SH801S,"SCROTUM, HYDROCELE/VARICOCELE (BILATERAL), EXCISION",3A,Existing,scrotum hydrocelevaricocele bilateral excision
