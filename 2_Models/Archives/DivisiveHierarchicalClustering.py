@@ -377,6 +377,161 @@ class TOSPDivisiveHierarchicalClustering:
         plt.savefig(os.path.join(self.charts_dir, 'Divisive_Clustering_Clusters.png'), dpi=300, bbox_inches='tight')
         plt.close()
 
+    def compare_codes(self, code1, code2, processed_data):
+        """
+        Compare two procedure codes and return their similarity score and descriptions.
+
+        Args:
+            code1 (str): First procedure code to compare
+            code2 (str): Second procedure code to compare
+            processed_data (DataFrame): Preprocessed data containing descriptions
+
+        Returns:
+            dict: Comparison results with descriptions and similarity score
+        """
+        # Check if codes exist in the dataset
+        if code1 not in processed_data['Code'].values:
+            return {"error": f"Code {code1} not found in dataset"}
+
+        if code2 not in processed_data['Code'].values:
+            return {"error": f"Code {code2} not found in dataset"}
+
+        # Get descriptions
+        desc1 = processed_data[processed_data['Code'] == code1]['Description'].values[0]
+        desc2 = processed_data[processed_data['Code'] == code2]['Description'].values[0]
+
+        # Get feature vectors for both codes
+        feature_df = self.create_procedure_features(processed_data)
+
+        # Find indices for the codes
+        idx1 = feature_df[feature_df['code'] == code1].index[0]
+        idx2 = feature_df[feature_df['code'] == code2].index[0]
+
+        # Extract features (excluding the code column)
+        features_to_use = [col for col in feature_df.columns if col != 'code']
+        X = feature_df[features_to_use].values
+
+        # Scale features
+        X_scaled = self.scaler.fit_transform(X)
+
+        # Calculate Euclidean distance
+        from scipy.spatial.distance import euclidean
+        distance = euclidean(X_scaled[idx1], X_scaled[idx2])
+
+        # Convert distance to similarity score (1 / (1 + distance))
+        similarity = 1 / (1 + distance)
+
+        # Get clusters if clustering has been performed
+        cluster_info = ""
+        if hasattr(feature_df, 'cluster'):
+            cluster1 = feature_df.loc[idx1, 'cluster'] if 'cluster' in feature_df.columns else None
+            cluster2 = feature_df.loc[idx2, 'cluster'] if 'cluster' in feature_df.columns else None
+
+            if cluster1 is not None and cluster2 is not None:
+                if cluster1 == cluster2:
+                    cluster_info = f"Both codes are in cluster {cluster1}"
+                else:
+                    cluster_info = f"Code {code1} is in cluster {cluster1}, Code {code2} is in cluster {cluster2}"
+
+        # Check for potential conflicts
+        conflict_type = None
+        is_bilateral1 = processed_data[processed_data['Code'] == code1]['is_bilateral'].values[0]
+        is_unilateral1 = processed_data[processed_data['Code'] == code1]['is_unilateral'].values[0]
+        is_bilateral2 = processed_data[processed_data['Code'] == code2]['is_bilateral'].values[0]
+        is_unilateral2 = processed_data[processed_data['Code'] == code2]['is_unilateral'].values[0]
+
+        if (is_bilateral1 == 1 and is_unilateral2 == 1) or (is_bilateral2 == 1 and is_unilateral1 == 1):
+            procedure_type1 = processed_data[processed_data['Code'] == code1]['procedure_type'].values[0]
+            procedure_type2 = processed_data[processed_data['Code'] == code2]['procedure_type'].values[0]
+
+            if procedure_type1 == procedure_type2:
+                conflict_type = "Bilateral/Unilateral conflict detected"
+
+        # Prepare result
+        result = {
+            "code1": code1,
+            "code2": code2,
+            "description1": desc1,
+            "description2": desc2,
+            "similarity_score": round(similarity, 4),
+            "similarity_percentage": f"{round(similarity * 100, 2)}%"
+        }
+
+        if cluster_info:
+            result["cluster_info"] = cluster_info
+
+        if conflict_type:
+            result["conflict_type"] = conflict_type
+
+        return result
+
+    def interactive_code_comparison(self, processed_data):
+        """
+        Interactive command line interface for comparing procedure codes.
+        Allows users to input two codes and displays their similarity.
+
+        Args:
+            processed_data (DataFrame): Preprocessed data containing descriptions
+        """
+        print("\n==== Procedure Code Comparison Tool ====")
+        print("Enter two procedure codes to compare their similarity.")
+        print("Type 'exit' or 'quit' to return to main program.\n")
+
+        # Get list of valid codes for validation
+        valid_codes = processed_data['Code'].unique()
+
+        while True:
+            # Get first code
+            code1 = input("Enter first procedure code (or 'exit' to quit): ").strip()
+            if code1.lower() in ['exit', 'quit']:
+                break
+
+            # Validate first code
+            if code1 not in valid_codes:
+                print(f"Error: Code '{code1}' not found in dataset.")
+                print(f"Available codes include: {', '.join(valid_codes[:5])}... (and {len(valid_codes) - 5} more)")
+                continue
+
+            # Get second code
+            code2 = input("Enter second procedure code: ").strip()
+            if code2.lower() in ['exit', 'quit']:
+                break
+
+            # Validate second code
+            if code2 not in valid_codes:
+                print(f"Error: Code '{code2}' not found in dataset.")
+                print(f"Available codes include: {', '.join(valid_codes[:5])}... (and {len(valid_codes) - 5} more)")
+                continue
+
+            # Get comparison result
+            result = self.compare_codes(code1, code2, processed_data)
+
+            # Display result in a formatted way
+            print("\n==== Comparison Result ====")
+            print(f"Code 1: {result['code1']}")
+            print(f"Description: {result['description1']}")
+            print("\n")
+            print(f"Code 2: {result['code2']}")
+            print(f"Description: {result['description2']}")
+            print("\n")
+            print(f"Similarity Score: {result['similarity_score']}")
+            print(f"Similarity Percentage: {result['similarity_percentage']}")
+
+            if "cluster_info" in result:
+                print(f"\nCluster Information: {result['cluster_info']}")
+
+            if "conflict_type" in result:
+                print(f"\nWarning: {result['conflict_type']}")
+
+            print("\n" + "=" * 30 + "\n")
+
+            # Ask if user wants to continue
+            cont = input("Compare another pair? (y/n): ").strip().lower()
+            if cont != 'y':
+                break
+
+        print("Exiting code comparison tool.")
+
     def save_results_as_visualizations(self, conflicts, similarities):
         """
         Save results as visualizations instead of CSV files
@@ -518,3 +673,19 @@ if __name__ == "__main__":
         print(f"\nPair: {row['code1']} and {row['code2']}")
         print(f"Similarity: {row['similarity']:.4f}")
         print(f"Cluster: {row['cluster']}")
+
+    # Add option to run interactive code comparison
+    while True:
+        print("\n=== Options ===")
+        print("1. Compare specific procedure codes")
+        print("2. Exit")
+
+        choice = input("Enter your choice (1-2): ").strip()
+
+        if choice == '1':
+            cluster_model.interactive_code_comparison(processed_data)
+        elif choice == '2':
+            print("Exiting program.")
+            break
+        else:
+            print("Invalid choice. Please enter 1 or 2.")
