@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # Define input and output paths
-input_file = 'DataSets/RawDataset/table-of-surgical-procedures-(as-of-1-jan-2024).csv'
-output_folder = 'DataSets/CleanedDataset'
+input_file = './DataSets/RawDataset/table-of-surgical-procedures-(as-of-1-jan-2024).csv'
+output_folder = './DataSets/CleanedDataset'
 os.makedirs(output_folder, exist_ok=True)
 
 # Mapping for file names based on prefixes
