@@ -6,7 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="bea1195e-d313-4cfb-b4fb-445d92185276" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_DataPreprocessing/DataSets/Charts/Divisive_Clustering_Clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_DataPreprocessing/DataSets/Charts/Divisive_Clustering_Structure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_DataPreprocessing/DataSets/Charts/Divisive_Clustering_similarity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_DataPreprocessing/DataSets/Charts/Divisive_clustering_conflicts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_DataPreprocessing/DataSets/Charts/XGBoost_feature_importance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_DataPreprocessing/DataSets/Outputs/Divisive_Hierarchical_Clustering.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3_Results/Archives/DivisiveHierarchicalClustering/Divisive_Hierarchical_Clustering.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_DataPreprocessing/DataSets/Outputs/TF_IDF_Random_Forest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3_Results/Archives/RandomForestAnalysis/TF_IDF_Random_Forest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_DataPreprocessing/DataSets/Outputs/XGBoost.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3_Results/Archives/XGBoost/XGBoost.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1_DataPreprocessing/dataExtraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_DataPreprocessing/dataExtraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Models/Archives/DivisiveHierarchicalClustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_Models/Archives/DivisiveHierarchicalClustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Models/Archives/XGBoost.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_Models/Archives/XGBoost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Models/Archives/tf_idf_Random_Forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_Models/Archives/tf_idf_Random_Forest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +54,35 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\SIT\Year 2 Tri 2\INF2008 - Machine Learning\Project\INF2008_MachineLearning\1_DataPreprocessing" />
-      <recent name="C:\SIT\Year 2 Tri 2\INF2008 - Machine Learning\Project\INF2008_MachineLearning\DataPreprocessing" />
-      <recent name="C:\SIT\Year 2 Tri 2\INF2008 - Machine Learning\Project\INF2008_MachineLearning\DataSets\Charts" />
+      <recent name="C:\SIT\Year 2 Tri 2\INF2008 - Machine Learning\Project\INF2008_MachineLearning\3_Results\Archives\RandomForestAnalysis" />
+      <recent name="C:\SIT\Year 2 Tri 2\INF2008 - Machine Learning\Project\INF2008_MachineLearning\3_Results\Archives\XGBoost" />
+      <recent name="C:\SIT\Year 2 Tri 2\INF2008 - Machine Learning\Project\INF2008_MachineLearning\3_Results\Archives\DivisiveHierarchicalClustering" />
+      <recent name="C:\SIT\Year 2 Tri 2\INF2008 - Machine Learning\Project\INF2008_MachineLearning\3_Results\Archives" />
       <recent name="C:\SIT\Year 2 Tri 2\INF2008 - Machine Learning\Project\INF2008_MachineLearning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dataExtraction (1)">
+  <component name="RunManager" selected="Python.tf_idf_Random_Forest">
+    <configuration name="DivisiveHierarchicalClustering (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="INF2008_MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Models/Archives" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_Models/Archives/DivisiveHierarchicalClustering.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="DivisiveHierarchicalClustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="INF2008_MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,11 +112,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Models/Archives" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XGBoost.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_Models/Archives/XGBoost.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,27 +146,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dataExtraction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="INF2008_MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataPreprocessing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataPreprocessing/dataExtraction.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="tf_idf_Random_Forest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="INF2008_MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Models/Archives" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf_idf_Random_Forest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_Models/Archives/tf_idf_Random_Forest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dataExtraction (1)" />
-        <item itemvalue="Python.DivisiveHierarchicalClustering" />
-        <item itemvalue="Python.dataExtraction" />
         <item itemvalue="Python.tf_idf_Random_Forest" />
         <item itemvalue="Python.XGBoost" />
+        <item itemvalue="Python.DivisiveHierarchicalClustering (1)" />
+        <item itemvalue="Python.dataExtraction (1)" />
+        <item itemvalue="Python.DivisiveHierarchicalClustering" />
       </list>
     </recent_temporary>
   </component>

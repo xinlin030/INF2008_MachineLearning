@@ -9,6 +9,10 @@ import matplotlib.pyplot as plt
 import os
 
 
+def ensure_dir(directory):
+    os.makedirs(directory, exist_ok=True)
+
+
 class TOSPXGBoost:
     def __init__(self):
         self.vectorizer = TfidfVectorizer(max_features=100)
@@ -19,6 +23,8 @@ class TOSPXGBoost:
             n_estimators=100,
             random_state=42
         )
+        self.processed_data = None
+        self.tfidf_matrix = None
 
     def preprocess_data(self, df):
         """
@@ -37,6 +43,7 @@ class TOSPXGBoost:
         df['table_numeric'] = df['Table'].apply(lambda x:
                                                 float(x[:-1]) if x[0].isdigit() else 0)
 
+        self.processed_data = df
         return df
 
     def create_pair_features(self, df):
@@ -47,13 +54,13 @@ class TOSPXGBoost:
         descriptions = df['Description'].values
 
         # Get TF-IDF features
-        tfidf_matrix = self.vectorizer.fit_transform(descriptions)
+        self.tfidf_matrix = self.vectorizer.fit_transform(descriptions)
 
         for i in range(len(df)):
             for j in range(i + 1, len(df)):
                 # Calculate TF-IDF similarity
-                similarity = np.dot(tfidf_matrix[i].toarray(),
-                                    tfidf_matrix[j].toarray().T)[0][0]
+                similarity = np.dot(self.tfidf_matrix[i].toarray(),
+                                    self.tfidf_matrix[j].toarray().T)[0][0]
 
                 # Extract features
                 same_procedure = int(df.iloc[i]['procedure_type'] ==
@@ -123,13 +130,11 @@ class TOSPXGBoost:
 
         return metrics, feature_importance
 
-    import os
-
-    def plot_feature_importance(self, feature_importance, save_path="DataSets/Charts/feature_importance.png"):
+    def plot_feature_importance(self, feature_importance, charts_dir):
         """
         Plot feature importance and save to file
         """
-        os.makedirs(os.path.dirname(save_path), exist_ok=True)  # Ensure directory exists
+        save_path = os.path.join(charts_dir, 'XGBoost_feature_importance.png')
 
         plt.figure(figsize=(10, 6))
         plt.bar(feature_importance['feature'], feature_importance['importance'])
@@ -138,7 +143,7 @@ class TOSPXGBoost:
         plt.tight_layout()
 
         # Save chart to file
-        plt.savefig(save_path)
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')
         print(f"Feature importance chart saved to {save_path}")
         plt.close()  # Close the figure to free memory
 
@@ -160,22 +165,179 @@ class TOSPXGBoost:
 
         return suspicious_pairs.sort_values('fraud_probability', ascending=False)
 
+    def compare_codes(self, code1, code2):
+        """
+        Compare two procedure codes and return similarity details
+        """
+        # Check if codes exist in the dataset
+        if code1 not in self.processed_data['Code'].values:
+            return {"error": f"Code {code1} not found in dataset"}
 
-# Example usage
-if __name__ == "__main__":
-    # Load data
-    data = pd.read_csv('DataSets/CleanedDataset/SL_Eye.csv')
+        if code2 not in self.processed_data['Code'].values:
+            return {"error": f"Code {code2} not found in dataset"}
+
+        # Get descriptions
+        desc1 = self.processed_data[self.processed_data['Code'] == code1]['Description'].values[0]
+        desc2 = self.processed_data[self.processed_data['Code'] == code2]['Description'].values[0]
+
+        # Get indices
+        idx1 = self.processed_data[self.processed_data['Code'] == code1].index[0]
+        idx2 = self.processed_data[self.processed_data['Code'] == code2].index[0]
+
+        # Calculate TF-IDF similarity
+        similarity = np.dot(self.tfidf_matrix[idx1].toarray(),
+                            self.tfidf_matrix[idx2].toarray().T)[0][0]
+
+        # Extract features
+        proc1 = self.processed_data.iloc[idx1]['procedure_type']
+        proc2 = self.processed_data.iloc[idx2]['procedure_type']
+        same_procedure = int(proc1 == proc2)
+        table_diff = abs(self.processed_data.iloc[idx1]['table_numeric'] -
+                         self.processed_data.iloc[idx2]['table_numeric'])
+        word_count_diff = abs(self.processed_data.iloc[idx1]['word_count'] -
+                              self.processed_data.iloc[idx2]['word_count'])
+
+        # Check for conflicts
+        is_bilateral1 = self.processed_data.iloc[idx1]['is_bilateral']
+        is_unilateral1 = self.processed_data.iloc[idx1]['is_unilateral']
+        is_bilateral2 = self.processed_data.iloc[idx2]['is_bilateral']
+        is_unilateral2 = self.processed_data.iloc[idx2]['is_unilateral']
+
+        bilateral_conflict = int(
+            (is_bilateral1 and is_unilateral2) or
+            (is_unilateral1 and is_bilateral2)
+        )
+
+        # Create feature vector for prediction
+        features = np.array([[
+            similarity, same_procedure, table_diff,
+            word_count_diff, bilateral_conflict
+        ]])
+
+        # Scale features
+        features_scaled = self.scaler.transform(features)
+
+        # Get fraud probability if model is trained
+        fraud_probability = None
+        if hasattr(self.model, 'predict_proba'):
+            fraud_probability = self.model.predict_proba(features_scaled)[0][1]
+
+        # Prepare result
+        result = {
+            "code1": code1,
+            "code2": code2,
+            "description1": desc1,
+            "description2": desc2,
+            "similarity_score": round(similarity, 4),
+            "similarity_percentage": f"{round(similarity * 100, 2)}%",
+            "same_procedure": "Yes" if same_procedure else "No",
+            "table_difference": round(table_diff, 2),
+            "word_count_difference": word_count_diff,
+        }
+
+        if bilateral_conflict:
+            result["conflict_type"] = "Bilateral/Unilateral conflict detected"
+
+        if fraud_probability is not None:
+            result["fraud_probability"] = round(fraud_probability, 4)
+            result["fraud_percentage"] = f"{round(fraud_probability * 100, 2)}%"
+
+        return result
+
+
+def interactive_code_comparison(xgb_model):
+    print("\n==== Procedure Code Comparison Tool (XGBoost) ====")
+    print("Enter two procedure codes to compare their similarity.")
+    print("Type 'exit' or 'quit' to return to main program.\n")
+
+    # Get list of valid codes for validation
+    valid_codes = xgb_model.processed_data['Code'].unique()
+
+    while True:
+        # Get first code
+        code1 = input("Enter first procedure code (or 'exit' to quit): ").strip()
+        if code1.lower() in ['exit', 'quit']:
+            break
+
+        # Validate first code
+        if code1 not in valid_codes:
+            print(f"Error: Code '{code1}' not found in dataset.")
+            print(f"Available codes include: {', '.join(valid_codes[:5])}... (and {len(valid_codes) - 5} more)")
+            continue
+
+        # Get second code
+        code2 = input("Enter second procedure code: ").strip()
+        if code2.lower() in ['exit', 'quit']:
+            break
+
+        # Validate second code
+        if code2 not in valid_codes:
+            print(f"Error: Code '{code2}' not found in dataset.")
+            print(f"Available codes include: {', '.join(valid_codes[:5])}... (and {len(valid_codes) - 5} more)")
+            continue
+
+        # Get comparison result
+        result = xgb_model.compare_codes(code1, code2)
+
+        # Display result in a formatted way
+        print("\n==== Comparison Result (XGBoost Analysis) ====")
+        print(f"Code 1: {result['code1']}")
+        print(f"Description: {result['description1']}")
+        print("\n")
+        print(f"Code 2: {result['code2']}")
+        print(f"Description: {result['description2']}")
+        print("\n")
+        print(f"TF-IDF Similarity Score: {result['similarity_score']}")
+        print(f"Similarity Percentage: {result['similarity_percentage']}")
+        print(f"Same Procedure Type: {result['same_procedure']}")
+        print(f"Table Difference: {result['table_difference']}")
+        print(f"Word Count Difference: {result['word_count_difference']}")
+
+        if "conflict_type" in result:
+            print(f"\nWarning: {result['conflict_type']}")
+
+        if "fraud_probability" in result:
+            print(f"\nFraud Probability: {result['fraud_probability']}")
+            print(f"Fraud Percentage: {result['fraud_percentage']}")
+
+        print("\n" + "=" * 30 + "\n")
+
+        # Ask if user wants to continue
+        cont = input("Compare another pair? (y/n): ").strip().lower()
+        if cont != 'y':
+            break
+
+    print("Exiting code comparison tool.")
+
+
+def main():
+    # Set paths
+    charts_dir = '../../3_Results/Archives/XGBoost'
+    ensure_dir(charts_dir)
+
+    data_path = '../../1_DataPreprocessing/DataSets/CleanedDataset/SL_Eye.csv'
+    print(f"Loading data from: {data_path}")
+    try:
+        data = pd.read_csv(data_path)
+    except FileNotFoundError:
+        print(f"File not found: {data_path}")
+        print("Please check the path and try again.")
+        data_path = input("Enter the correct path to your data file: ")
+        data = pd.read_csv(data_path)
 
     # Initialize model
     xgb_model = TOSPXGBoost()
 
     # Preprocess data
     processed_data = xgb_model.preprocess_data(data)
+    print(f"Processed {len(processed_data)} records")
 
     # Create pair features
     pairs = xgb_model.create_pair_features(processed_data)
+    print(f"Created {len(pairs)} procedure pairs for analysis")
 
     # Train model
+    print("\nTraining XGBoost model...")
     metrics, feature_importance = xgb_model.train_model(pairs)
 
     # Print results
@@ -187,17 +349,40 @@ if __name__ == "__main__":
     print(feature_importance)
 
     # Plot feature importance
-    xgb_model.plot_feature_importance(feature_importance, save_path="DataSets/Charts/XGBoost_feature_importance.png")
+    xgb_model.plot_feature_importance(feature_importance, charts_dir)
 
     # Get predictions
-    suspicious_pairs = xgb_model.predict_inappropriate_pairs(pairs)
+    threshold = 0.7
+    suspicious_pairs = xgb_model.predict_inappropriate_pairs(pairs, threshold)
 
-    print("\n=== Top Suspicious Pairs ===")
-    for _, row in suspicious_pairs.head().iterrows():
-        desc1 = processed_data.loc[processed_data['Code'] == row['code1'], 'Description'].values[0]
-        desc2 = processed_data.loc[processed_data['Code'] == row['code2'], 'Description'].values[0]
+    print(f"\n=== Top Suspicious Pairs (Threshold: {threshold}) ===")
+    if len(suspicious_pairs) > 0:
+        for _, row in suspicious_pairs.head().iterrows():
+            desc1 = processed_data.loc[processed_data['Code'] == row['code1'], 'Description'].values[0]
+            desc2 = processed_data.loc[processed_data['Code'] == row['code2'], 'Description'].values[0]
 
-        print(f"\nPair: {row['code1']} ({desc1}) and {row['code2']} ({desc2})")
-        print(f"Fraud Probability: {row['fraud_probability']:.2f}")
-        print(f"Same Procedure: {'Yes' if row['same_procedure'] else 'No'}")
-        print(f"Bilateral Conflict: {'Yes' if row['bilateral_conflict'] else 'No'}")
+            print(f"\nPair: {row['code1']} ({desc1}) and {row['code2']} ({desc2})")
+            print(f"Fraud Probability: {row['fraud_probability']:.2f}")
+            print(f"Same Procedure: {'Yes' if row['same_procedure'] else 'No'}")
+            print(f"Bilateral Conflict: {'Yes' if row['bilateral_conflict'] else 'No'}")
+    else:
+        print("No suspicious pairs found above the threshold.")
+
+    # Start interactive code comparison
+    while True:
+        print("\n=== Options ===")
+        print("1. Compare specific procedure codes")
+        print("2. Exit")
+
+        choice = input("Enter your choice (1-2): ").strip()
+
+        if choice == '1':
+            interactive_code_comparison(xgb_model)
+        elif choice == '2':
+            print("Exiting program.")
+            break
+        else:
+            print("Invalid choice. Please enter 1 or 2.")
+
+if __name__ == '__main__':
+    main()
