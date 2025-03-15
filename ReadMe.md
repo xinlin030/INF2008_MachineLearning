@@ -9,7 +9,7 @@ One common issue is that doctors may inadvertently submit multiple TOSP codes fo
 
 The goal of this project is to **detect and flag inappropriate TOSP code pairs** that are mutually exclusive using classical machine learning algorithms.  
 
-#### 🔍 Examples of invalid code pairs:
+####  Examples of invalid code pairs:
 - **"BILATERAL" vs "UNILATERAL"**  
 - **"MULTIPLE" vs "SINGLE"**  
 - **"MAJOR" vs "MINOR"**  
