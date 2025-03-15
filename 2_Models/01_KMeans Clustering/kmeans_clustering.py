@@ -43,7 +43,8 @@ Loading the TOSP dataset (combined_dataset.csv) and applying the following pre-p
 * Convert text to lowercase - standardises input
 * Removes numbers and punctuation reduces noise
 * Removes stopwords - eliminates common but unimportant words
-* Uses lemmatisation - reduces words to their base form for better clustering
+* Apply lemmatisation - reduces words to their base form for better clustering
+* Trim extra spaces - removing unintended multiple spaces
 
 <p align="justify">After preprocessing, we use TF-IDF (Term Frequency-Inverse Document Frequency) to convert the cleaned descriptions into numerical representations. This technique assigns higher weights to important words determined by term frequency (TF) — <i>How many times does this word appear in this document among the number of times all words appear in this document? and <i>Inverse Document Frequency (IDF) — <i>How common (or uncommon) is this word among all the documents I have?</i>
 
@@ -62,8 +63,15 @@ def preprocess_text(text):
     text = re.sub(r"\d+", "", text)  # Remove numbers
     text = re.sub(r"[^\w\s]", "", text)  # Remove punctuation
     words = text.split()
-    words = [lemmatizer.lemmatize(word) for word in words if word not in stop_words]  # Lemmatization & stopword removal
-    return " ".join(words)
+
+    # Remove stopwords first
+    words = [word for word in words if word not in stop_words]
+
+    # Lemmatization after stopword removal
+    words = [lemmatizer.lemmatize(word) for word in words]
+
+    # Trim extra spaces
+    return " ".join(words).strip()
 
 df_tosp["Cleaned_Description"] = df_tosp["Description"].apply(preprocess_text)
 
@@ -139,7 +147,7 @@ print(f"Optimal K (Silhouette Score): {optimal_k_silhouette}")
 """<p align="justify">
 When using KMeans with a cluster range from 1000 to 2400 (in increments of 200), we observed that SSE approaches near zero at around 2200 clusters (2364 TOSP codes in the dataset). This suggests that with such a high number of clusters, most data points (each surgery procedure) are effectively isolated, indicating overfitting rather than meaningful grouping. Meanwhile, the silhouette score peaks at around 0.24 at 1200 clusters, suggesting that even the best-performing KMeans configuration results in weakly separated clusters. This indicates that KMeans may not be the most effective model for this dataset.
 
-## **4. Training the models and comparing TOSP Code Pairs**
+## **4. Training the KMeans model and comparing TOSP Code Pairs**
 
 <p align ="justify">
 The KMeans model was trained using the optimal parameters identified in our analysis. Since we do not have access to medical professionals for validation, our evaluation relies on manual inspection. Specifically, we assess similarity by identifying repeated keywords—such as "cataract surgery"—in the TOSP code descriptions to determine whether code pairs should be considered similar or different.
@@ -207,7 +215,7 @@ test_code_pair("SL701L", "SL705O", df_tosp, vectorizer)
 """## **6. Saving the KMeans Model**
 
 <p align="justify">
-To avoid retraining, we save the trained KMeans model and TF-IDF vectorizer using joblib. This allows us to reuse them later without recomputing clusters.
+To avoid retraining, we save the trained KMeans model using joblib. This allows us to reuse them later without recomputing clusters.
 """
 
 import joblib
