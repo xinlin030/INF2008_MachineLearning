@@ -1,0 +1,43 @@
+=== Model Performance ===
+Accuracy: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+F1: 1.0000
+
+=== Feature Importance ===
+              feature  importance
+1      same_procedure    0.604331
+4  bilateral_conflict    0.379724
+0          similarity    0.015945
+2          table_diff    0.000000
+3     word_count_diff    0.000000
+Feature importance chart saved to DataSets/Charts/XGBoost_feature_importance.png
+
+=== Top Suspicious Pairs ===
+
+Pair: SL700B (BROW, BROWLIFT, ENDOSCOPIC, BILATERAL) and SL702B (BROW, BROWLIFT, ENDOSCOPIC, UNILATERAL)
+Fraud Probability: 0.99
+Same Procedure: Yes
+Bilateral Conflict: Yes
+
+Pair: SL700B (BROW, BROWLIFT, ENDOSCOPIC, BILATERAL) and SL704B (BROW, DIRECT BROWPLASTY, UNILATERAL)
+Fraud Probability: 0.99
+Same Procedure: Yes
+Bilateral Conflict: Yes
+
+Pair: SL701B (BROW, BROWLIFT, ENDOSCOPIC, BILATERAL WITH MID- FACE LIFT) and SL702B (BROW, BROWLIFT, ENDOSCOPIC, UNILATERAL)
+Fraud Probability: 0.99
+Same Procedure: Yes
+Bilateral Conflict: Yes
+
+Pair: SL701B (BROW, BROWLIFT, ENDOSCOPIC, BILATERAL WITH MID- FACE LIFT) and SL704B (BROW, DIRECT BROWPLASTY, UNILATERAL)
+Fraud Probability: 0.99
+Same Procedure: Yes
+Bilateral Conflict: Yes
+
+Pair: SL702B (BROW, BROWLIFT, ENDOSCOPIC, UNILATERAL) and SL703B (BROW, DIRECT BROWPLASTY, BILATERAL)
+Fraud Probability: 0.99
+Same Procedure: Yes
+Bilateral Conflict: Yes
+
+Process finished with exit code 0
