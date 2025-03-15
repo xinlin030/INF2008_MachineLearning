@@ -1,0 +1,8 @@
+Test Case,KMeans,DBSCAN,Agglomerative,NMF + Agglomerative,Cosine Similarity
+test1.csv,Inappropriate,Inappropriate,Inappropriate,Inappropriate,0.7929
+test2.csv,Inappropriate,Inappropriate,Inappropriate,Inappropriate,0.9597
+test3.csv,Inappropriate,Inappropriate,Inappropriate,Inappropriate,0.8939
+test4.csv,Inappropriate,Inappropriate,Valid,Valid,0.5696
+test5.csv,Inappropriate,Inappropriate,Inappropriate,Inappropriate,0.7933
+test6.csv,Valid,Inappropriate,Valid,Valid,0.2645
+test7.csv,Valid,Inappropriate,Valid,Valid,0.2629
