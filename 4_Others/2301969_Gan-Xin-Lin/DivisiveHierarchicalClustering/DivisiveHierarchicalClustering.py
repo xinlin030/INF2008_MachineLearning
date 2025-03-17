@@ -9,7 +9,7 @@ from sklearn.metrics import silhouette_score
 from sklearn.manifold import TSNE
 from scipy.spatial.distance import euclidean
 
-
+os.environ["LOKY_MAX_CPU_COUNT"] = "4"
 def ensure_dir(directory):
     os.makedirs(directory, exist_ok=True)
 
@@ -252,11 +252,12 @@ def interactive_code_comparison(processed_data, feature_df, X_scaled):
 
 
 def main():
-    # Set paths
-    charts_dir = '../../3_Results/Archives/DivisiveHierarchicalClustering'
+    script_dir = os.path.dirname(os.path.abspath(__file__))  # Get script's directory
+    charts_dir = script_dir  # Save outputs in the same directory
+
     ensure_dir(charts_dir)
 
-    data_path = '../../1_DataPreprocessing/DataSets/CleanedDataset/SL_Eye.csv'
+    data_path = '../../../1_DataPreprocessing/DataSets/CleanedDataset/SL_Eye.csv'
     print(f"Loading data from: {data_path}")
     try:
         data = pd.read_csv(data_path)

@@ -311,11 +311,12 @@ def interactive_code_comparison(xgb_model):
 
 
 def main():
-    # Set paths
-    charts_dir = '../../3_Results/Archives/XGBoost'
+
+    script_dir = os.path.dirname(os.path.abspath(__file__))  # Get script's directory
+    charts_dir = script_dir  # Save outputs in the same directory
     ensure_dir(charts_dir)
 
-    data_path = '../../1_DataPreprocessing/DataSets/CleanedDataset/SL_Eye.csv'
+    data_path = '../../../1_DataPreprocessing/DataSets/CleanedDataset/SL_Eye.csv'
     print(f"Loading data from: {data_path}")
     try:
         data = pd.read_csv(data_path)
