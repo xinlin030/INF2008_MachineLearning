@@ -22,7 +22,7 @@ nltk.download("stopwords")
 nltk.download("wordnet")
 
 # Load dataset
-df = pd.read_csv("DataSets/CleanedDataset/combined_dataset.csv")  # Change to your actual filename
+df = pd.read_csv("../../1_DataPreprocessing/DataSets/CleanedDataset/combined_dataset.csv")  # Change to your actual filename
 
 # Keep only the 'Description' column
 descriptions = df["Description"].astype(str)
@@ -40,12 +40,12 @@ def preprocess_text(text):
 
 df["Cleaned_Description"] = descriptions.apply(preprocess_text)
 
-df.to_csv("DataSets/DBSCAN_Datasets/cleaned_base_dataset.csv", index=False)
+df.to_csv("../../1_DataPreprocessing/DataSets/DBSCAN_Datasets/cleaned_base_dataset.csv", index=False)
 
 ###############################
 
 # Load the cleaned dataset
-df = pd.read_csv("DataSets/DBSCAN_Datasets/cleaned_base_dataset.csv")
+df.to_csv("../../1_DataPreprocessing/DataSets/DBSCAN_Datasets/cleaned_base_dataset.csv")
 
 vectorizer = TfidfVectorizer(max_features=500)
 tfidf_matrix = vectorizer.fit_transform(df["Cleaned_Description"])
@@ -71,14 +71,14 @@ df["Y"] = reduced_embeddings[:, 1]
 
 train_df, val_df = train_test_split(df, test_size=0.2, random_state=42)
 
-train_df.to_csv("DataSets/DBSCAN_Datasets/train_data.csv", index=False)
-val_df.to_csv("DataSets/DBSCAN_Datasets/val_data.csv", index=False)
+train_df.to_csv("../../1_DataPreprocessing/DataSets/DBSCAN_Datasets/train_data.csv", index=False)
+val_df.to_csv("../../1_DataPreprocessing/DataSets/DBSCAN_Datasets/val_data.csv", index=False)
 
 print("Feature engineering complete using TF-IDF + ", reduction_tech.upper())
 
 ####################
 
-df = pd.read_csv("DataSets/DBSCAN_Datasets/train_data.csv")
+df = pd.read_csv("../../1_DataPreprocessing/DataSets/DBSCAN_Datasets/train_data.csv")
 X = df[["X", "Y"]].values
 
 nearest_neighbors = NearestNeighbors(n_neighbors=5)
@@ -92,7 +92,7 @@ plt.plot(distances)
 plt.xlabel("Data Points (sorted)")
 plt.ylabel("5th Nearest Neighbor Distance")
 plt.title("K-Distance Graph for Optimal eps")
-plt.savefig("DBSCAN_graphs/" + reduction_tech + ".png")
+plt.savefig("Charts/" + reduction_tech + ".png")
 plt.show()
 
 best_eps = None
@@ -128,7 +128,7 @@ print(f"Best eps: {best_eps}, Silhouette Score: {best_score:.3f}")
 # Apply DBSCAN with the best eps found
 dbscan = DBSCAN(eps=best_eps, min_samples=best_min_samples)
 df["Cluster"] = dbscan.fit_predict(X)
-df.to_csv("DataSets/DBSCAN_Datasets/dbscan_clustered.csv", index=False)
+df.to_csv("../../1_DataPreprocessing/DataSets/DBSCAN_Datasets/dbscan_clustered.csv", index=False)
 
 
 plt.scatter(df["X"], df["Y"], c=df["Cluster"], cmap="Spectral", marker="o", edgecolor="k")
@@ -138,10 +138,10 @@ plt.ylabel("Component 2")
 plt.colorbar(label="Cluster")
 plt.text(0.05, 0.95, f"eps = {best_eps}", fontsize=12, ha='left', va='top', transform=plt.gca().transAxes, color='white')
 plt.text(0.05, 0.90, f"min_samples = {best_min_samples}", fontsize=12, ha='left', va='top', transform=plt.gca().transAxes, color='white')
-plt.savefig("DBSCAN_graphs/dbscan_clustering_visualization_{reduction_tech}.png")
+plt.savefig("4_Others/Charts/dbscan_clustering_visualization_" + reduction_tech + ".png")
 plt.show()
 
-print("Clustering visualization saved as 'DBSCAN_graphs/dbscan_clustering_visualization_{reduction_tech}.png'.")
+print("Clustering visualization saved as '4_Others/Charts/dbscan_clustering_visualization_" + reduction_tech + ".png'.")
 
 # Here’s how to interpret the score:
 
