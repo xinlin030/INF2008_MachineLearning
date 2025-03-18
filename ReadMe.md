@@ -61,7 +61,7 @@ Running this project will require Google Colab. This project has already been ex
    - Select the `.ipynb` file you want to run  
 
 2️⃣ **Upload the required `.csv` files**  
-   - Each notebook requires specific `.csv` files to run (combined_dataset.csv)  
+   - Each notebook requires specific `.csv` files to run (combined_dataset.csv will be used for all of the notebooks)  
    - Go to the **Files tab** in Colab (`📁` icon on the left)  
    - Upload the necessary `.csv` files  
 
@@ -73,5 +73,5 @@ Running this project will require Google Colab. This project has already been ex
    - Outputs will be displayed in text, plots, and tables 
    - Results will include clustering performance and similarity scores 
 
-## 📢 Contact & Contributions  
-If there are issues with the notebooks, please reach out to **INF2008 P5 Group 12**.
+## 📢 Contact, Contributions and Ackoledgements
+If there are issues with the notebooks, please reach out to **INF2008 P5 Group 12**. The to thank the professors of Lab P5 for their recommendation and feedback for our project, as well as Prof. XiaoXiao Miao and Prof. Donny Soh for their lectures in this module.
